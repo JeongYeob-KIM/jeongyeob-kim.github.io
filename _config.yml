@@ -172,6 +172,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - functions
+  - licenses/
 include:
   - _routes.json
   - .well-known
