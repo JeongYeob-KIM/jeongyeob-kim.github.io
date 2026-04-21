@@ -5,6 +5,10 @@ description: "지난 3월 15일 새벽 경기 평택시 서정동, 귀가하던 
 date: 2026-04-21
 image:
   path: /assets/img/pyeongtaek.webp
+  srcset:
+    1920w: /assets/img/pyeongtaek.webp
+    960w:  /assets/img/pyeongtaek.webp
+    480w:  /assets/img/pyeongtaek.webp
 ---
 
 지난 3월 15일 새벽 경기 평택시 서정동, 귀가하던 50대 가장 A씨가 일면식도 없는 20대 남성에게 폭행을 당해 영구 사지마비 판정을 받았다. 수원지검 평택지청은 이달 들어 가해자를 중상해 혐의로 구속기소했다. 검찰은 이 사건을 특정 동기 없이 불특정 대상을 향해 저지른 이상동기 범죄로 분류했다.
