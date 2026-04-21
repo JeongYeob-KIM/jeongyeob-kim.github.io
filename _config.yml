@@ -50,9 +50,9 @@ author:
 menu:
   - title:             게시판
     url:               /board/
-  - title:             Documentation
+ # - title:             Documentation
     url:               /docs/
-  - title:             About
+ # - title:             About
     url:               /about/
 
 # Add links to the footer.
