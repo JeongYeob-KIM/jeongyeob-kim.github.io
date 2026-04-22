@@ -1,12 +1,10 @@
-# The primary author of this blog.
-# Must be the same as `author` in `_config.yml`.
-# Change `author1` to your shortname.
+yaml
 author1:
   name:              PASKA
   email:             ""
   about:             |
     안녕하세요, PASKA입니다.
-picture:
+  picture:
     path:            /assets/img/logo.png
     srcset:
       1x:            /assets/img/logo.png
@@ -14,54 +12,10 @@ picture:
   social:
     # twitter:         <username>
     # github:          <username>
-    # email:           <mail@domain.tld>
-    # rss:             https://<url>/feed.xml
-    # facebook:        <username>
-    # google:          <number>
-    # vk:              <username>
-    # youtube:         <string_string_string>
-    # vimeo:           <username>
-    # vine:            <username>
-    # spotify:         <user>/<number>
-    # soundcloud:      <username>
-    # lastfm:          <username>
     # instagram:       <username>
-    # flickr:          <string@string>
-    # 500px:           <username>
-    # dribbble:        <username>
-    # behance:         <username>
-    # deviantart:      <username>
-    # ello:            <username>
-    # twitch:          <username>
-    # steam:           <number>
-    # reddit:          <username>
-    # tumblr:          <username>
-    # pinterest:       <username>
-    # foursquare:      <number>
-    # yelp:            <string>
-    # stackoverflow:   <number/username>
-    # npm:             <username>
-    # hackernews:      <username>
-    # trello:          <firstnamelastname>
+    # youtube:         <string_string_string>
     # linkedin:        <firstname-lastname-string>
-    # xing:            <firstname_lastname_counter>
-    # blogger:         <number>
-    # delicious:       <username>
-    # stumbleupon:     <username>
-    # paypal:          <username>
-    # download:        <url>
-    # keybase:         <username>
-    # signal:          <group-invite-code>
-    # threads:         @<username>
-    # playstation:     https://<url>
-    # messenger:       https://<url>
-    # stripe:          https://<url>
-    # slack:           https://<url>
-    # gitlab:          <username>
-    # line:            <username>
-    # medium:          <path>
-    # xbox:            <gamer-tag>
-    # wechat:          https://<url>
+    # facebook:        <username>
+    # reddit:          <username>
     # discord:         <invite-code>
-    # mastodon:        https://<url>
     # x:               <username>
