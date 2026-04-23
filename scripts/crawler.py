@@ -1,6 +1,7 @@
 """
-나라장터 입찰공고 크롤러 (진단 로그 강화 버전)
-저장 경로: etc/data/bids_YYYY-MM-DD.json & etc/data/bids_latest.json
+나라장터 입찰공고 크롤러
+- opengBgnDt/opengEndDt 제거 (500 에러 원인)
+- inqryDiv 제거하고 최소 파라미터로 호출
 """
 
 import os
@@ -41,37 +42,28 @@ TAG_MAP = {
 
 
 def fetch_bids(page: int = 1, rows: int = 100) -> list:
-    today = datetime.now()
-
-    # ── 날짜 범위 7일로 확장, 업종 제한 없이 전체 검색 ──
+    # 최소 파라미터만 사용 (500 에러 방지)
     params = {
         "serviceKey": API_KEY,
         "pageNo":     page,
         "numOfRows":  rows,
         "type":       "json",
-        "inqryDiv":   "1",   # 용역
-        "opengBgnDt": (today - timedelta(days=7)).strftime("%Y%m%d%H%M"),
-        "opengEndDt": today.strftime("%Y%m%d%H%M"),
     }
 
-    print(f"[API] 요청 URL: {BASE_URL}")
-    print(f"[API] 기간: {params['opengBgnDt']} ~ {params['opengEndDt']}")
+    print(f"[API] 요청: {BASE_URL}")
     print(f"[API] API 키 앞 10자: {API_KEY[:10] if API_KEY else '(없음)'}")
 
     try:
         r = requests.get(BASE_URL, params=params, timeout=30)
         print(f"[API] HTTP 상태코드: {r.status_code}")
-
-        # 응답 원문 앞부분 출력 (진단용)
-        print(f"[API] 응답 앞 300자: {r.text[:300]}")
+        print(f"[API] 응답 앞 500자: {r.text[:500]}")
 
         r.raise_for_status()
         data = r.json()
 
-        # 응답 구조 진단
-        body = data.get("response", {}).get("body", {})
+        body  = data.get("response", {}).get("body", {})
         total = body.get("totalCount", 0)
-        print(f"[API] 전체 공고 수 (totalCount): {total}")
+        print(f"[API] totalCount: {total}")
 
         items = body.get("items", [])
         if isinstance(items, dict):
@@ -79,15 +71,28 @@ def fetch_bids(page: int = 1, rows: int = 100) -> list:
         elif not isinstance(items, list):
             items = []
 
-        print(f"[API] 수신된 공고 수: {len(items)}")
-        return items
+        print(f"[API] 수신 공고 수: {len(items)}")
+
+        # 오늘 기준 7일 이내 공고만 필터 (날짜 파라미터 대신 후처리)
+        cutoff = datetime.now() - timedelta(days=7)
+        filtered = []
+        for item in items:
+            dl = item.get("bidNtceDt", "") or item.get("opengDt", "")
+            try:
+                dt = datetime.strptime(dl[:8], "%Y%m%d")
+                if dt >= cutoff:
+                    filtered.append(item)
+            except Exception:
+                filtered.append(item)  # 날짜 없으면 포함
+
+        print(f"[API] 7일 이내 필터 후: {len(filtered)}건")
+        return filtered
 
     except requests.exceptions.HTTPError as e:
         print(f"[ERROR] HTTP 오류: {e}")
-        print(f"[ERROR] 응답 내용: {r.text[:500]}")
         return []
     except Exception as e:
-        print(f"[ERROR] 예외 발생: {type(e).__name__}: {e}")
+        print(f"[ERROR] {type(e).__name__}: {e}")
         return []
 
 
@@ -129,7 +134,7 @@ def run():
     today_str = datetime.now().strftime("%Y-%m-%d")
 
     if not API_KEY:
-        print("[WARN] G2B_API_KEY 환경변수가 비어 있습니다. Secrets 설정을 확인하세요.")
+        print("[WARN] G2B_API_KEY 환경변수 없음 - Secrets 확인 필요")
 
     raw = fetch_bids()
 
