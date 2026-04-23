@@ -1,7 +1,6 @@
 """
 나라장터 입찰공고 크롤러
-- opengBgnDt/opengEndDt 제거 (500 에러 원인)
-- inqryDiv 제거하고 최소 파라미터로 호출
+수정: BidPublicInfoService04 → BidPublicInfoService (04 제거)
 """
 
 import os
@@ -11,7 +10,9 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 API_KEY  = os.environ.get("G2B_API_KEY", "")
-BASE_URL = "https://apis.data.go.kr/1230000/BidPublicInfoService04/getBidPblancListInfoServc"
+
+# ✅ 04 제거한 올바른 엔드포인트
+BASE_URL = "https://apis.data.go.kr/1230000/BidPublicInfoService/getBidPblancListInfoServc"
 
 INCLUDE_KEYWORDS = [
     "홍보", "소식지", "뉴스레터", "기관지", "홍보지", "홍보물",
@@ -42,12 +43,12 @@ TAG_MAP = {
 
 
 def fetch_bids(page: int = 1, rows: int = 100) -> list:
-    # 최소 파라미터만 사용 (500 에러 방지)
     params = {
         "serviceKey": API_KEY,
         "pageNo":     page,
         "numOfRows":  rows,
         "type":       "json",
+        "inqryDiv":   "1",   # 용역
     }
 
     print(f"[API] 요청: {BASE_URL}")
@@ -56,11 +57,10 @@ def fetch_bids(page: int = 1, rows: int = 100) -> list:
     try:
         r = requests.get(BASE_URL, params=params, timeout=30)
         print(f"[API] HTTP 상태코드: {r.status_code}")
-        print(f"[API] 응답 앞 500자: {r.text[:500]}")
+        print(f"[API] 응답 앞 300자: {r.text[:300]}")
 
         r.raise_for_status()
-        data = r.json()
-
+        data  = r.json()
         body  = data.get("response", {}).get("body", {})
         total = body.get("totalCount", 0)
         print(f"[API] totalCount: {total}")
@@ -73,23 +73,23 @@ def fetch_bids(page: int = 1, rows: int = 100) -> list:
 
         print(f"[API] 수신 공고 수: {len(items)}")
 
-        # 오늘 기준 7일 이내 공고만 필터 (날짜 파라미터 대신 후처리)
+        # 7일 이내 공고만 후처리 필터
         cutoff = datetime.now() - timedelta(days=7)
         filtered = []
         for item in items:
             dl = item.get("bidNtceDt", "") or item.get("opengDt", "")
             try:
-                dt = datetime.strptime(dl[:8], "%Y%m%d")
-                if dt >= cutoff:
+                if datetime.strptime(dl[:8], "%Y%m%d") >= cutoff:
                     filtered.append(item)
             except Exception:
-                filtered.append(item)  # 날짜 없으면 포함
+                filtered.append(item)
 
         print(f"[API] 7일 이내 필터 후: {len(filtered)}건")
         return filtered
 
     except requests.exceptions.HTTPError as e:
         print(f"[ERROR] HTTP 오류: {e}")
+        print(f"[ERROR] 응답: {r.text[:300]}")
         return []
     except Exception as e:
         print(f"[ERROR] {type(e).__name__}: {e}")
@@ -134,7 +134,7 @@ def run():
     today_str = datetime.now().strftime("%Y-%m-%d")
 
     if not API_KEY:
-        print("[WARN] G2B_API_KEY 환경변수 없음 - Secrets 확인 필요")
+        print("[WARN] G2B_API_KEY 없음")
 
     raw = fetch_bids()
 
@@ -162,12 +162,9 @@ def run():
             "url":          f"https://www.g2b.go.kr/pt/menu/selectSubFrame.do?framesrc=/pt/menu/frameBidPblanc.do?bidno={no}",
             "status":       status,
         }
-        if status == "fit":
-            fit.append(record)
-        elif status == "review":
-            review.append(record)
-        else:
-            excluded.append(record)
+        if status == "fit":      fit.append(record)
+        elif status == "review": review.append(record)
+        else:                    excluded.append(record)
 
     fit.sort(key=lambda x: (not x["urgent"], x["deadline"]))
 
