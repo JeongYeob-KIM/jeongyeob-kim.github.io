@@ -2,8 +2,8 @@ name: 나라장터 입찰공고 모니터링
 
 on:
   schedule:
-    - cron: "0 22 * * *"    # UTC 22:00 = KST 07:00
-  workflow_dispatch:         # 수동 실행 가능
+    - cron: "0 22 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -35,26 +35,18 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add etc/data/
           git diff --staged --quiet \
-            && echo "변경사항 없음 — 커밋 생략" \
-            || (git commit -m "📋 나라장터 모니터링 $(date +'%Y-%m-%d')" && git push)
+            && echo "변경사항 없음 - 커밋 생략" \
+            || (git commit -m "나라장터 모니터링 $(date +'%Y-%m-%d')" && git push)
 
       - name: Slack 알림 (선택)
         if: always()
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         run: |
-          [ -z "$SLACK_WEBHOOK" ] && exit 0
+          if [ -z "$SLACK_WEBHOOK" ]; then exit 0; fi
           DATE=$(date +'%Y-%m-%d')
-          FIT=$(python -c "
-import json, sys
-try:
-    d = json.load(open('etc/data/bids_latest.json', encoding='utf-8'))
-    print(d['summary']['fit'])
-except Exception as e:
-    print('?')
-" 2>/dev/null)
+          FIT=$(python -c "import json; d=json.load(open('etc/data/bids_latest.json')); print(d['summary']['fit'])" 2>/dev/null || echo "?")
           STATUS="${{ job.status }}"
-          EMOJI=$([ "$STATUS" = "success" ] && echo "✅" || echo "❌")
           curl -s -X POST "$SLACK_WEBHOOK" \
             -H 'Content-type: application/json' \
-            -d "{\"text\":\"$EMOJI [$DATE] 나라장터 모니터링 | 적합 공고 ${FIT}건 | https://7up.co.kr/etc/\"}"
+            -d "{\"text\":\"[$DATE] 나라장터 모니터링 완료 | 적합 공고 ${FIT}건 | 상태: $STATUS\"}"
