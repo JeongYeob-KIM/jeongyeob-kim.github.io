@@ -1,1 +1,60 @@
+name: 나라장터 입찰공고 모니터링
 
+on:
+  schedule:
+    - cron: "0 22 * * *"    # UTC 22:00 = KST 07:00
+  workflow_dispatch:         # 수동 실행 가능
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 3.11 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치
+        run: pip install requests
+
+      - name: 크롤러 실행
+        env:
+          G2B_API_KEY: ${{ secrets.G2B_API_KEY }}
+        run: python scripts/crawler.py
+
+      - name: JSON 결과 커밋 & 푸시
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add etc/data/
+          git diff --staged --quiet \
+            && echo "변경사항 없음 — 커밋 생략" \
+            || (git commit -m "📋 나라장터 모니터링 $(date +'%Y-%m-%d')" && git push)
+
+      - name: Slack 알림 (선택)
+        if: always()
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        run: |
+          [ -z "$SLACK_WEBHOOK" ] && exit 0
+          DATE=$(date +'%Y-%m-%d')
+          FIT=$(python -c "
+import json, sys
+try:
+    d = json.load(open('etc/data/bids_latest.json', encoding='utf-8'))
+    print(d['summary']['fit'])
+except Exception as e:
+    print('?')
+" 2>/dev/null)
+          STATUS="${{ job.status }}"
+          EMOJI=$([ "$STATUS" = "success" ] && echo "✅" || echo "❌")
+          curl -s -X POST "$SLACK_WEBHOOK" \
+            -H 'Content-type: application/json' \
+            -d "{\"text\":\"$EMOJI [$DATE] 나라장터 모니터링 | 적합 공고 ${FIT}건 | https://7up.co.kr/etc/\"}"
