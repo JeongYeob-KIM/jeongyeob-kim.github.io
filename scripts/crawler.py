@@ -1,6 +1,7 @@
 """
 나라장터 입찰공고 크롤러
-수정: BidPublicInfoService04 → BidPublicInfoService (04 제거)
+End Point: https://apis.data.go.kr/1230000/ad/BidPublicInfoService
+오퍼레이션: /getBidPblancListInfoServc (용역조회)
 """
 
 import os
@@ -10,9 +11,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 API_KEY  = os.environ.get("G2B_API_KEY", "")
-
-# ✅ 04 제거한 올바른 엔드포인트
-BASE_URL = "https://apis.data.go.kr/1230000/BidPublicInfoService/getBidPblancListInfoServc"
+BASE_URL = "https://apis.data.go.kr/1230000/ad/BidPublicInfoService/getBidPblancListInfoServc"
 
 INCLUDE_KEYWORDS = [
     "홍보", "소식지", "뉴스레터", "기관지", "홍보지", "홍보물",
@@ -43,15 +42,17 @@ TAG_MAP = {
 
 
 def fetch_bids(page: int = 1, rows: int = 100) -> list:
+    today = datetime.now()
     params = {
         "serviceKey": API_KEY,
         "pageNo":     page,
         "numOfRows":  rows,
         "type":       "json",
-        "inqryDiv":   "1",   # 용역
+        "inqryDiv":   "1",
+        "bidNtceDt":  (today - timedelta(days=7)).strftime("%Y%m%d"),
     }
 
-    print(f"[API] 요청: {BASE_URL}")
+    print(f"[API] URL: {BASE_URL}")
     print(f"[API] API 키 앞 10자: {API_KEY[:10] if API_KEY else '(없음)'}")
 
     try:
@@ -72,20 +73,7 @@ def fetch_bids(page: int = 1, rows: int = 100) -> list:
             items = []
 
         print(f"[API] 수신 공고 수: {len(items)}")
-
-        # 7일 이내 공고만 후처리 필터
-        cutoff = datetime.now() - timedelta(days=7)
-        filtered = []
-        for item in items:
-            dl = item.get("bidNtceDt", "") or item.get("opengDt", "")
-            try:
-                if datetime.strptime(dl[:8], "%Y%m%d") >= cutoff:
-                    filtered.append(item)
-            except Exception:
-                filtered.append(item)
-
-        print(f"[API] 7일 이내 필터 후: {len(filtered)}건")
-        return filtered
+        return items
 
     except requests.exceptions.HTTPError as e:
         print(f"[ERROR] HTTP 오류: {e}")
