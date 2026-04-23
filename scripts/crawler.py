@@ -1,6 +1,6 @@
 """
-나라장터 입찰공고 크롤러
-저장 경로: etc/data/bids_YYYY-MM-DD.json  &  etc/data/bids_latest.json
+나라장터 입찰공고 크롤러 (진단 로그 강화 버전)
+저장 경로: etc/data/bids_YYYY-MM-DD.json & etc/data/bids_latest.json
 """
 
 import os
@@ -12,7 +12,6 @@ from pathlib import Path
 API_KEY  = os.environ.get("G2B_API_KEY", "")
 BASE_URL = "https://apis.data.go.kr/1230000/BidPublicInfoService04/getBidPblancListInfoServc"
 
-# ── 분류 키워드 ────────────────────────────────────────────────────
 INCLUDE_KEYWORDS = [
     "홍보", "소식지", "뉴스레터", "기관지", "홍보지", "홍보물",
     "백서", "연간보고서", "책자", "발간", "출판",
@@ -23,7 +22,7 @@ INCLUDE_KEYWORDS = [
 ]
 EXCLUDE_KEYWORDS = [
     "공사", "토목", "건설", "시설", "청소", "경비", "보안",
-    "시스템", "개발", "유지보수", "서버", "네트워크", "DB",
+    "시스템", "개발", "유지보수", "서버", "네트워크",
     "의료", "법률", "회계", "감사", "세무",
     "물품", "구매", "납품", "장비", "기자재",
 ]
@@ -43,22 +42,52 @@ TAG_MAP = {
 
 def fetch_bids(page: int = 1, rows: int = 100) -> list:
     today = datetime.now()
+
+    # ── 날짜 범위 7일로 확장, 업종 제한 없이 전체 검색 ──
     params = {
         "serviceKey": API_KEY,
         "pageNo":     page,
         "numOfRows":  rows,
         "type":       "json",
-        "inqryDiv":   "1",
-        "opengBgnDt": (today - timedelta(days=1)).strftime("%Y%m%d%H%M"),
+        "inqryDiv":   "1",   # 용역
+        "opengBgnDt": (today - timedelta(days=7)).strftime("%Y%m%d%H%M"),
         "opengEndDt": today.strftime("%Y%m%d%H%M"),
     }
+
+    print(f"[API] 요청 URL: {BASE_URL}")
+    print(f"[API] 기간: {params['opengBgnDt']} ~ {params['opengEndDt']}")
+    print(f"[API] API 키 앞 10자: {API_KEY[:10] if API_KEY else '(없음)'}")
+
     try:
         r = requests.get(BASE_URL, params=params, timeout=30)
+        print(f"[API] HTTP 상태코드: {r.status_code}")
+
+        # 응답 원문 앞부분 출력 (진단용)
+        print(f"[API] 응답 앞 300자: {r.text[:300]}")
+
         r.raise_for_status()
-        items = r.json().get("response", {}).get("body", {}).get("items", [])
-        return items if isinstance(items, list) else ([items] if items else [])
+        data = r.json()
+
+        # 응답 구조 진단
+        body = data.get("response", {}).get("body", {})
+        total = body.get("totalCount", 0)
+        print(f"[API] 전체 공고 수 (totalCount): {total}")
+
+        items = body.get("items", [])
+        if isinstance(items, dict):
+            items = [items]
+        elif not isinstance(items, list):
+            items = []
+
+        print(f"[API] 수신된 공고 수: {len(items)}")
+        return items
+
+    except requests.exceptions.HTTPError as e:
+        print(f"[ERROR] HTTP 오류: {e}")
+        print(f"[ERROR] 응답 내용: {r.text[:500]}")
+        return []
     except Exception as e:
-        print(f"[ERROR] API 실패: {e}")
+        print(f"[ERROR] 예외 발생: {type(e).__name__}: {e}")
         return []
 
 
@@ -98,6 +127,10 @@ def is_urgent(dl: str) -> bool:
 
 def run():
     today_str = datetime.now().strftime("%Y-%m-%d")
+
+    if not API_KEY:
+        print("[WARN] G2B_API_KEY 환경변수가 비어 있습니다. Secrets 설정을 확인하세요.")
+
     raw = fetch_bids()
 
     fit, review, excluded = [], [], []
@@ -138,15 +171,14 @@ def run():
         "generated_at": datetime.now().isoformat(),
         "summary": {
             "total_reviewed": len(raw),
-            "fit":     len(fit),
-            "review":  len(review),
-            "excluded":len(excluded),
+            "fit":            len(fit),
+            "review":         len(review),
+            "excluded":       len(excluded),
         },
         "fit":    fit,
         "review": review,
     }
 
-    # ── etc/data/ 에 저장 (레포 루트 기준) ──
     repo_root = Path(__file__).resolve().parent.parent
     out_dir   = repo_root / "etc" / "data"
     out_dir.mkdir(parents=True, exist_ok=True)
