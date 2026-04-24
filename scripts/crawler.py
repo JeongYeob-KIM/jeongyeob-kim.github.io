@@ -1,7 +1,7 @@
 """
-나라장터 입찰공고 크롤러
-End Point: https://apis.data.go.kr/1230000/ad/BidPublicInfoService
-오퍼레이션: /getBidPblancListInfoServc (용역조회)
+나라장터 입찰공고 크롤러 (최종)
+- 필수 파라미터: bidNtceDt (등록일시)
+- 응답 구조: nkoneps.com.response
 """
 
 import os
@@ -41,44 +41,64 @@ TAG_MAP = {
 }
 
 
-def fetch_bids(page: int = 1, rows: int = 100) -> list:
+def fetch_bids() -> list:
     today = datetime.now()
+    # 필수값: bidNtceDt (7일 전부터 오늘까지)
     params = {
         "serviceKey": API_KEY,
-        "pageNo":     page,
-        "numOfRows":  rows,
+        "pageNo":     1,
+        "numOfRows":  100,
         "type":       "json",
-        "inqryDiv":   "1",
-        "bidNtceDt":  (today - timedelta(days=7)).strftime("%Y%m%d"),
+        "inqryDiv":   "1",                                          # 용역
+        "bidNtceDt":  (today - timedelta(days=7)).strftime("%Y%m%d"),  # 필수: 등록일시
     }
 
     print(f"[API] URL: {BASE_URL}")
-    print(f"[API] API 키 앞 10자: {API_KEY[:10] if API_KEY else '(없음)'}")
+    print(f"[API] bidNtceDt: {params['bidNtceDt']}")
 
     try:
         r = requests.get(BASE_URL, params=params, timeout=30)
-        print(f"[API] HTTP 상태코드: {r.status_code}")
+        print(f"[API] HTTP: {r.status_code}")
         print(f"[API] 응답 앞 300자: {r.text[:300]}")
-
         r.raise_for_status()
-        data  = r.json()
-        body  = data.get("response", {}).get("body", {})
-        total = body.get("totalCount", 0)
-        print(f"[API] totalCount: {total}")
 
-        items = body.get("items", [])
+        data = r.json()
+
+        # ── 응답 구조 분기 처리 ──
+        # 구조 1: nkoneps.com.response (조달청 자체 포맷)
+        if "nkoneps.com.response" in data:
+            root = data["nkoneps.com.response"]
+            header = root.get("header", {})
+            code   = header.get("resultCode", "")
+            msg    = header.get("resultMsg", "")
+            print(f"[API] resultCode: {code}, resultMsg: {msg}")
+
+            if code != "00":
+                print(f"[ERROR] API 오류: {msg}")
+                return []
+
+            body  = root.get("body", {})
+            total = body.get("totalCount", 0)
+            items = body.get("items", {}).get("item", [])
+
+        # 구조 2: 공공데이터포털 표준 포맷
+        elif "response" in data:
+            body  = data["response"].get("body", {})
+            total = body.get("totalCount", 0)
+            items = body.get("items", [])
+
+        else:
+            print(f"[ERROR] 알 수 없는 응답 구조: {list(data.keys())}")
+            return []
+
         if isinstance(items, dict):
             items = [items]
         elif not isinstance(items, list):
             items = []
 
-        print(f"[API] 수신 공고 수: {len(items)}")
+        print(f"[API] totalCount: {total}, 수신: {len(items)}건")
         return items
 
-    except requests.exceptions.HTTPError as e:
-        print(f"[ERROR] HTTP 오류: {e}")
-        print(f"[ERROR] 응답: {r.text[:300]}")
-        return []
     except Exception as e:
         print(f"[ERROR] {type(e).__name__}: {e}")
         return []
