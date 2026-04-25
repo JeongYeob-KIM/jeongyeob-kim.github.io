@@ -45,7 +45,9 @@ TAG_MAP = {
 
 
 def fetch_bids() -> list:
-    today = datetime.now()
+    # ✅ 수정 - KST 기준 (오늘 날짜로 정확하게 저장)
+    KST = timezone(timedelta(hours=9))
+    today = datetime.now(KST)
     # 형식: YYYYMMDDHHMM (12자리) — API 명세 필수
     end_dt   = today.strftime("%Y%m%d%H%M")
     begin_dt = (today - timedelta(days=7)).strftime("%Y%m%d0000")
