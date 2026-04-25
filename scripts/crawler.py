@@ -1,6 +1,7 @@
 """
-나라장터 입찰공고 크롤러 (전체 페이지 수집 + KST 최종버전)
-- totalCount 5704건 → 전부 페이지 순환 수집
+나라장터 입찰공고 크롤러 (하루치 수집 최종버전)
+- 조회기간: 당일 00:00 ~ 현재 (하루치만)
+- 전체 페이지 순환 수집
 - KST 기준 날짜 저장
 """
 
@@ -10,7 +11,6 @@ import requests
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-# KST = UTC+9
 KST = timezone(timedelta(hours=9))
 
 API_KEY  = os.environ.get("G2B_API_KEY", "")
@@ -45,7 +45,6 @@ TAG_MAP = {
 
 
 def parse_response(data: dict):
-    """응답 JSON에서 (total, items) 추출"""
     if "response" in data:
         body  = data["response"].get("body", {})
         total = int(body.get("totalCount", 0) or 0)
@@ -76,14 +75,14 @@ def parse_response(data: dict):
 
 def fetch_bids() -> list:
     today    = datetime.now(KST)
-    end_dt   = today.strftime("%Y%m%d%H%M")
-    begin_dt = (today - timedelta(days=7)).strftime("%Y%m%d0000")
+    begin_dt = today.strftime("%Y%m%d0000")   # 당일 00:00
+    end_dt   = today.strftime("%Y%m%d%H%M")   # 현재 시각
 
-    print(f"[API] 조회기간(KST): {begin_dt} ~ {end_dt}")
+    print(f"[API] 조회기간(KST): {begin_dt} ~ {end_dt} (하루치)")
 
     all_items = []
-    page      = 1
-    rows      = 100  # 페이지당 최대 100건
+    page = 1
+    rows = 100
 
     while True:
         params = {
@@ -102,7 +101,7 @@ def fetch_bids() -> list:
 
             if page == 1:
                 total_pages = ((total - 1) // rows) + 1 if total > 0 else 1
-                print(f"[API] 전체 {total}건 → {total_pages}페이지 수집 예정")
+                print(f"[API] 오늘 신규 공고 {total}건 → {total_pages}페이지")
 
             if not items:
                 break
@@ -183,9 +182,8 @@ def run():
             amount = 0
 
         dl_short = dl[:10].replace("-", "") if dl else ""
-
-        status = classify(title, amount)
-        record = {
+        status   = classify(title, amount)
+        record   = {
             "no":           no,
             "title":        title,
             "org":          org,
@@ -220,11 +218,26 @@ def run():
     out_dir   = repo_root / "etc" / "data"
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    # 일자별 아카이브 + latest 저장
     for fname in [f"bids_{today_str}.json", "bids_latest.json"]:
         path = out_dir / fname
         with open(path, "w", encoding="utf-8") as f:
             json.dump(output, f, ensure_ascii=False, indent=2)
         print(f"[저장] {path}")
+
+    # 날짜 인덱스 파일 업데이트 (페이지에서 날짜 선택용)
+    index_path = out_dir / "index.json"
+    try:
+        existing = json.loads(index_path.read_text(encoding="utf-8")) if index_path.exists() else []
+    except Exception:
+        existing = []
+
+    if today_str not in existing:
+        existing.insert(0, today_str)          # 최신 날짜가 맨 앞
+        existing = existing[:90]               # 최근 90일만 유지
+        with open(index_path, "w", encoding="utf-8") as f:
+            json.dump(existing, f, ensure_ascii=False)
+        print(f"[저장] {index_path} (총 {len(existing)}일)")
 
     print(f"[완료] {today_str} | 전체 {len(raw)}건 | 적합 {len(fit)}건 | 검토 {len(review)}건")
 
