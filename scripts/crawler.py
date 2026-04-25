@@ -1,17 +1,15 @@
 """
-나라장터 입찰공고 크롤러 (API 명세 기반 최종버전)
-오퍼레이션: getBidPblancListInfoServc (용역조회)
-필수 파라미터:
-  - inqryDiv=1 (등록일시 기준 조회)
-  - inqryBgnDt: YYYYMMDDHHMM (12자리) ← 핵심!
-  - inqryEndDt: YYYYMMDDHHMM (12자리) ← 핵심!
+나라장터 입찰공고 크롤러 (KST 타임존 적용 최종버전)
 """
 
 import os
 import json
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+# KST = UTC+9
+KST = timezone(timedelta(hours=9))
 
 API_KEY  = os.environ.get("G2B_API_KEY", "")
 BASE_URL = "https://apis.data.go.kr/1230000/ad/BidPublicInfoService/getBidPblancListInfoServc"
@@ -45,10 +43,7 @@ TAG_MAP = {
 
 
 def fetch_bids() -> list:
-    # ✅ 수정 - KST 기준 (오늘 날짜로 정확하게 저장)
-    KST = timezone(timedelta(hours=9))
-    today = datetime.now(KST)
-    # 형식: YYYYMMDDHHMM (12자리) — API 명세 필수
+    today    = datetime.now(KST)
     end_dt   = today.strftime("%Y%m%d%H%M")
     begin_dt = (today - timedelta(days=7)).strftime("%Y%m%d0000")
 
@@ -57,61 +52,50 @@ def fetch_bids() -> list:
         "pageNo":     1,
         "numOfRows":  100,
         "type":       "json",
-        "inqryDiv":   "1",          # 1: 등록일시 기준
-        "inqryBgnDt": begin_dt,     # YYYYMMDDHHMM
-        "inqryEndDt": end_dt,       # YYYYMMDDHHMM
+        "inqryDiv":   "1",
+        "inqryBgnDt": begin_dt,
+        "inqryEndDt": end_dt,
     }
 
-    print(f"[API] URL: {BASE_URL}")
-    print(f"[API] 조회기간: {begin_dt} ~ {end_dt}")
-    print(f"[API] API키 앞 10자: {API_KEY[:10] if API_KEY else '(없음)'}")
+    print(f"[API] 조회기간(KST): {begin_dt} ~ {end_dt}")
 
     try:
         r = requests.get(BASE_URL, params=params, timeout=30)
         print(f"[API] HTTP: {r.status_code}")
-        print(f"[API] 응답 앞 400자: {r.text[:400]}")
         r.raise_for_status()
 
         data = r.json()
 
-        # 응답 구조: nkoneps.com.response
-        if "nkoneps.com.response" in data:
-            root   = data["nkoneps.com.response"]
-            header = root.get("header", {})
-            code   = header.get("resultCode", "")
-            msg    = header.get("resultMsg", "")
-            print(f"[API] resultCode={code}, resultMsg={msg}")
-
-            if code != "00":
-                print(f"[ERROR] API 오류: {msg}")
-                return []
-
-            body  = root.get("body", {})
-            total = body.get("totalCount", 0)
-            items = body.get("items", {})
-
-            # items가 dict이면 item 키 접근
-            if isinstance(items, dict):
-                items = items.get("item", [])
-            if isinstance(items, dict):  # item이 단건인 경우
-                items = [items]
-            if not isinstance(items, list):
-                items = []
-
-        # 표준 공공데이터 응답 구조
-        elif "response" in data:
+        if "response" in data:
             body  = data["response"].get("body", {})
             total = body.get("totalCount", 0)
             items = body.get("items", [])
             if isinstance(items, dict):
                 items = [items]
 
+        elif "nkoneps.com.response" in data:
+            root  = data["nkoneps.com.response"]
+            code  = root.get("header", {}).get("resultCode", "")
+            msg   = root.get("header", {}).get("resultMsg", "")
+            print(f"[API] resultCode={code}, resultMsg={msg}")
+            if code != "00":
+                print(f"[ERROR] {msg}")
+                return []
+            body  = root.get("body", {})
+            total = body.get("totalCount", 0)
+            items = body.get("items", {})
+            if isinstance(items, dict):
+                items = items.get("item", [])
+            if isinstance(items, dict):
+                items = [items]
+            if not isinstance(items, list):
+                items = []
         else:
-            print(f"[ERROR] 알 수 없는 응답 구조: {list(data.keys())}")
+            print(f"[ERROR] 알 수 없는 응답: {list(data.keys())}")
             return []
 
         print(f"[API] totalCount={total}, 수신={len(items)}건")
-        return items
+        return items if isinstance(items, list) else []
 
     except Exception as e:
         print(f"[ERROR] {type(e).__name__}: {e}")
@@ -146,17 +130,20 @@ def fmt_amount(v: int) -> str:
 
 
 def is_urgent(dl: str) -> bool:
+    now = datetime.now(KST).replace(tzinfo=None)
     try:
-        return (datetime.strptime(dl[:10], "%Y-%m-%d") - datetime.now()).days <= 3
+        return (datetime.strptime(dl[:10], "%Y-%m-%d") - now).days <= 3
     except Exception:
         try:
-            return (datetime.strptime(dl[:8], "%Y%m%d") - datetime.now()).days <= 3
+            return (datetime.strptime(dl[:8], "%Y%m%d") - now).days <= 3
         except Exception:
             return False
 
 
 def run():
-    today_str = datetime.now().strftime("%Y-%m-%d")
+    today_str = datetime.now(KST).strftime("%Y-%m-%d")
+    print(f"[시작] KST 기준 오늘: {today_str}")
+
     if not API_KEY:
         print("[WARN] G2B_API_KEY 없음")
 
@@ -167,14 +154,13 @@ def run():
         title  = item.get("bidNtceNm", "")
         org    = item.get("ntceInsttNm", "")
         no     = item.get("bidNtceNo", "")
-        dl     = item.get("bidClseDt", "")       # "YYYY-MM-DD HH:MM:SS"
+        dl     = item.get("bidClseDt", "")
         url    = item.get("bidNtceDtlUrl", "") or item.get("bidNtceUrl", "")
         try:
             amount = int(float(item.get("presmptPrce", 0) or 0))
         except Exception:
             amount = 0
 
-        # 마감일 8자리로 정규화
         dl_short = dl[:10].replace("-", "") if dl else ""
 
         status = classify(title, amount)
@@ -198,7 +184,7 @@ def run():
 
     output = {
         "date":         today_str,
-        "generated_at": datetime.now().isoformat(),
+        "generated_at": datetime.now(KST).isoformat(),
         "summary": {
             "total_reviewed": len(raw),
             "fit":            len(fit),
