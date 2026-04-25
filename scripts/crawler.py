@@ -1,5 +1,7 @@
 """
-나라장터 입찰공고 크롤러 (KST 타임존 적용 최종버전)
+나라장터 입찰공고 크롤러 (전체 페이지 수집 + KST 최종버전)
+- totalCount 5704건 → 전부 페이지 순환 수집
+- KST 기준 날짜 저장
 """
 
 import os
@@ -42,64 +44,83 @@ TAG_MAP = {
 }
 
 
+def parse_response(data: dict):
+    """응답 JSON에서 (total, items) 추출"""
+    if "response" in data:
+        body  = data["response"].get("body", {})
+        total = int(body.get("totalCount", 0) or 0)
+        items = body.get("items", [])
+        if isinstance(items, dict):
+            items = [items]
+        return total, items if isinstance(items, list) else []
+
+    if "nkoneps.com.response" in data:
+        root = data["nkoneps.com.response"]
+        code = root.get("header", {}).get("resultCode", "")
+        msg  = root.get("header", {}).get("resultMsg", "")
+        if code != "00":
+            print(f"[ERROR] resultCode={code}, {msg}")
+            return 0, []
+        body  = root.get("body", {})
+        total = int(body.get("totalCount", 0) or 0)
+        items = body.get("items", {})
+        if isinstance(items, dict):
+            items = items.get("item", [])
+        if isinstance(items, dict):
+            items = [items]
+        return total, items if isinstance(items, list) else []
+
+    print(f"[ERROR] 알 수 없는 응답 구조: {list(data.keys())}")
+    return 0, []
+
+
 def fetch_bids() -> list:
     today    = datetime.now(KST)
     end_dt   = today.strftime("%Y%m%d%H%M")
     begin_dt = (today - timedelta(days=7)).strftime("%Y%m%d0000")
 
-    params = {
-        "serviceKey": API_KEY,
-        "pageNo":     1,
-        "numOfRows":  100,
-        "type":       "json",
-        "inqryDiv":   "1",
-        "inqryBgnDt": begin_dt,
-        "inqryEndDt": end_dt,
-    }
-
     print(f"[API] 조회기간(KST): {begin_dt} ~ {end_dt}")
 
-    try:
-        r = requests.get(BASE_URL, params=params, timeout=30)
-        print(f"[API] HTTP: {r.status_code}")
-        r.raise_for_status()
+    all_items = []
+    page      = 1
+    rows      = 100  # 페이지당 최대 100건
 
-        data = r.json()
+    while True:
+        params = {
+            "serviceKey": API_KEY,
+            "pageNo":     page,
+            "numOfRows":  rows,
+            "type":       "json",
+            "inqryDiv":   "1",
+            "inqryBgnDt": begin_dt,
+            "inqryEndDt": end_dt,
+        }
+        try:
+            r = requests.get(BASE_URL, params=params, timeout=30)
+            r.raise_for_status()
+            total, items = parse_response(r.json())
 
-        if "response" in data:
-            body  = data["response"].get("body", {})
-            total = body.get("totalCount", 0)
-            items = body.get("items", [])
-            if isinstance(items, dict):
-                items = [items]
+            if page == 1:
+                total_pages = ((total - 1) // rows) + 1 if total > 0 else 1
+                print(f"[API] 전체 {total}건 → {total_pages}페이지 수집 예정")
 
-        elif "nkoneps.com.response" in data:
-            root  = data["nkoneps.com.response"]
-            code  = root.get("header", {}).get("resultCode", "")
-            msg   = root.get("header", {}).get("resultMsg", "")
-            print(f"[API] resultCode={code}, resultMsg={msg}")
-            if code != "00":
-                print(f"[ERROR] {msg}")
-                return []
-            body  = root.get("body", {})
-            total = body.get("totalCount", 0)
-            items = body.get("items", {})
-            if isinstance(items, dict):
-                items = items.get("item", [])
-            if isinstance(items, dict):
-                items = [items]
-            if not isinstance(items, list):
-                items = []
-        else:
-            print(f"[ERROR] 알 수 없는 응답: {list(data.keys())}")
-            return []
+            if not items:
+                break
 
-        print(f"[API] totalCount={total}, 수신={len(items)}건")
-        return items if isinstance(items, list) else []
+            all_items.extend(items)
+            print(f"[API] {page}페이지 {len(items)}건 (누계 {len(all_items)}건)")
 
-    except Exception as e:
-        print(f"[ERROR] {type(e).__name__}: {e}")
-        return []
+            if len(all_items) >= total:
+                break
+
+            page += 1
+
+        except Exception as e:
+            print(f"[ERROR] {page}페이지 실패: {type(e).__name__}: {e}")
+            break
+
+    print(f"[API] 최종 수집: {len(all_items)}건")
+    return all_items
 
 
 def classify(title: str, amount: int) -> str:
