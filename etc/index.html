@@ -4,310 +4,101 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>입찰공고 모니터링</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&family=Noto+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     :root {
-      --bg:      #f8f7f4;
-      --surface: #ffffff;
-      --text:    #1a1a1a;
-      --muted:   #6b6b6b;
-      --border:  #e0ddd8;
-      --green:   #3B6D11;
-      --green-bg:#EAF3DE;
-      --amber:   #854F0B;
-      --amber-bg:#FAEEDA;
+      --bg: #f8f7f4; --surface: #ffffff; --text: #1a1a1a; --muted: #6b6b6b;
+      --border: #e0ddd8; --green: #3B6D11; --green-bg: #EAF3DE;
+      --amber: #854F0B; --amber-bg: #FAEEDA;
     }
-
-    body {
-      font-family: 'Noto Sans KR', sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.7;
-      min-height: 100vh;
-    }
+    body { font-family: 'Noto Sans KR', sans-serif; background: var(--bg); color: var(--text); }
 
     /* ── 헤더 ── */
-    header {
-      background: var(--surface);
-      border-bottom: 2px solid var(--text);
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
-    .header-inner {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 1rem 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
-    .masthead {
-      font-family: 'Noto Serif KR', serif;
-      font-size: 1.1rem;
-      font-weight: 700;
-      letter-spacing: -0.3px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .masthead-badge {
-      font-family: 'Noto Sans KR', sans-serif;
-      font-size: 0.65rem;
-      font-weight: 500;
-      background: var(--text);
-      color: var(--bg);
-      padding: 2px 8px;
-      border-radius: 4px;
-      letter-spacing: 0.3px;
-    }
-    .header-links {
-      display: flex;
-      gap: 1rem;
-      font-size: 0.78rem;
-    }
-    .header-links a {
-      color: var(--muted);
-      text-decoration: none;
-    }
+    header { background: var(--surface); border-bottom: 2px solid var(--text); position: sticky; top: 0; z-index: 10; }
+    .header-inner { max-width: 960px; margin: 0 auto; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem; }
+    .masthead { font-family: 'Noto Serif KR', serif; font-size: 1.1rem; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+    .masthead-badge { font-family: 'Noto Sans KR', sans-serif; font-size: .65rem; font-weight: 500; background: var(--text); color: var(--bg); padding: 2px 8px; border-radius: 4px; }
+    .header-links { display: flex; gap: 1rem; font-size: .78rem; }
+    .header-links a { color: var(--muted); text-decoration: none; }
     .header-links a:hover { color: var(--text); }
 
-    /* ── 메인 ── */
-    main {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 2rem 1.5rem 4rem;
-    }
+    main { max-width: 960px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+
+    /* ── 날짜 선택 바 ── */
+    .date-bar { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: .85rem 1.25rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .date-bar label { font-size: .75rem; font-weight: 700; color: var(--muted); white-space: nowrap; }
+    .date-select { font-size: .82rem; padding: 5px 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--bg); color: var(--text); font-family: 'JetBrains Mono', monospace; cursor: pointer; }
+    .date-select:focus { outline: 2px solid var(--text); }
+    .date-nav { display: flex; gap: 5px; }
+    .date-nav button { font-size: .72rem; padding: 4px 10px; border: 1px solid var(--border); border-radius: 6px; background: transparent; color: var(--muted); cursor: pointer; font-family: 'Noto Sans KR', sans-serif; transition: all .12s; }
+    .date-nav button:hover:not(:disabled) { border-color: var(--text); color: var(--text); }
+    .date-nav button:disabled { opacity: .35; cursor: default; }
+    .date-nav button.today-btn { background: var(--text); color: var(--bg); border-color: var(--text); }
 
     /* ── 히어로 ── */
-    .hero { margin-bottom: 2rem; }
-    .post-date {
-      font-size: 0.72rem;
-      color: var(--muted);
-      letter-spacing: 0.5px;
-      margin-bottom: 0.4rem;
-      font-family: 'JetBrains Mono', monospace;
-    }
-    .post-title {
-      font-family: 'Noto Serif KR', serif;
-      font-size: 1.6rem;
-      font-weight: 700;
-      margin-bottom: 0.4rem;
-      line-height: 1.35;
-    }
-    .post-subtitle {
-      font-size: 0.82rem;
-      color: var(--muted);
-    }
+    .post-date { font-size: .72rem; color: var(--muted); letter-spacing: .5px; margin-bottom: .4rem; font-family: 'JetBrains Mono', monospace; }
+    .post-title { font-family: 'Noto Serif KR', serif; font-size: 1.5rem; font-weight: 700; margin-bottom: .4rem; line-height: 1.35; }
+    .post-subtitle { font-size: .82rem; color: var(--muted); margin-bottom: 1.5rem; }
 
     /* ── 통계 카드 ── */
-    .stat-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 10px;
-      margin-bottom: 1.75rem;
-    }
-    .stat-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1rem;
-    }
-    .stat-label { font-size: 0.68rem; color: var(--muted); margin-bottom: 4px; letter-spacing: 0.3px; }
-    .stat-value { font-size: 1.4rem; font-weight: 700; line-height: 1; }
+    .stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 1.75rem; }
+    .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1rem; }
+    .stat-label { font-size: .68rem; color: var(--muted); margin-bottom: 4px; }
+    .stat-value { font-size: 1.4rem; font-weight: 700; }
     .stat-value.green { color: var(--green); }
     .stat-value.amber { color: var(--amber); }
-    .stat-sub { font-size: 0.65rem; color: var(--muted); margin-top: 4px; }
+    .stat-sub { font-size: .65rem; color: var(--muted); margin-top: 4px; }
 
     /* ── 툴바 ── */
-    .toolbar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-      margin-bottom: 1rem;
-    }
+    .toolbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .75rem; margin-bottom: 1rem; }
     .filter-row { display: flex; gap: 5px; flex-wrap: wrap; }
-    .filter-btn {
-      font-size: 0.72rem;
-      padding: 4px 11px;
-      border-radius: 20px;
-      border: 1px solid var(--border);
-      background: transparent;
-      color: var(--muted);
-      cursor: pointer;
-      font-family: 'Noto Sans KR', sans-serif;
-      transition: all 0.12s;
-      white-space: nowrap;
-    }
+    .filter-btn { font-size: .72rem; padding: 4px 11px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); cursor: pointer; font-family: 'Noto Sans KR', sans-serif; transition: all .12s; }
     .filter-btn:hover { border-color: #999; color: var(--text); }
     .filter-btn.active { background: var(--text); color: var(--bg); border-color: var(--text); }
-
-    .sort-select {
-      font-size: 0.72rem;
-      padding: 4px 8px;
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      background: var(--surface);
-      color: var(--muted);
-      font-family: 'Noto Sans KR', sans-serif;
-      cursor: pointer;
-    }
+    .sort-select { font-size: .72rem; padding: 4px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--muted); font-family: 'Noto Sans KR', sans-serif; cursor: pointer; }
 
     /* ── 섹션 헤더 ── */
-    .section-header {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      padding: 1rem 0 0.75rem;
-      border-top: 1px solid var(--border);
-      margin-top: 1rem;
-    }
-    .section-header h2 { font-size: 0.85rem; font-weight: 700; }
-    .s-badge {
-      font-size: 0.65rem;
-      padding: 2px 7px;
-      border-radius: 20px;
-      font-weight: 700;
-    }
+    .section-header { display: flex; align-items: center; gap: 8px; padding: 1rem 0 .75rem; border-top: 1px solid var(--border); margin-top: 1rem; }
+    .section-header h2 { font-size: .85rem; font-weight: 700; }
+    .s-badge { font-size: .65rem; padding: 2px 7px; border-radius: 20px; font-weight: 700; }
     .s-badge.green { background: var(--green-bg); color: var(--green); }
     .s-badge.amber { background: var(--amber-bg); color: var(--amber); }
 
     /* ── 공고 카드 ── */
     .bid-list { display: flex; flex-direction: column; gap: 8px; }
-    .bid-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1rem 1.25rem;
-      transition: border-color 0.12s, box-shadow 0.12s;
-    }
-    .bid-card:hover { border-color: #bbb; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
-    .bid-card.review { border-left: 3px solid var(--amber); }
+    .bid-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1rem 1.25rem; transition: border-color .12s, box-shadow .12s; }
+    .bid-card:hover { border-color: #bbb; box-shadow: 0 2px 8px rgba(0,0,0,.05); }
     .bid-card.urgent { border-left: 3px solid #C04828; }
-
-    .bid-top {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 1rem;
-      margin-bottom: 0.5rem;
-    }
-    .bid-title {
-      font-weight: 700;
-      font-size: 0.92rem;
-      line-height: 1.5;
-      flex: 1;
-    }
+    .bid-card.review { border-left: 3px solid var(--amber); }
+    .bid-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; margin-bottom: .5rem; }
+    .bid-title { font-weight: 700; font-size: .92rem; line-height: 1.5; flex: 1; }
     .bid-title a { color: var(--text); text-decoration: none; }
     .bid-title a:hover { text-decoration: underline; }
-
-    .badges { display: flex; gap: 4px; flex-shrink: 0; flex-wrap: wrap; justify-content: flex-end; }
-    .badge-urgent { font-size: 0.63rem; background: #FCEBEB; color: #A32D2D; border-radius: 4px; padding: 2px 6px; font-weight: 700; white-space: nowrap; }
-    .badge-review { font-size: 0.63rem; background: #f0f0ec; color: var(--muted); border-radius: 4px; padding: 2px 6px; white-space: nowrap; }
-
-    .bid-meta {
-      display: flex;
-      align-items: center;
-      gap: 1.25rem;
-      flex-wrap: wrap;
-      font-size: 0.77rem;
-      color: var(--muted);
-    }
-    .bid-amount { font-weight: 700; color: var(--text); font-size: 0.82rem; }
-    .deadline-warn { color: #A32D2D; font-weight: 500; }
-
-    .tag-row { margin-top: 0.55rem; display: flex; gap: 5px; flex-wrap: wrap; }
-    .tag {
-      font-size: 0.65rem;
-      padding: 2px 7px;
-      border-radius: 20px;
-      background: var(--green-bg);
-      color: var(--green);
-      font-weight: 500;
-    }
+    .badges { display: flex; gap: 4px; flex-shrink: 0; }
+    .badge-urgent { font-size: .63rem; background: #FCEBEB; color: #A32D2D; border-radius: 4px; padding: 2px 6px; font-weight: 700; }
+    .badge-review { font-size: .63rem; background: #f0f0ec; color: var(--muted); border-radius: 4px; padding: 2px 6px; }
+    .bid-meta { display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap; font-size: .77rem; color: var(--muted); }
+    .bid-amount { font-weight: 700; color: var(--text); font-size: .82rem; }
+    .tag-row { margin-top: .55rem; display: flex; gap: 5px; flex-wrap: wrap; }
+    .tag { font-size: .65rem; padding: 2px 7px; border-radius: 20px; background: var(--green-bg); color: var(--green); font-weight: 500; }
 
     /* ── 빈 상태 ── */
-    .empty {
-      text-align: center;
-      padding: 3.5rem 1rem;
-      color: var(--muted);
-    }
-    .empty .icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
+    .empty { text-align: center; padding: 3.5rem 1rem; color: var(--muted); }
+    .empty .icon { font-size: 2.5rem; margin-bottom: .75rem; }
     .empty p { font-size: 1rem; font-weight: 700; color: var(--text); margin-bottom: 6px; }
-    .empty small { font-size: 0.8rem; line-height: 1.8; display: block; }
+    .empty small { font-size: .8rem; line-height: 1.8; display: block; }
 
     /* ── 요약 박스 ── */
-    .summary-box {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1rem 1.25rem;
-      margin-top: 1.5rem;
-      font-size: 0.82rem;
-      line-height: 2;
-      color: var(--muted);
-    }
+    .summary-box { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1rem 1.25rem; margin-top: 1.5rem; font-size: .82rem; line-height: 2; color: var(--muted); }
     .summary-box strong { color: var(--text); font-weight: 700; }
 
-    /* ── 로딩/에러 ── */
-    .loading {
-      text-align: center;
-      padding: 4rem;
-      color: var(--muted);
-      font-size: 0.85rem;
-    }
-    .loading::after {
-      content: '';
-      display: inline-block;
-      width: 16px; height: 16px;
-      border: 2px solid var(--border);
-      border-top-color: var(--muted);
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-      margin-left: 8px;
-      vertical-align: middle;
-    }
-    @keyframes spin { to { transform: rotate(360deg); } }
+    .loading { text-align: center; padding: 4rem; color: var(--muted); font-size: .85rem; }
 
-    /* ── 아카이브 드롭다운 ── */
-    .archive-link {
-      font-size: 0.75rem;
-      color: var(--muted);
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      gap: 4px;
-    }
-    .archive-link:hover { color: var(--text); }
-
-    /* ── 푸터 ── */
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 1.25rem 1.5rem;
-      margin-top: 3rem;
-    }
-    .footer-inner {
-      max-width: 960px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      font-size: 0.72rem;
-      color: var(--muted);
-    }
+    footer { border-top: 1px solid var(--border); padding: 1.25rem 1.5rem; margin-top: 3rem; }
+    .footer-inner { max-width: 960px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .5rem; font-size: .72rem; color: var(--muted); }
     .footer-inner a { color: var(--muted); text-decoration: none; }
-    .footer-inner a:hover { color: var(--text); }
 
-    /* ── 반응형 ── */
     @media (max-width: 640px) {
       .stat-grid { grid-template-columns: repeat(2, 1fr); }
       .post-title { font-size: 1.3rem; }
@@ -324,7 +115,6 @@
       <span class="masthead-badge">INTERNAL</span>
     </div>
     <div class="header-links">
-      <!-- <a href="/">← 블로그 홈</a> -->
       <a href="data/bids_latest.json" target="_blank">JSON 원본</a>
       <a href="https://www.g2b.go.kr" target="_blank">나라장터</a>
     </div>
@@ -332,214 +122,256 @@
 </header>
 
 <main>
-  <div id="app"><div class="loading">공고 데이터 불러오는 중</div></div>
+  <!-- 날짜 선택 바 -->
+  <div class="date-bar">
+    <label>📅 조회 날짜</label>
+    <select class="date-select" id="date-select" onchange="onDateChange(this.value)">
+      <option value="">날짜 로딩 중...</option>
+    </select>
+    <div class="date-nav">
+      <button id="btn-prev" onclick="moveDate(-1)" disabled>◀ 이전</button>
+      <button id="btn-next" onclick="moveDate(+1)" disabled>다음 ▶</button>
+      <button class="today-btn" onclick="moveToToday()">오늘</button>
+    </div>
+  </div>
+
+  <div id="app"><div class="loading">공고 데이터 불러오는 중…</div></div>
 </main>
 
 <footer>
   <div class="footer-inner">
     <span>나라장터(g2b.go.kr) 공공데이터 API · GitHub Actions 매일 KST 07:00 자동 수집</span>
-    <span>
-      <a href="data/bids_latest.json" target="_blank">최신 JSON</a>
-      &nbsp;·&nbsp;
-      <a href="https://www.data.go.kr/data/15000953/openapi.do" target="_blank">API 출처</a>
-    </span>
+    <a href="data/bids_latest.json" target="_blank">최신 JSON</a>
   </div>
 </footer>
 
 <script>
-  /* ── 설정 ── */
-  const JSON_URL   = "/etc/data/bids_latest.json";
-  const TAGS_ALL   = ["전체", "소식지·홍보물", "백서·보고서", "콘텐츠 제작", "미디어·PR", "행사·포럼", "교육·문화", "인쇄·편집"];
+const DATA_DIR   = "data/";
+const TAGS_ALL   = ["전체","소식지·홍보물","백서·보고서","콘텐츠 제작","미디어·PR","행사·포럼","교육·문화","인쇄·편집"];
 
-  let state = {
-    data:   null,
-    filter: "전체",
-    sort:   "urgent",   // "urgent" | "amount" | "deadline"
-  };
+let state = { data: null, filter: "전체", sort: "urgent", dates: [], currentDate: "" };
 
-  /* ── 유틸 ── */
-  const $ = id => document.getElementById(id);
-  const app = () => $("app");
+/* ── 유틸 ── */
+function fmtDate(str) {
+  if (!str || str.length < 8) return "—";
+  return `${str.slice(0,4)}.${str.slice(4,6)}.${str.slice(6,8)}`;
+}
+function daysLeft(str) {
+  if (!str || str.length < 8) return null;
+  const d = new Date(`${str.slice(0,4)}-${str.slice(4,6)}-${str.slice(6,8)}`);
+  return Math.ceil((d - new Date()) / 86400000);
+}
+function fmtGenAt(iso) {
+  try { return new Date(iso).toLocaleString("ko-KR", {year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"}); }
+  catch { return iso; }
+}
 
-  function fmtDate(str) {
-    if (!str || str.length < 8) return "—";
-    return `${str.slice(0,4)}.${str.slice(4,6)}.${str.slice(6,8)}`;
-  }
+/* ── 날짜 인덱스 로드 ── */
+async function loadDateIndex() {
+  try {
+    const r = await fetch(`${DATA_DIR}index.json?t=${Date.now()}`);
+    if (!r.ok) throw new Error();
+    const dates = await r.json();
+    state.dates = dates;
 
-  function daysLeft(str) {
-    if (!str || str.length < 8) return null;
-    const d = new Date(`${str.slice(0,4)}-${str.slice(4,6)}-${str.slice(6,8)}`);
-    return Math.ceil((d - new Date()) / 86_400_000);
-  }
-
-  function fmtGenAt(iso) {
-    try {
-      return new Date(iso).toLocaleString("ko-KR", {
-        year:"numeric", month:"2-digit", day:"2-digit",
-        hour:"2-digit", minute:"2-digit"
-      });
-    } catch { return iso; }
-  }
-
-  /* ── 필터·정렬 ── */
-  function applyFilter(bids) {
-    if (state.filter === "전체") return bids;
-    return bids.filter(b => (b.tags || []).includes(state.filter));
-  }
-
-  function applySort(bids) {
-    const copy = [...bids];
-    if (state.sort === "urgent")   copy.sort((a, b) => (b.urgent ? 1 : 0) - (a.urgent ? 1 : 0));
-    if (state.sort === "amount")   copy.sort((a, b) => (b.amount || 0) - (a.amount || 0));
-    if (state.sort === "deadline") copy.sort((a, b) => (a.deadline || "").localeCompare(b.deadline || ""));
-    return copy;
-  }
-
-  /* ── 카드 렌더 ── */
-  function renderCard(bid) {
-    const days  = daysLeft(bid.deadline);
-    const dLabel = days === null ? "" : days <= 0 ? "오늘 마감" : `D-${days}`;
-    const tags  = (bid.tags || []).map(t => `<span class="tag">${t}</span>`).join("");
-    const badges = [
-      bid.urgent ? `<span class="badge-urgent">⚠ ${dLabel}</span>` : "",
-      bid.status === "review" ? `<span class="badge-review">검토필요</span>` : "",
-    ].filter(Boolean).join("");
-
-    const urgentClass = bid.urgent ? "urgent" : bid.status === "review" ? "review" : "";
-    const dDeadline = days !== null && !bid.urgent
-      ? `<span>(${dLabel})</span>` : "";
-
-    return `
-      <div class="bid-card ${urgentClass}">
-        <div class="bid-top">
-          <div class="bid-title">
-            <a href="${bid.url || '#'}" target="_blank" rel="noopener">${bid.title}</a>
-          </div>
-          <div class="badges">${badges}</div>
-        </div>
-        <div class="bid-meta">
-          <span>🏛 ${bid.org || "—"}</span>
-          <span class="${bid.urgent ? "deadline-warn" : ""}">📅 ${fmtDate(bid.deadline)} ${dDeadline}</span>
-          <span class="bid-amount">💰 ${bid.amount_label || "—"}</span>
-        </div>
-        ${tags ? `<div class="tag-row">${tags}</div>` : ""}
-      </div>`;
-  }
-
-  /* ── 전체 렌더 ── */
-  function render() {
-    const d = state.data;
-    if (!d) return;
-
-    const allBids   = [...(d.fit || []), ...(d.review || [])];
-    const filtered  = applyFilter(allBids);
-    const sorted    = applySort(filtered);
-    const fitSorted    = sorted.filter(b => b.status === "fit");
-    const reviewSorted = sorted.filter(b => b.status === "review");
-    const urgentCnt = (d.fit || []).filter(b => b.urgent).length;
-
-    const filterBtns = TAGS_ALL.map(t =>
-      `<button class="filter-btn ${t === state.filter ? "active" : ""}" onclick="setFilter('${t}')">${t}</button>`
+    const sel = document.getElementById("date-select");
+    sel.innerHTML = dates.map(d =>
+      `<option value="${d}">${d.replace(/-/g,".")} ${d === dates[0] ? "(최신)" : ""}</option>`
     ).join("");
 
-    const summaryText = (d.summary.fit === 0 && d.summary.review === 0)
-      ? "오늘 수집된 적합 공고가 없습니다."
-      : `검토 ${d.summary.total_reviewed}건 중 적합 <strong>${d.summary.fit}건</strong>, 검토필요 <strong>${d.summary.review}건</strong> 발견.${
-          urgentCnt ? ` &nbsp;⚠ 마감 임박 <strong>${urgentCnt}건</strong>을 확인하세요.` : ""
-        }`;
+    // 최신 날짜로 초기 로드
+    state.currentDate = dates[0];
+    sel.value = dates[0];
+    updateNavButtons();
+    loadDate(dates[0]);
+  } catch {
+    // index.json 없으면 latest.json 직접 로드
+    state.dates = [];
+    document.getElementById("date-select").innerHTML = `<option value="latest">최신</option>`;
+    loadDate("latest");
+  }
+}
 
-    const mainTitle = d.summary.fit > 0
-      ? `✅ 적합 공고 ${d.summary.fit}건 발견`
-      : "📋 오늘 적합한 공고가 없습니다";
+/* ── 날짜 변경 ── */
+function onDateChange(date) {
+  state.currentDate = date;
+  state.filter = "전체";
+  updateNavButtons();
+  loadDate(date);
+}
 
-    app().innerHTML = `
-      <div class="hero">
-        <p class="post-date">${d.date || "—"} &nbsp;·&nbsp; 생성: ${fmtGenAt(d.generated_at)}</p>
-        <h1 class="post-title">${mainTitle}</h1>
-        <p class="post-subtitle">나라장터 공공데이터 API 자동 수집 결과</p>
-      </div>
+function moveDate(dir) {
+  const idx = state.dates.indexOf(state.currentDate);
+  const newIdx = idx + dir;  // dir=-1 이전(더 오래된), dir=+1 다음(더 최신)
+  if (newIdx < 0 || newIdx >= state.dates.length) return;
+  const newDate = state.dates[newIdx];
+  state.currentDate = newDate;
+  document.getElementById("date-select").value = newDate;
+  updateNavButtons();
+  loadDate(newDate);
+}
 
-      <div class="stat-grid">
-        <div class="stat-card">
-          <div class="stat-label">전체 검토</div>
-          <div class="stat-value">${d.summary.total_reviewed}</div>
-          <div class="stat-sub">건</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-label">적합 공고</div>
-          <div class="stat-value green">${d.summary.fit}</div>
-          <div class="stat-sub">건</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-label">검토 필요</div>
-          <div class="stat-value amber">${d.summary.review}</div>
-          <div class="stat-sub">건</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-label">마감 임박</div>
-          <div class="stat-value ${urgentCnt > 0 ? "amber" : ""}">${urgentCnt}</div>
-          <div class="stat-sub">3일 이내</div>
-        </div>
-      </div>
+function moveToToday() {
+  if (!state.dates.length) return;
+  state.currentDate = state.dates[0];
+  document.getElementById("date-select").value = state.dates[0];
+  updateNavButtons();
+  loadDate(state.dates[0]);
+}
 
-      <div class="toolbar">
-        <div class="filter-row">${filterBtns}</div>
-        <select class="sort-select" onchange="setSort(this.value)">
-          <option value="urgent"   ${state.sort==="urgent"   ? "selected":""}>마감임박순</option>
-          <option value="deadline" ${state.sort==="deadline" ? "selected":""}>마감일순</option>
-          <option value="amount"   ${state.sort==="amount"   ? "selected":""}>금액순</option>
-        </select>
-      </div>
+function updateNavButtons() {
+  const idx = state.dates.indexOf(state.currentDate);
+  document.getElementById("btn-prev").disabled = idx >= state.dates.length - 1;
+  document.getElementById("btn-next").disabled = idx <= 0;
+}
 
-      ${sorted.length === 0 ? `
-        <div class="empty">
-          <div class="icon">📋</div>
-          <p>해당 분야의 공고가 없습니다</p>
-          <small>다른 필터를 선택하거나 '전체'를 눌러보세요.</small>
-        </div>
-      ` : `
-        ${fitSorted.length > 0 ? `
-          <div class="section-header">
-            <h2>✅ 적합 공고</h2>
-            <span class="s-badge green">${fitSorted.length}건</span>
-          </div>
-          <div class="bid-list">${fitSorted.map(renderCard).join("")}</div>
-        ` : ""}
-
-        ${reviewSorted.length > 0 ? `
-          <div class="section-header">
-            <h2>🔍 검토 필요</h2>
-            <span class="s-badge amber">${reviewSorted.length}건</span>
-          </div>
-          <div class="bid-list">${reviewSorted.map(renderCard).join("")}</div>
-        ` : ""}
-      `}
-
-      <div class="summary-box">
-        <strong>📌 오늘의 요약</strong><br>${summaryText}
+/* ── JSON 로드 ── */
+async function loadDate(date) {
+  document.getElementById("app").innerHTML = `<div class="loading">불러오는 중…</div>`;
+  const url = date === "latest"
+    ? `${DATA_DIR}bids_latest.json?t=${Date.now()}`
+    : `${DATA_DIR}bids_${date}.json?t=${Date.now()}`;
+  try {
+    const r = await fetch(url);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    state.data = await r.json();
+    render();
+  } catch (err) {
+    document.getElementById("app").innerHTML = `
+      <div class="empty">
+        <div class="icon">⚠️</div>
+        <p>데이터를 불러올 수 없습니다</p>
+        <small>${err.message}<br>${date} 날짜의 데이터가 아직 없을 수 있습니다.</small>
       </div>`;
   }
+}
 
-  /* ── 이벤트 ── */
-  function setFilter(tag) { state.filter = tag; render(); }
-  function setSort(val)   { state.sort   = val; render(); }
+/* ── 필터·정렬 ── */
+function applyFilter(bids) {
+  if (state.filter === "전체") return bids;
+  return bids.filter(b => (b.tags || []).includes(state.filter));
+}
+function applySort(bids) {
+  const copy = [...bids];
+  if (state.sort === "urgent")   copy.sort((a,b) => (b.urgent?1:0)-(a.urgent?1:0));
+  if (state.sort === "amount")   copy.sort((a,b) => (b.amount||0)-(a.amount||0));
+  if (state.sort === "deadline") copy.sort((a,b) => (a.deadline||"").localeCompare(b.deadline||""));
+  return copy;
+}
 
-  /* ── fetch ── */
-  fetch(`${JSON_URL}?t=${Date.now()}`)
-    .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
-    .then(data => { state.data = data; render(); })
-    .catch(err => {
-      app().innerHTML = `
-        <div class="empty">
-          <div class="icon">⚠️</div>
-          <p>데이터를 불러올 수 없습니다</p>
-          <small>
-            ${err.message}<br>
-            JSON 경로: <code>/etc/data/bids_latest.json</code><br>
-            GitHub Actions가 아직 실행되지 않았거나 API 키가 없을 수 있습니다.
-          </small>
-        </div>`;
-    });
+/* ── 카드 렌더 ── */
+function renderCard(bid) {
+  const days  = daysLeft(bid.deadline);
+  const dLabel = days===null ? "" : days<=0 ? "오늘마감" : `D-${days}`;
+  const tags  = (bid.tags||[]).map(t=>`<span class="tag">${t}</span>`).join("");
+  const badges = [
+    bid.urgent ? `<span class="badge-urgent">⚠ ${dLabel}</span>` : "",
+    bid.status==="review" ? `<span class="badge-review">검토필요</span>` : "",
+  ].filter(Boolean).join("");
+  return `
+    <div class="bid-card ${bid.urgent?"urgent":bid.status==="review"?"review":""}">
+      <div class="bid-top">
+        <div class="bid-title"><a href="${bid.url||"#"}" target="_blank" rel="noopener">${bid.title}</a></div>
+        <div class="badges">${badges}</div>
+      </div>
+      <div class="bid-meta">
+        <span>🏛 ${bid.org||"—"}</span>
+        <span>📅 ${fmtDate(bid.deadline)} ${!bid.urgent&&dLabel?`(${dLabel})`:""}</span>
+        <span class="bid-amount">💰 ${bid.amount_label||"—"}</span>
+      </div>
+      ${tags?`<div class="tag-row">${tags}</div>`:""}
+    </div>`;
+}
+
+/* ── 전체 렌더 ── */
+function render() {
+  const d = state.data;
+  if (!d) return;
+
+  const allBids     = [...(d.fit||[]),...(d.review||[])];
+  const filtered    = applyFilter(allBids);
+  const sorted      = applySort(filtered);
+  const fitSorted   = sorted.filter(b=>b.status==="fit");
+  const revSorted   = sorted.filter(b=>b.status==="review");
+  const urgentCnt   = (d.fit||[]).filter(b=>b.urgent).length;
+
+  const filterBtns = TAGS_ALL.map(t=>
+    `<button class="filter-btn ${t===state.filter?"active":""}" onclick="setFilter('${t}')">${t}</button>`
+  ).join("");
+
+  const summaryText = (d.summary.fit===0 && d.summary.review===0)
+    ? "해당 날짜에 수집된 적합 공고가 없습니다."
+    : `검토 ${d.summary.total_reviewed}건 중 적합 <strong>${d.summary.fit}건</strong>, 검토필요 <strong>${d.summary.review}건</strong> 발견.${
+        urgentCnt?` ⚠ 마감임박 <strong>${urgentCnt}건</strong> 확인 필요.`:""}`;
+
+  document.getElementById("app").innerHTML = `
+    <p class="post-date">${d.date||"—"} · 생성: ${fmtGenAt(d.generated_at)}</p>
+    <h1 class="post-title">${d.summary.fit>0?`✅ 적합 공고 ${d.summary.fit}건 발견`:"📋 해당 날짜 적합 공고 없음"}</h1>
+    <p class="post-subtitle">나라장터 공공데이터 API 자동 수집 · 당일 신규 공고</p>
+
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-label">전체 검토</div>
+        <div class="stat-value">${d.summary.total_reviewed}</div>
+        <div class="stat-sub">건</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">적합 공고</div>
+        <div class="stat-value green">${d.summary.fit}</div>
+        <div class="stat-sub">건</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">검토 필요</div>
+        <div class="stat-value amber">${d.summary.review}</div>
+        <div class="stat-sub">건</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">마감 임박</div>
+        <div class="stat-value ${urgentCnt>0?"amber":""}">${urgentCnt}</div>
+        <div class="stat-sub">3일 이내</div>
+      </div>
+    </div>
+
+    <div class="toolbar">
+      <div class="filter-row">${filterBtns}</div>
+      <select class="sort-select" onchange="setSort(this.value)">
+        <option value="urgent"   ${state.sort==="urgent"  ?"selected":""}>마감임박순</option>
+        <option value="deadline" ${state.sort==="deadline"?"selected":""}>마감일순</option>
+        <option value="amount"   ${state.sort==="amount"  ?"selected":""}>금액순</option>
+      </select>
+    </div>
+
+    ${sorted.length===0 ? `
+      <div class="empty">
+        <div class="icon">📋</div>
+        <p>해당 분야의 공고가 없습니다</p>
+        <small>다른 필터를 선택하거나 '전체'를 눌러보세요.</small>
+      </div>
+    ` : `
+      ${fitSorted.length>0?`
+        <div class="section-header">
+          <h2>✅ 적합 공고</h2>
+          <span class="s-badge green">${fitSorted.length}건</span>
+        </div>
+        <div class="bid-list">${fitSorted.map(renderCard).join("")}</div>
+      `:""}
+      ${revSorted.length>0?`
+        <div class="section-header">
+          <h2>🔍 검토 필요</h2>
+          <span class="s-badge amber">${revSorted.length}건</span>
+        </div>
+        <div class="bid-list">${revSorted.map(renderCard).join("")}</div>
+      `:""}
+    `}
+
+    <div class="summary-box"><strong>📌 요약</strong><br>${summaryText}</div>`;
+}
+
+function setFilter(tag) { state.filter = tag; render(); }
+function setSort(val)   { state.sort   = val; render(); }
+
+// 초기 로드
+loadDateIndex();
 </script>
 </body>
 </html>
