@@ -200,10 +200,15 @@ function onDateChange(date) {
   loadDate(date);
 }
 
-function moveDate(dir) {
+function moveDate(direction) {
+  // dates[0] = 최신 / dates[length-1] = 가장 오래된
+  // 이전(older) → idx 증가 / 다음(newer) → idx 감소
   const idx = state.dates.indexOf(state.currentDate);
-  const newIdx = idx + dir;  // dir=-1 이전(더 오래된), dir=+1 다음(더 최신)
+  if (idx === -1) return;
+
+  const newIdx = direction === "prev" ? idx + 1 : idx - 1;
   if (newIdx < 0 || newIdx >= state.dates.length) return;
+
   const newDate = state.dates[newIdx];
   state.currentDate = newDate;
   document.getElementById("date-select").value = newDate;
