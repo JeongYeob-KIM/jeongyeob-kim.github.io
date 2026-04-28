@@ -2,8 +2,16 @@ name: 나라장터 입찰공고 모니터링
 
 on:
   schedule:
-    - cron: "0 22 * * *"
-  workflow_dispatch:
+    # GitHub Actions 스케줄은 5~30분 지연/스킵 가능 → 백업 크론 운영
+    - cron: "15 0 * * *"   # UTC 00:15 = KST 09:15 (메인)
+    - cron: "45 0 * * *"   # UTC 00:45 = KST 09:45 (1차 백업, 9:15가 스킵된 경우)
+    - cron: "30 1 * * *"   # UTC 01:30 = KST 10:30 (2차 백업)
+  workflow_dispatch:        # 수동 실행도 항상 가능
+
+# 동시에 두 번 돌지 않도록 보호
+concurrency:
+  group: g2b-monitor
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -11,40 +19,61 @@ permissions:
 jobs:
   crawl:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: 체크아웃
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 오늘자 JSON 이미 있는지 확인 (중복 실행 방지)
+        id: check
+        run: |
+          TODAY=$(TZ=Asia/Seoul date +'%Y-%m-%d')
+          FILE="etc/data/bids_${TODAY}.json"
+          if [ -f "$FILE" ]; then
+            echo "이미 ${TODAY} 데이터가 존재합니다 → 스킵"
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "${TODAY} 데이터 없음 → 크롤링 진행"
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Python 3.11 설정
+        if: steps.check.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: 의존성 설치
+        if: steps.check.outputs.skip != 'true'
         run: pip install requests
 
       - name: 크롤러 실행
+        if: steps.check.outputs.skip != 'true'
         env:
           G2B_API_KEY: ${{ secrets.G2B_API_KEY }}
+          TZ: Asia/Seoul
         run: python scripts/crawler.py
 
       - name: JSON 결과 커밋 & 푸시
+        if: steps.check.outputs.skip != 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add etc/data/
           git diff --staged --quiet \
             && echo "변경사항 없음 - 커밋 생략" \
-            || (git commit -m "나라장터 모니터링 $(date +'%Y-%m-%d')" && git push)
+            || (git commit -m "나라장터 모니터링 $(TZ=Asia/Seoul date +'%Y-%m-%d')" && git push)
 
       - name: Slack 알림 (선택)
-        if: always()
+        if: always() && steps.check.outputs.skip != 'true'
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         run: |
           if [ -z "$SLACK_WEBHOOK" ]; then exit 0; fi
-          DATE=$(date +'%Y-%m-%d')
+          DATE=$(TZ=Asia/Seoul date +'%Y-%m-%d')
           FIT=$(python -c "import json; d=json.load(open('etc/data/bids_latest.json')); print(d['summary']['fit'])" 2>/dev/null || echo "?")
           STATUS="${{ job.status }}"
           curl -s -X POST "$SLACK_WEBHOOK" \
