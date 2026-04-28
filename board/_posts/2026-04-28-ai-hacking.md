@@ -4,7 +4,7 @@ date: 2026-04-28 10:00:00 +0900
 categories: [시사, 보안]
 tags: [개인정보, 해킹, AI보안, 클로드미소스, 쿠팡, SKT, 개인정보보호위원회]
 image:
-  path: /assets/img/240628/header-cybersecurity.jpg
+  path: /assets/img/260428/header-cybersecurity.jpg
   alt: AI 해킹 시대의 개인정보 보호
 ---
 
