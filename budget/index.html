@@ -303,11 +303,16 @@ function lockApp(){
 async function fetchData(){
   showLoading('데이터 불러오는 중...');
   try {
-    const res = await fetch(API_URL + '?t=' + Date.now());
-    const json = await res.json();
+    const res = await fetch(API_URL + '?t=' + Date.now(), {
+      method: 'GET',
+      redirect: 'follow',
+    });
+    const text = await res.text();
+    const json = JSON.parse(text);
     allData = (json.data || []).filter(r => r.id);
   } catch(e){
-    showToast('⚠️ 데이터 로드 실패');
+    console.error('fetchData error:', e);
+    showToast('⚠️ 데이터 로드 실패: ' + e.message);
     allData = [];
   }
   hideLoading();
@@ -315,10 +320,12 @@ async function fetchData(){
 
 async function postData(payload){
   const res = await fetch(API_URL, {
-    method:'POST',
+    method: 'POST',
+    redirect: 'follow',
     body: JSON.stringify(payload)
   });
-  return res.json();
+  const text = await res.text();
+  return JSON.parse(text);
 }
 
 async function initApp(){
