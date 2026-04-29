@@ -400,6 +400,12 @@ function switchTab(tab, el){
   document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));
   document.getElementById(`tab-${tab}`).style.display='block';
   el.classList.add('active');
+
+  if(tab==='input'){
+    setType(currentType);
+    setManualPerson(currentManualPerson);
+    setSmsPerson(currentSmsPerson);
+  }
   if(tab==='list') renderTransactions();
   if(tab==='analysis') renderAnalysis();
 }
