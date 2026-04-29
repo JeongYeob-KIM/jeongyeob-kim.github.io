@@ -10,7 +10,7 @@
     --bg:#0f0f0f;--surface:#1a1a1a;--surface2:#222;--border:#2a2a2a;
     --accent:#c8ff00;--accent2:#ff6b35;--text:#f0f0f0;--text2:#888;--text3:#555;
     --danger:#ff4444;--success:#00cc66;--radius:12px;
-    --jy:#4da6ff;--js:#ff80cc;
+    --jy:#4da6ff;--js:#ff80cc;--sh:#a78bfa;
   }
   *{box-sizing:border-box;margin:0;padding:0;}
   body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;line-height:1.6;}
@@ -46,20 +46,19 @@
   .lock-btn{background:none;border:1px solid var(--border);color:var(--text3);padding:8px 14px;border-radius:8px;cursor:pointer;font-size:12px;font-family:'Noto Sans KR',sans-serif;transition:all 0.15s;}
   .lock-btn:hover{border-color:var(--danger);color:var(--danger);}
 
-  /* 인물 필터 */
   .person-filter{display:flex;gap:8px;margin-bottom:20px;}
-  .person-filter-btn{flex:1;padding:10px;border-radius:10px;border:1px solid var(--border);background:none;color:var(--text2);cursor:pointer;font-size:14px;font-family:'Noto Sans KR',sans-serif;font-weight:500;transition:all 0.2s;}
+  .person-filter-btn{flex:1;padding:10px;border-radius:10px;border:1px solid var(--border);background:none;color:var(--text2);cursor:pointer;font-size:13px;font-family:'Noto Sans KR',sans-serif;font-weight:500;transition:all 0.2s;}
   .person-filter-btn.all.active{background:rgba(200,255,0,0.1);border-color:var(--accent);color:var(--accent);}
   .person-filter-btn.jy.active{background:rgba(77,166,255,0.1);border-color:var(--jy);color:var(--jy);}
   .person-filter-btn.js.active{background:rgba(255,128,204,0.1);border-color:var(--js);color:var(--js);}
+  .person-filter-btn.sh.active{background:rgba(167,139,250,0.1);border-color:var(--sh);color:var(--sh);}
 
-  /* 요약 */
   .summary-section{margin-bottom:24px;}
   .summary-person{margin-bottom:16px;}
   .summary-person-title{font-size:12px;font-family:'Space Mono',monospace;letter-spacing:2px;margin-bottom:10px;padding:6px 12px;border-radius:6px;display:inline-block;}
   .summary-person-title.jy{background:rgba(77,166,255,0.1);color:var(--jy);}
   .summary-person-title.js{background:rgba(255,128,204,0.1);color:var(--js);}
-  .summary-person-title.all{background:rgba(200,255,0,0.1);color:var(--accent);}
+  .summary-person-title.sh{background:rgba(167,139,250,0.1);color:var(--sh);}
   .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;}
   .summary-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px 14px;}
   .summary-label{font-size:11px;color:var(--text3);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px;font-family:'Space Mono',monospace;}
@@ -93,12 +92,13 @@
   .form-input:focus,.form-select:focus{outline:none;border-color:var(--accent);}
   .form-select option{background:var(--surface);}
 
-  .toggle-group{display:flex;gap:8px;}
-  .toggle-btn{flex:1;padding:10px;border-radius:8px;border:1px solid var(--border);background:none;color:var(--text2);cursor:pointer;font-size:14px;font-family:'Noto Sans KR',sans-serif;transition:all 0.15s;}
+  .toggle-group{display:flex;gap:6px;flex-wrap:wrap;}
+  .toggle-btn{flex:1;padding:9px 6px;border-radius:8px;border:1px solid var(--border);background:none;color:var(--text2);cursor:pointer;font-size:13px;font-family:'Noto Sans KR',sans-serif;transition:all 0.15s;min-width:60px;}
   .toggle-btn.active-expense{background:rgba(255,107,53,0.15);border-color:var(--accent2);color:var(--accent2);}
   .toggle-btn.active-income{background:rgba(0,204,102,0.15);border-color:var(--success);color:var(--success);}
   .toggle-btn.active-jy{background:rgba(77,166,255,0.15);border-color:var(--jy);color:var(--jy);}
   .toggle-btn.active-js{background:rgba(255,128,204,0.15);border-color:var(--js);color:var(--js);}
+  .toggle-btn.active-sh{background:rgba(167,139,250,0.15);border-color:var(--sh);color:var(--sh);}
 
   .transaction-list{display:flex;flex-direction:column;gap:8px;}
   .transaction-item{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;animation:fadeIn 0.3s ease;}
@@ -118,6 +118,7 @@
   .person-badge{font-size:10px;padding:2px 7px;border-radius:10px;font-weight:600;letter-spacing:0.5px;}
   .person-badge.jy{background:rgba(77,166,255,0.15);color:var(--jy);}
   .person-badge.js{background:rgba(255,128,204,0.15);color:var(--js);}
+  .person-badge.sh{background:rgba(167,139,250,0.15);color:var(--sh);}
 
   .category-bar{margin-bottom:12px;}
   .category-bar-header{display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px;}
@@ -183,12 +184,12 @@
 
   <!-- 인물 필터 -->
   <div class="person-filter">
-    <button class="person-filter-btn all active" onclick="setPersonFilter('all',this)">👨‍👩‍👦 전체</button>
+    <button class="person-filter-btn all active" onclick="setPersonFilter('all',this)">전체</button>
     <button class="person-filter-btn jy" onclick="setPersonFilter('jy',this)">👨 김정엽</button>
     <button class="person-filter-btn js" onclick="setPersonFilter('js',this)">👩 최정순</button>
+    <button class="person-filter-btn sh" onclick="setPersonFilter('sh',this)">👩 박선현</button>
   </div>
 
-  <!-- 요약 -->
   <div class="summary-section" id="summary-section"></div>
 
   <div class="tabs">
@@ -206,9 +207,10 @@
         <div class="toggle-group">
           <button class="toggle-btn active-jy" id="sms-person-jy" onclick="setSmsPerson('jy')">👨 김정엽</button>
           <button class="toggle-btn" id="sms-person-js" onclick="setSmsPerson('js')">👩 최정순</button>
+          <button class="toggle-btn" id="sms-person-sh" onclick="setSmsPerson('sh')">👩 박선현</button>
         </div>
       </div>
-      <textarea class="sms-textarea" id="sms-input" placeholder="카드 사용 문자메시지를 여기에 붙여넣으세요.&#10;&#10;예시:&#10;[Web발신]&#10;신한카드 승인&#10;홍길동 1,500원&#10;일시불 스타벅스&#10;04/22 10:30 잔여한도..."></textarea>
+      <textarea class="sms-textarea" id="sms-input" placeholder="카드 사용 문자메시지를 여기에 붙여넣으세요.&#10;&#10;예시:&#10;[Web발신]&#10;신한카드 승인&#10;김*엽 1,500원&#10;일시불 스타벅스&#10;04/22 10:30 잔여한도..."></textarea>
       <button class="btn btn-primary" id="sms-btn" onclick="parseSMS()">🔍 자동 인식 및 추가</button>
     </div>
 
@@ -227,6 +229,7 @@
           <div class="toggle-group">
             <button class="toggle-btn active-jy" id="person-jy" onclick="setManualPerson('jy')">👨 정엽</button>
             <button class="toggle-btn" id="person-js" onclick="setManualPerson('js')">👩 정순</button>
+            <button class="toggle-btn" id="person-sh" onclick="setManualPerson('sh')">👩 선현</button>
           </div>
         </div>
       </div>
@@ -282,14 +285,19 @@
       <div class="section-title" style="color:var(--js)">👩 최정순 카테고리별 지출</div>
       <div id="category-analysis-js"></div>
     </div>
+    <div id="analysis-sh" class="section">
+      <div class="section-title" style="color:var(--sh)">👩 박선현 카테고리별 지출</div>
+      <div id="category-analysis-sh"></div>
+    </div>
   </div>
 </div>
 
 <script>
-const PIN = '258076';
-const API_URL = 'https://script.google.com/macros/s/AKfycbx6yV7rpPxZvgxzgelmDpJk_MWfca2S2RwotlkOAQvU8oT7elUHsJxwKJ52xScOkWfB/exec';
+const _e = atob('aHR0cHM6Ly9zY3JpcHQuZ29vZ2xlLmNvbS9tYWNyb3Mvc' +
+  'y9BS2Z5Y2J4NnlWN3JwUHhaWmd4emdlbG1EcEprX01XZmNhMlMyUndvdGxrT0FRdlU4b1Q3ZWxVSEpzeHdLSjUyeFNjT2tXZkIvZXhlYw==');
 
 let pinBuffer = '';
+let authToken = sessionStorage.getItem('budget_token') || null;
 let currentType = 'expense';
 let currentManualPerson = 'jy';
 let currentSmsPerson = 'jy';
@@ -298,7 +306,16 @@ let currentYear = new Date().getFullYear();
 let currentMonth = new Date().getMonth() + 1;
 let allData = [];
 
-const PERSON_LABEL = { jy: '김정엽', js: '최정순' };
+const PERSONS = ['jy', 'js', 'sh'];
+const PERSON_LABEL = { jy: '김정엽', js: '최정순', sh: '박선현' };
+const PERSON_EMOJI = { jy: '👨', js: '👩', sh: '👩' };
+
+// 문자에서 인물 자동 감지 패턴
+const PERSON_PATTERNS = {
+  jy: /김\*엽/,
+  js: /최\*순/,
+  sh: /박\*현/
+};
 
 function showLoading(text='처리 중...'){
   document.getElementById('loading-text').textContent = text;
@@ -325,23 +342,41 @@ function updatePinDots(error=false){
     if(i < pinBuffer.length) dot.classList.add(error?'error':'filled');
   });
 }
-function checkPin(){
-  if(pinBuffer === PIN){
-    document.getElementById('pin-screen').style.display = 'none';
-    document.getElementById('app').style.display = 'block';
-    initApp();
-  } else {
-    updatePinDots(true);
-    document.getElementById('pin-error').textContent = 'PIN이 올바르지 않습니다';
-    document.getElementById('pin-dots').classList.add('shake');
-    setTimeout(()=>{
-      document.getElementById('pin-dots').classList.remove('shake');
-      pinBuffer = ''; updatePinDots();
-      document.getElementById('pin-error').textContent = '';
-    }, 800);
+
+async function checkPin(){
+  showLoading('인증 중...');
+  try {
+    const res = await fetch(`${_e}?action=auth&pin=${pinBuffer}&t=${Date.now()}`, {
+      method:'GET', redirect:'follow'
+    });
+    const json = JSON.parse(await res.text());
+    hideLoading();
+    if(json.success){
+      authToken = json.token;
+      sessionStorage.setItem('budget_token', authToken);
+      document.getElementById('pin-screen').style.display = 'none';
+      document.getElementById('app').style.display = 'block';
+      initApp();
+    } else {
+      updatePinDots(true);
+      document.getElementById('pin-error').textContent = 'PIN이 올바르지 않습니다';
+      document.getElementById('pin-dots').classList.add('shake');
+      setTimeout(()=>{
+        document.getElementById('pin-dots').classList.remove('shake');
+        pinBuffer = ''; updatePinDots();
+        document.getElementById('pin-error').textContent = '';
+      }, 800);
+    }
+  } catch(e){
+    hideLoading();
+    showToast('⚠️ 인증 실패. 네트워크를 확인하세요.');
+    pinBuffer = ''; updatePinDots();
   }
 }
+
 function lockApp(){
+  authToken = null;
+  sessionStorage.removeItem('budget_token');
   pinBuffer = ''; updatePinDots();
   document.getElementById('pin-screen').style.display = 'flex';
   document.getElementById('app').style.display = 'none';
@@ -351,22 +386,27 @@ function lockApp(){
 async function fetchData(){
   showLoading('데이터 불러오는 중...');
   try {
-    const res = await fetch(API_URL + '?t=' + Date.now(), { method:'GET', redirect:'follow' });
-    const text = await res.text();
-    const json = JSON.parse(text);
+    const res = await fetch(`${_e}?token=${authToken}&t=${Date.now()}`, {
+      method:'GET', redirect:'follow'
+    });
+    const json = JSON.parse(await res.text());
+    if(!json.success && json.message === '인증 필요'){ hideLoading(); lockApp(); return; }
     allData = (json.data || []).filter(r => r.id);
   } catch(e){
-    console.error('fetchData error:', e);
-    showToast('⚠️ 데이터 로드 실패: ' + e.message);
+    showToast('⚠️ 데이터 로드 실패');
     allData = [];
   }
   hideLoading();
 }
 
 async function postData(payload){
-  const res = await fetch(API_URL, { method:'POST', redirect:'follow', body: JSON.stringify(payload) });
-  const text = await res.text();
-  return JSON.parse(text);
+  const res = await fetch(_e, {
+    method:'POST', redirect:'follow',
+    body: JSON.stringify({ ...payload, token: authToken })
+  });
+  const json = JSON.parse(await res.text());
+  if(!json.success && json.message === '인증 필요') lockApp();
+  return json;
 }
 
 async function initApp(){
@@ -400,7 +440,6 @@ function switchTab(tab, el){
   document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));
   document.getElementById(`tab-${tab}`).style.display='block';
   el.classList.add('active');
-
   if(tab==='input'){
     setType(currentType);
     setManualPerson(currentManualPerson);
@@ -410,7 +449,6 @@ function switchTab(tab, el){
   if(tab==='analysis') renderAnalysis();
 }
 
-// 인물 필터
 function setPersonFilter(person, el){
   currentPersonFilter = person;
   document.querySelectorAll('.person-filter-btn').forEach(b=>b.classList.remove('active'));
@@ -429,17 +467,18 @@ function setType(type){
 
 function setManualPerson(person){
   currentManualPerson = person;
-  document.getElementById('person-jy').className = 'toggle-btn'+(person==='jy'?' active-jy':'');
-  document.getElementById('person-js').className = 'toggle-btn'+(person==='js'?' active-js':'');
+  PERSONS.forEach(p => {
+    document.getElementById(`person-${p}`).className = 'toggle-btn'+(person===p?` active-${p}`:'');
+  });
 }
 
 function setSmsPerson(person){
   currentSmsPerson = person;
-  document.getElementById('sms-person-jy').className = 'toggle-btn'+(person==='jy'?' active-jy':'');
-  document.getElementById('sms-person-js').className = 'toggle-btn'+(person==='js'?' active-js':'');
+  PERSONS.forEach(p => {
+    document.getElementById(`sms-person-${p}`).className = 'toggle-btn'+(person===p?` active-${p}`:'');
+  });
 }
 
-// 데이터 필터
 function getMonthData(){
   const mm = String(currentMonth).padStart(2,'0');
   let data = allData.filter(t => String(t.date).startsWith(`${currentYear}-${mm}`));
@@ -452,65 +491,33 @@ function getMonthDataByPerson(person){
   return allData.filter(t => String(t.date).startsWith(`${currentYear}-${mm}`) && t.person === person);
 }
 
-// 요약
 function updateSummary(){
   const el = document.getElementById('summary-section');
-
-  if(currentPersonFilter === 'all'){
-    const persons = ['jy','js'];
-    el.innerHTML = persons.map(p => {
-      const data = getMonthDataByPerson(p);
-      const income = data.filter(t=>t.type==='income').reduce((s,t)=>s+Number(t.amount),0);
-      const expense = data.filter(t=>t.type==='expense').reduce((s,t)=>s+Number(t.amount),0);
-      const balance = income - expense;
-      return `
-        <div class="summary-person">
-          <div class="summary-person-title ${p}">${p==='jy'?'👨 김정엽':'👩 최정순'}</div>
-          <div class="summary-grid">
-            <div class="summary-card">
-              <div class="summary-label">수입</div>
-              <div class="summary-amount income">₩${income.toLocaleString()}</div>
-            </div>
-            <div class="summary-card">
-              <div class="summary-label">지출</div>
-              <div class="summary-amount expense">₩${expense.toLocaleString()}</div>
-            </div>
-            <div class="summary-card">
-              <div class="summary-label">잔액</div>
-              <div class="summary-amount balance ${balance>=0?'positive':'negative'}">${balance>=0?'+':''}₩${balance.toLocaleString()}</div>
-            </div>
-          </div>
-        </div>
-      `;
-    }).join('');
-  } else {
-    const data = getMonthData();
+  const persons = currentPersonFilter === 'all' ? PERSONS : [currentPersonFilter];
+  el.innerHTML = persons.map(p => {
+    const data = getMonthDataByPerson(p);
     const income = data.filter(t=>t.type==='income').reduce((s,t)=>s+Number(t.amount),0);
     const expense = data.filter(t=>t.type==='expense').reduce((s,t)=>s+Number(t.amount),0);
     const balance = income - expense;
-    el.innerHTML = `
-      <div class="summary-person">
-        <div class="summary-person-title ${currentPersonFilter}">${currentPersonFilter==='jy'?'👨 김정엽':'👩 최정순'}</div>
-        <div class="summary-grid">
-          <div class="summary-card">
-            <div class="summary-label">수입</div>
-            <div class="summary-amount income">₩${income.toLocaleString()}</div>
-          </div>
-          <div class="summary-card">
-            <div class="summary-label">지출</div>
-            <div class="summary-amount expense">₩${expense.toLocaleString()}</div>
-          </div>
-          <div class="summary-card">
-            <div class="summary-label">잔액</div>
-            <div class="summary-amount balance ${balance>=0?'positive':'negative'}">${balance>=0?'+':''}₩${balance.toLocaleString()}</div>
-          </div>
-        </div>
+    return `<div class="summary-person">
+      <div class="summary-person-title ${p}">${PERSON_EMOJI[p]} ${PERSON_LABEL[p]}</div>
+      <div class="summary-grid">
+        <div class="summary-card"><div class="summary-label">수입</div><div class="summary-amount income">₩${income.toLocaleString()}</div></div>
+        <div class="summary-card"><div class="summary-label">지출</div><div class="summary-amount expense">₩${expense.toLocaleString()}</div></div>
+        <div class="summary-card"><div class="summary-label">잔액</div><div class="summary-amount balance ${balance>=0?'positive':'negative'}">${balance>=0?'+':''}₩${balance.toLocaleString()}</div></div>
       </div>
-    `;
-  }
+    </div>`;
+  }).join('');
 }
 
-// SMS 파싱
+// 문자에서 인물 자동 감지
+function detectPerson(text){
+  for(const [person, pattern] of Object.entries(PERSON_PATTERNS)){
+    if(pattern.test(text)) return person;
+  }
+  return null;
+}
+
 async function parseSMS(){
   const text = document.getElementById('sms-input').value.trim();
   if(!text){ showToast('⚠️ 문자 메시지를 입력해주세요.'); return; }
@@ -527,6 +534,13 @@ async function parseSMS(){
   const dm = text.match(/(\d{2})\/(\d{2})/);
   if(dm) date = `${currentYear}-${dm[1]}-${dm[2]}`;
 
+  // 문자에서 인물 자동 감지, 없으면 현재 선택 인물 사용
+  const detectedPerson = detectPerson(text);
+  const person = detectedPerson || currentSmsPerson;
+
+  // 감지된 인물이 있으면 버튼 UI도 업데이트
+  if(detectedPerson) setSmsPerson(detectedPerson);
+
   let desc = '카드결제';
   const mps = [/일시불\s+([^\n]+)/, /(?:승인|결제)\s*\n?([^\n\d]+?)(?:\s*\d|$)/];
   for(const p of mps){
@@ -536,7 +550,6 @@ async function parseSMS(){
 
   const category = autoCategory(desc, text);
   const id = Date.now();
-  const person = currentSmsPerson;
 
   document.getElementById('sms-btn').disabled = true;
   showLoading('저장 중...');
@@ -563,7 +576,6 @@ function autoCategory(desc, text){
   return '📌 기타';
 }
 
-// 수동 입력
 async function addManual(){
   const amount = parseInt(document.getElementById('manual-amount').value);
   const date = document.getElementById('manual-date').value;
@@ -589,7 +601,6 @@ async function addManual(){
   document.getElementById('manual-btn').disabled = false;
 }
 
-// 삭제
 async function deleteTransaction(id){
   if(!confirm('삭제하시겠습니까?')) return;
   showLoading('삭제 중...');
@@ -602,7 +613,6 @@ async function deleteTransaction(id){
   hideLoading();
 }
 
-// 내역 렌더링
 function renderTransactions(){
   const data = getMonthData().sort((a,b)=>String(b.date).localeCompare(String(a.date)));
   const el = document.getElementById('transaction-list');
@@ -630,18 +640,15 @@ function renderTransactions(){
   `).join('');
 }
 
-// 분석 렌더링
 function renderAnalysis(){
-  ['jy','js'].forEach(person => {
-    const data = getMonthDataByPerson(person).filter(t=>t.type==='expense');
+  PERSONS.forEach(person => {
+    const section = document.getElementById(`analysis-${person}`);
     const el = document.getElementById(`category-analysis-${person}`);
-
     if(currentPersonFilter !== 'all' && currentPersonFilter !== person){
-      document.getElementById(`analysis-${person}`).style.display = 'none';
-      return;
+      section.style.display='none'; return;
     }
-    document.getElementById(`analysis-${person}`).style.display = 'block';
-
+    section.style.display='block';
+    const data = getMonthDataByPerson(person).filter(t=>t.type==='expense');
     if(!data.length){
       el.innerHTML='<div class="empty-state"><div class="empty-icon">📊</div>지출 내역이 없습니다</div>';
       return;
@@ -660,6 +667,13 @@ function renderAnalysis(){
       </div>`;
     }).join('');
   });
+}
+
+// 세션 토큰 있으면 바로 앱 진입
+if(authToken){
+  document.getElementById('pin-screen').style.display = 'none';
+  document.getElementById('app').style.display = 'block';
+  initApp();
 }
 </script>
 </body>
