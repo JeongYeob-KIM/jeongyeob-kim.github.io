@@ -144,6 +144,7 @@ exclude:
   - Gemfile.lock
   - functions
   - licenses/
+  - example/   
 include:
   - _routes.json
   - .well-known
