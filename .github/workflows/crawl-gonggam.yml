@@ -1,0 +1,25 @@
+name: K공감 호 크롤링 (시트)
+
+on:
+  workflow_dispatch:
+    inputs:
+      issue_url:
+        description: 'K공감 호 URL'
+        required: true
+        type: string
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install requests beautifulsoup4
+
+      - env:
+          SHEETS_API_URL: ${{ secrets.SHEETS_API_URL }}
+        run: python scripts/crawl_gonggam.py "${{ inputs.issue_url }}"
