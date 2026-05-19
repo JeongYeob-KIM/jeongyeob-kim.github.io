@@ -1,8 +1,10 @@
 """K공감 호 크롤러: 호 URL → 모든 기사 → Apps Script API로 전송."""
-import sys, os, re, requests
+import sys, os, re, requests, urllib3
 from datetime import datetime
 from urllib.parse import urljoin, unquote
 from bs4 import BeautifulSoup
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 HEADERS = {'User-Agent': 'Mozilla/5.0'}
 API_URL = os.environ['SHEETS_API_URL']
@@ -10,7 +12,7 @@ ISSUE_URL = sys.argv[1]
 
 
 def fetch(url):
-    r = requests.get(url, headers=HEADERS, timeout=30)
+    r = requests.get(url, headers=HEADERS, timeout=30, verify=False)
     r.encoding = r.apparent_encoding
     return r
 
@@ -50,7 +52,6 @@ def parse_article(url):
     }
 
 
-# 호 URL → 기사 링크 추출
 print(f"[INFO] 호 URL: {ISSUE_URL}")
 issue_soup = BeautifulSoup(fetch(ISSUE_URL).text, 'html.parser')
 links = {urljoin(ISSUE_URL, a['href']) for a in issue_soup.find_all('a', href=True)
