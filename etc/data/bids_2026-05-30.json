@@ -1,13 +1,42 @@
 {
   "date": "2026-05-30",
-  "generated_at": "2026-05-30T08:19:24.296405+09:00",
+  "generated_at": "2026-05-30T15:16:50.126388+09:00",
   "summary": {
-    "total_reviewed": 3,
-    "fit": 1,
-    "review": 0,
-    "excluded": 2
+    "total_reviewed": 9,
+    "fit": 3,
+    "review": 2,
+    "excluded": 4
   },
   "fit": [
+    {
+      "no": "R26BK01552715",
+      "title": "2026년 낙동강 어린이 수상안전교육장 운영․관리 용역",
+      "org": "경상북도 상주시",
+      "deadline": "20260605",
+      "amount": 75454545,
+      "amount_label": "7,545만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01552715&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01552704",
+      "title": "2026년 나의건강기록 앱 대상자 맞춤형 홍보 영상 제작",
+      "org": "재단법인한국보건의료정보원",
+      "deadline": "20260609",
+      "amount": 27272727,
+      "amount_label": "2,727만원",
+      "urgent": false,
+      "tags": [
+        "소식지·홍보물",
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01552704&bidPbancOrd=000",
+      "status": "fit"
+    },
     {
       "no": "R26BK01552689",
       "title": "2026년 서울 리(Re)테크 사업 홍보 용역",
@@ -23,5 +52,34 @@
       "status": "fit"
     }
   ],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01552746",
+      "title": "수소기술사업화 지원 플랫폼 구축",
+      "org": "사단법인 한국수소연합",
+      "deadline": "",
+      "amount": 372727273,
+      "amount_label": "3억 7,272만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01552746&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01552270",
+      "title": "경륜훈련원 훈련용 전기화물 차량 임차 용역(2차공고)",
+      "org": "서울올림픽기념국민체육진흥공단 경륜경정총괄본부",
+      "deadline": "20260611",
+      "amount": 46518545,
+      "amount_label": "4,651만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01552270&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
