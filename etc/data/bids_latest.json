@@ -1,12 +1,84 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-05-31T08:05:05.944893+09:00",
+  "generated_at": "2026-05-31T15:52:11.919919+09:00",
   "summary": {
-    "total_reviewed": 2,
-    "fit": 0,
-    "review": 0,
-    "excluded": 2
+    "total_reviewed": 11,
+    "fit": 1,
+    "review": 4,
+    "excluded": 6
   },
-  "fit": [],
-  "review": []
+  "fit": [
+    {
+      "no": "R26BK01551047",
+      "title": "2026년 문화여가생활 관측소 운영 및 이용확대 사업",
+      "org": "조달청 서울지방조달청",
+      "deadline": "20260610",
+      "amount": 272727273,
+      "amount_label": "2억 7,272만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01551047&bidPbancOrd=000",
+      "status": "fit"
+    }
+  ],
+  "review": [
+    {
+      "no": "R26BK01542858",
+      "title": "세계기록유산 동학농민혁명기록물 국제학술대회 대행 용역",
+      "org": "동학농민혁명기념재단",
+      "deadline": "20260612",
+      "amount": 51818182,
+      "amount_label": "5,181만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01542858&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01552902",
+      "title": "2026년 군산시 주차수급 및 안전관리 실태조사용역 ",
+      "org": "전북특별자치도 군산시",
+      "deadline": "20260608",
+      "amount": 85570000,
+      "amount_label": "8,557만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01552902&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01552902",
+      "title": "2026년 군산시 주차수급 및 안전관리 실태조사용역 ",
+      "org": "전북특별자치도 군산시",
+      "deadline": "20260608",
+      "amount": 85570000,
+      "amount_label": "8,557만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01552902&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01552914",
+      "title": "2026년 군산시 주차수급 및 안전관리 실태조사용역 ",
+      "org": "전북특별자치도 군산시",
+      "deadline": "20260608",
+      "amount": 85570000,
+      "amount_label": "8,557만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01552914&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
