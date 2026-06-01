@@ -1,12 +1,70 @@
 {
   "date": "2026-06-02",
-  "generated_at": "2026-06-02T00:22:45.576463+09:00",
+  "generated_at": "2026-06-02T08:39:37.829684+09:00",
   "summary": {
-    "total_reviewed": 0,
-    "fit": 0,
-    "review": 0,
-    "excluded": 0
+    "total_reviewed": 11,
+    "fit": 1,
+    "review": 3,
+    "excluded": 7
   },
-  "fit": [],
-  "review": []
+  "fit": [
+    {
+      "no": "R26BK01554876",
+      "title": "항공 및 제조 산업 XR 협업 훈련 콘텐츠 제작",
+      "org": "조달청",
+      "deadline": "20260626",
+      "amount": 272727273,
+      "amount_label": "2억 7,272만원",
+      "urgent": false,
+      "tags": [
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01554876&bidPbancOrd=000",
+      "status": "fit"
+    }
+  ],
+  "review": [
+    {
+      "no": "R26BK01555955",
+      "title": "2026년 위천수변테마공원 어린이 물놀이장 운영 용역",
+      "org": "대구광역시 군위군",
+      "deadline": "20260609",
+      "amount": 83636364,
+      "amount_label": "8,363만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01555955&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01443542",
+      "title": "(긴급)2026학년도 한국원자력마이스터고등학교 학생국외현장연수 위탁 용역 입찰공고[2단계 입찰(규격,가격 동시)]",
+      "org": "경상북도교육청 한국원자력마이스터고등학교",
+      "deadline": "20260616",
+      "amount": 134639882,
+      "amount_label": "1억 3,463만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01443542&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01555970",
+      "title": "2026학년도 전주신흥고 1학년 수학여행 위탁용역",
+      "org": "전북특별자치도교육청 전주신흥고등학교",
+      "deadline": "20260622",
+      "amount": 225446010,
+      "amount_label": "2억 2,544만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01555970&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
