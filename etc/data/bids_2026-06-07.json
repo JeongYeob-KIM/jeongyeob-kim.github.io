@@ -1,12 +1,98 @@
 {
   "date": "2026-06-07",
-  "generated_at": "2026-06-07T08:09:49.355806+09:00",
+  "generated_at": "2026-06-07T15:59:50.761429+09:00",
   "summary": {
-    "total_reviewed": 0,
-    "fit": 0,
-    "review": 0,
-    "excluded": 0
+    "total_reviewed": 8,
+    "fit": 1,
+    "review": 5,
+    "excluded": 2
   },
-  "fit": [],
-  "review": []
+  "fit": [
+    {
+      "no": "R26BK01564562",
+      "title": "2026년 강원특별자치도 운수종사자 교육 운영 대행 용역",
+      "org": "한국교통안전공단",
+      "deadline": "20260608",
+      "amount": 270293636,
+      "amount_label": "2억 7,029만원",
+      "urgent": true,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01564562&bidPbancOrd=000",
+      "status": "fit"
+    }
+  ],
+  "review": [
+    {
+      "no": "R26BK01557921",
+      "title": "[긴급] 2026학년도 인천세원고등학교 2학년 수학여행 위탁용역",
+      "org": "인천광역시교육청 인천세원고등학교",
+      "deadline": "20260617",
+      "amount": 126492727,
+      "amount_label": "1억 2,649만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01557921&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01557921",
+      "title": "[긴급] 2026학년도 인천세원고등학교 2학년 수학여행 위탁용역",
+      "org": "인천광역시교육청 인천세원고등학교",
+      "deadline": "20260617",
+      "amount": 126492727,
+      "amount_label": "1억 2,649만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01557921&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01564478",
+      "title": "[긴급] 2026학년도 인천세원고등학교 2학년 수학여행 위탁용역",
+      "org": "인천광역시교육청 인천세원고등학교",
+      "deadline": "20260617",
+      "amount": 126492727,
+      "amount_label": "1억 2,649만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01564478&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01553743",
+      "title": "2026년 어린이활동공간 자체 지도·점검 용역",
+      "org": "강원특별자치도교육청",
+      "deadline": "20260610",
+      "amount": 44097400,
+      "amount_label": "4,409만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01553743&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01564535",
+      "title": "ULSAN EXPORT PLAZA 2026 운영 용역",
+      "org": "재단법인 울산경제일자리진흥원",
+      "deadline": "20260619",
+      "amount": 82454545,
+      "amount_label": "8,245만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01564535&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
