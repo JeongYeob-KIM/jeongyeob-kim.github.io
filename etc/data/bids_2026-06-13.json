@@ -1,12 +1,41 @@
 {
   "date": "2026-06-13",
-  "generated_at": "2026-06-13T08:24:15.927106+09:00",
+  "generated_at": "2026-06-13T15:51:33.379635+09:00",
   "summary": {
-    "total_reviewed": 0,
+    "total_reviewed": 6,
     "fit": 0,
-    "review": 0,
-    "excluded": 0
+    "review": 2,
+    "excluded": 4
   },
   "fit": [],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01574882",
+      "title": "경륜훈련원 훈련용 전기화물 차량 임차 용역(3차공고)",
+      "org": "서울올림픽기념국민체육진흥공단 경륜경정총괄본부",
+      "deadline": "20260623",
+      "amount": 46518545,
+      "amount_label": "4,651만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01574882&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01578872",
+      "title": "[수의시담]건축물해체 감리용역(공세울소하천, 제일리 7-4번지)",
+      "org": "경기도 용인시",
+      "deadline": "20260615",
+      "amount": 25460000,
+      "amount_label": "2,546만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01578872&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
