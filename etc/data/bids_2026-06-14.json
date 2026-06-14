@@ -1,12 +1,27 @@
 {
   "date": "2026-06-14",
-  "generated_at": "2026-06-14T08:12:36.390864+09:00",
+  "generated_at": "2026-06-14T16:17:24.291189+09:00",
   "summary": {
-    "total_reviewed": 0,
-    "fit": 0,
+    "total_reviewed": 6,
+    "fit": 1,
     "review": 0,
-    "excluded": 0
+    "excluded": 5
   },
-  "fit": [],
+  "fit": [
+    {
+      "no": "R26BK01579010",
+      "title": "2026년 자전거의 날 행사 대행 용역(가격협상)",
+      "org": "제주특별자치도",
+      "deadline": "20260615",
+      "amount": 400000000,
+      "amount_label": "4억원",
+      "urgent": true,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01579010&bidPbancOrd=000",
+      "status": "fit"
+    }
+  ],
   "review": []
 }
