@@ -1,12 +1,97 @@
 {
   "date": "2026-06-16",
-  "generated_at": "2026-06-16T00:16:28.900879+09:00",
+  "generated_at": "2026-06-16T08:51:22.276561+09:00",
   "summary": {
-    "total_reviewed": 0,
+    "total_reviewed": 12,
     "fit": 0,
-    "review": 0,
-    "excluded": 0
+    "review": 6,
+    "excluded": 6
   },
   "fit": [],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01579921",
+      "title": "2026학년도 유신고등학교 1학년 숙박형체험학습 위탁용역",
+      "org": "경기도교육청 유신고등학교",
+      "deadline": "20260707",
+      "amount": 213129909,
+      "amount_label": "2억 1,312만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01579921&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01582487",
+      "title": "해양환경공단 제주지사 207황룡호 선체수리 용역",
+      "org": "해양환경공단  제주지사",
+      "deadline": "20260624",
+      "amount": 43406185,
+      "amount_label": "4,340만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01582487&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01582497",
+      "title": "2026년 제20회 전북특별자치도 과학축전 운영 대행 용역",
+      "org": "재단법인 전북테크노파크",
+      "deadline": "20260630",
+      "amount": 236363636,
+      "amount_label": "2억 3,636만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01582497&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01582507",
+      "title": "해양환경공단 제주지사 207황룡호 기관수리 용역",
+      "org": "해양환경공단  제주지사",
+      "deadline": "20260624",
+      "amount": 57902436,
+      "amount_label": "5,790만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01582507&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01582546",
+      "title": "국가중독센터 기능 및 운영 모델  설계를 위한 연구 용역(재공고)",
+      "org": "국립중앙의료원",
+      "deadline": "20260629",
+      "amount": 54545455,
+      "amount_label": "5,454만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01582546&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01582514",
+      "title": "2026년도 지역금연지원센터 민간위탁사업 예산집행 관리",
+      "org": "한국건강증진개발원",
+      "deadline": "20260630",
+      "amount": 27272727,
+      "amount_label": "2,727만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01582514&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
