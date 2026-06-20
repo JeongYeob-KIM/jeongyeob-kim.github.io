@@ -1,11 +1,11 @@
 {
   "date": "2026-06-20",
-  "generated_at": "2026-06-20T15:55:35.087824+09:00",
+  "generated_at": "2026-06-20T20:20:06.047545+09:00",
   "summary": {
-    "total_reviewed": 12,
+    "total_reviewed": 14,
     "fit": 0,
-    "review": 6,
-    "excluded": 6
+    "review": 7,
+    "excluded": 7
   },
   "fit": [],
   "review": [
@@ -77,6 +77,20 @@
         "기타"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01593364&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01593335",
+      "title": "서울올림픽기념 마라톤대회 운영 대행 용역(긴급)",
+      "org": "서울올림픽기념국민체육진흥공단 경륜경정총괄본부",
+      "deadline": "20260707",
+      "amount": 109090909,
+      "amount_label": "1억 909만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01593335&bidPbancOrd=000",
       "status": "review"
     },
     {
