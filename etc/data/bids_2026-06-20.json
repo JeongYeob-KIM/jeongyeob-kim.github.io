@@ -1,11 +1,11 @@
 {
   "date": "2026-06-20",
-  "generated_at": "2026-06-20T08:04:53.296879+09:00",
+  "generated_at": "2026-06-20T15:55:35.087824+09:00",
   "summary": {
-    "total_reviewed": 2,
+    "total_reviewed": 12,
     "fit": 0,
-    "review": 2,
-    "excluded": 0
+    "review": 6,
+    "excluded": 6
   },
   "fit": [],
   "review": [
@@ -21,6 +21,62 @@
         "기타"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01593293&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01593310",
+      "title": "2026학년도 영동중학교 1학년 수련활동 위탁 용역",
+      "org": "서울특별시강남교육청 영동중학교",
+      "deadline": "20260701",
+      "amount": 63596364,
+      "amount_label": "6,359만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01593310&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01593316",
+      "title": "2026학년도 영동중학교 2학년 수련활동 위탁 용역",
+      "org": "서울특별시강남교육청 영동중학교",
+      "deadline": "20260701",
+      "amount": 87691818,
+      "amount_label": "8,769만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01593316&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01593317",
+      "title": "2026학년도 영동중학교 3학년 수련활동 위탁 용역",
+      "org": "서울특별시강남교육청 영동중학교",
+      "deadline": "20260701",
+      "amount": 98001400,
+      "amount_label": "9,800만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01593317&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01593364",
+      "title": "(수의시담)설계의 안전성 검토(DfS) 민간확대 대비 제도 개선 및 운영 모델 수립 용역",
+      "org": "국토안전관리원",
+      "deadline": "20260622",
+      "amount": 90909091,
+      "amount_label": "9,090만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01593364&bidPbancOrd=000",
       "status": "review"
     },
     {
