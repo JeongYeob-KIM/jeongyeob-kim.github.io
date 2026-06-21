@@ -1,12 +1,55 @@
 {
   "date": "2026-06-21",
-  "generated_at": "2026-06-21T16:27:05.987464+09:00",
+  "generated_at": "2026-06-21T20:46:29.122424+09:00",
   "summary": {
-    "total_reviewed": 1,
+    "total_reviewed": 4,
     "fit": 0,
-    "review": 0,
+    "review": 3,
     "excluded": 1
   },
   "fit": [],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01593471",
+      "title": "2026학년도 부산경상대학교 Anchor 1-3 BSKS 글로벌 현장견학 운영 용역",
+      "org": "부산경상대학교 산학협력단",
+      "deadline": "",
+      "amount": 82727273,
+      "amount_label": "8,272만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01593471&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01593495",
+      "title": "2026학년도 부산경상대학교 Anchor 3-8 BSKS 글로벌 현장견학 운영 용역",
+      "org": "부산경상대학교 산학협력단",
+      "deadline": "",
+      "amount": 145454545,
+      "amount_label": "1억 4,545만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01593495&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01588466",
+      "title": "다중모델 생성형 AI 플랫폼 서비스 도입 용역",
+      "org": "조달청 광주지방조달청",
+      "deadline": "20260702",
+      "amount": 118181818,
+      "amount_label": "1억 1,818만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01588466&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
