@@ -1,12 +1,41 @@
 {
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T08:09:31.246757+09:00",
+  "generated_at": "2026-06-28T15:56:19.482679+09:00",
   "summary": {
-    "total_reviewed": 1,
-    "fit": 0,
+    "total_reviewed": 4,
+    "fit": 2,
     "review": 0,
-    "excluded": 1
+    "excluded": 2
   },
-  "fit": [],
+  "fit": [
+    {
+      "no": "R26BK01605499",
+      "title": "2026학년도 학군단 국외군사문화탐방 진행 용역",
+      "org": "대구대학교",
+      "deadline": "",
+      "amount": 30036364,
+      "amount_label": "3,003만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01605499&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01605516",
+      "title": "2026년 세계의 소리 하나의 소리 화성특례시 세계문화 축제 대행용역 재입찰 공고",
+      "org": "화성시 외국인 복지센터",
+      "deadline": "",
+      "amount": 68727273,
+      "amount_label": "6,872만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01605516&bidPbancOrd=000",
+      "status": "fit"
+    }
+  ],
   "review": []
 }
