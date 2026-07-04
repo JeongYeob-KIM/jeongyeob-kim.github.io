@@ -1,12 +1,69 @@
 {
   "date": "2026-07-04",
-  "generated_at": "2026-07-04T15:11:19.279174+09:00",
+  "generated_at": "2026-07-04T19:54:26.708686+09:00",
   "summary": {
-    "total_reviewed": 0,
-    "fit": 0,
+    "total_reviewed": 5,
+    "fit": 4,
     "review": 0,
-    "excluded": 0
+    "excluded": 1
   },
-  "fit": [],
+  "fit": [
+    {
+      "no": "R26BK01616688",
+      "title": "2026년 OTT특화 콘텐츠 제작지원(IP확보형) 사업 드라마 (너의 그라운드) 제작 야구경기장 임차 용역",
+      "org": "스튜디오에스 주식회사",
+      "deadline": "20260710",
+      "amount": 120000000,
+      "amount_label": "1억 2,000만원",
+      "urgent": false,
+      "tags": [
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01616688&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01616692",
+      "title": "2026년 OTT특화 콘텐츠 제작지원(IP확보형) 사업 드라마 (너의 그라운드) 제작 스탭버스 및 분장차 임차 용역",
+      "org": "스튜디오에스 주식회사",
+      "deadline": "20260715",
+      "amount": 123200000,
+      "amount_label": "1억 2,320만원",
+      "urgent": false,
+      "tags": [
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01616692&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01616695",
+      "title": "2026년 OTT특화 콘텐츠 제작지원(IP확보형) 사업 드라마 (너의 그라운드) 제작 보조출연 용역",
+      "org": "스튜디오에스 주식회사",
+      "deadline": "20260715",
+      "amount": 400000000,
+      "amount_label": "4억원",
+      "urgent": false,
+      "tags": [
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01616695&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01616701",
+      "title": "2026년 OTT특화 콘텐츠 제작지원(IP확보형) 사업 드라마 (너의 그라운드) 제작 소품차량 및 특수차량 임차 용역",
+      "org": "스튜디오에스 주식회사",
+      "deadline": "20260715",
+      "amount": 240000000,
+      "amount_label": "2억 4,000만원",
+      "urgent": false,
+      "tags": [
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01616701&bidPbancOrd=000",
+      "status": "fit"
+    }
+  ],
   "review": []
 }
