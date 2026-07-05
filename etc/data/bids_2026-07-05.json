@@ -1,13 +1,28 @@
 {
   "date": "2026-07-05",
-  "generated_at": "2026-07-05T15:31:51.173684+09:00",
+  "generated_at": "2026-07-05T20:04:58.293879+09:00",
   "summary": {
-    "total_reviewed": 3,
-    "fit": 0,
-    "review": 2,
+    "total_reviewed": 5,
+    "fit": 1,
+    "review": 3,
     "excluded": 1
   },
-  "fit": [],
+  "fit": [
+    {
+      "no": "R26BK01616925",
+      "title": "문화기술 R&D 협의체 운영 위탁용역 ",
+      "org": "한국콘텐츠진흥원",
+      "deadline": "20260716",
+      "amount": 127272727,
+      "amount_label": "1억 2,727만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01616925&bidPbancOrd=000",
+      "status": "fit"
+    }
+  ],
   "review": [
     {
       "no": "R26BK01612457",
@@ -35,6 +50,20 @@
         "기타"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01616710&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01616932",
+      "title": "신종 마약류·마약류 원료 등 조사·분석·관리 방안 연구",
+      "org": "식품의약품안전처",
+      "deadline": "20260716",
+      "amount": 72727273,
+      "amount_label": "7,272만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01616932&bidPbancOrd=000",
       "status": "review"
     }
   ]
