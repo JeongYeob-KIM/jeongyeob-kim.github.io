@@ -1,11 +1,11 @@
 {
   "date": "2026-07-05",
-  "generated_at": "2026-07-05T08:03:20.684390+09:00",
+  "generated_at": "2026-07-05T15:31:51.173684+09:00",
   "summary": {
-    "total_reviewed": 1,
+    "total_reviewed": 3,
     "fit": 0,
-    "review": 1,
-    "excluded": 0
+    "review": 2,
+    "excluded": 1
   },
   "fit": [],
   "review": [
@@ -21,6 +21,20 @@
         "기타"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01612457&bidPbancOrd=002",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01616710",
+      "title": "웰컴저축은행 PBA 팀리그 화성특례시 TOUR 2026-20272라운드 운영 대행 용역",
+      "org": "화성시체육회",
+      "deadline": "20260716",
+      "amount": 225722727,
+      "amount_label": "2억 2,572만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01616710&bidPbancOrd=000",
       "status": "review"
     }
   ]
