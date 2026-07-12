@@ -1,12 +1,27 @@
 {
   "date": "2026-07-12",
-  "generated_at": "2026-07-12T07:56:03.177411+09:00",
+  "generated_at": "2026-07-12T14:48:21.490999+09:00",
   "summary": {
-    "total_reviewed": 0,
-    "fit": 0,
+    "total_reviewed": 1,
+    "fit": 1,
     "review": 0,
     "excluded": 0
   },
-  "fit": [],
+  "fit": [
+    {
+      "no": "R26BK01628452",
+      "title": "2026 온동네 돌봄·교육센터(온봄학교 돌봄교실) 위탁 운영 용역",
+      "org": "경기도교육청 경기도동두천양주교육지원청",
+      "deadline": "20260724",
+      "amount": 42000000,
+      "amount_label": "4,200만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01628452&bidPbancOrd=000",
+      "status": "fit"
+    }
+  ],
   "review": []
 }
