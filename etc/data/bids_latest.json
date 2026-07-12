@@ -1,13 +1,27 @@
 {
   "date": "2026-07-12",
-  "generated_at": "2026-07-12T14:48:21.490999+09:00",
+  "generated_at": "2026-07-12T19:34:27.638901+09:00",
   "summary": {
-    "total_reviewed": 1,
-    "fit": 1,
+    "total_reviewed": 8,
+    "fit": 3,
     "review": 0,
-    "excluded": 0
+    "excluded": 5
   },
   "fit": [
+    {
+      "no": "R26BK01626091",
+      "title": "2026년 해외 초·중등학교 한국어 교재 인쇄",
+      "org": "재단법인 국제한국어교육재단",
+      "deadline": "20260723",
+      "amount": 1409090909,
+      "amount_label": "14억 909만원",
+      "urgent": false,
+      "tags": [
+        "인쇄·편집"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01626091&bidPbancOrd=000",
+      "status": "fit"
+    },
     {
       "no": "R26BK01628452",
       "title": "2026 온동네 돌봄·교육센터(온봄학교 돌봄교실) 위탁 운영 용역",
@@ -20,6 +34,20 @@
         "교육·문화"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01628452&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01628453",
+      "title": "규장각한국학연구원 전시실 실감형 콘텐츠 제작 및 설치",
+      "org": "서울대학교 부속시설 규장각한국학연구원",
+      "deadline": "20260727",
+      "amount": 272727273,
+      "amount_label": "2억 7,272만원",
+      "urgent": false,
+      "tags": [
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01628453&bidPbancOrd=000",
       "status": "fit"
     }
   ],
