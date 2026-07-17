@@ -1,11 +1,11 @@
 {
   "date": "2026-07-17",
-  "generated_at": "2026-07-17T08:02:36.025027+09:00",
+  "generated_at": "2026-07-17T14:33:19.150861+09:00",
   "summary": {
-    "total_reviewed": 3,
+    "total_reviewed": 10,
     "fit": 2,
-    "review": 0,
-    "excluded": 1
+    "review": 5,
+    "excluded": 3
   },
   "fit": [
     {
@@ -37,5 +37,76 @@
       "status": "fit"
     }
   ],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01638249",
+      "title": "2026학년도 군서미래국제학교 국제탐구(태국 치앙마이) 프로젝트  위탁용역 ",
+      "org": "경기도교육청 경기도시흥교육지원청 군서미래국제학교",
+      "deadline": "20260728",
+      "amount": 70041818,
+      "amount_label": "7,004만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01638249&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01629622",
+      "title": "2026년 광주광역시교통약자이동지원센터 임직원 단체상해보험 가입",
+      "org": "사단법인 광주광역시교통약자이동지원센터",
+      "deadline": "20260728",
+      "amount": 19741930,
+      "amount_label": "1,974만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01629622&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01638281",
+      "title": "애니메이션 「극장판 안녕 자두야 : 배추마을 엄마 구출 대작전」포스트프로덕션 용역",
+      "org": "주식회사 아툰즈",
+      "deadline": "20260730",
+      "amount": 30000000,
+      "amount_label": "3,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01638281&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01638284",
+      "title": "2026년 광주요양병원 환자 및 직원급식 위탁운영 용역 계약",
+      "org": "한국보훈복지의료공단 광주보훈병원",
+      "deadline": "20260827",
+      "amount": 1432954091,
+      "amount_label": "14억 3,295만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01638284&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01638284",
+      "title": "2026년 광주요양병원 환자 및 직원급식 위탁운영 용역 계약",
+      "org": "한국보훈복지의료공단 광주보훈병원",
+      "deadline": "20260827",
+      "amount": 1432954091,
+      "amount_label": "14억 3,295만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01638284&bidPbancOrd=001",
+      "status": "review"
+    }
+  ]
 }
