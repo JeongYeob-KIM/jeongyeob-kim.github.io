@@ -1,11 +1,11 @@
 {
   "date": "2026-07-17",
-  "generated_at": "2026-07-17T14:33:19.150861+09:00",
+  "generated_at": "2026-07-17T19:47:33.488940+09:00",
   "summary": {
-    "total_reviewed": 10,
+    "total_reviewed": 18,
     "fit": 2,
-    "review": 5,
-    "excluded": 3
+    "review": 6,
+    "excluded": 10
   },
   "fit": [
     {
@@ -106,6 +106,20 @@
         "기타"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01638284&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01638306",
+      "title": "제30회 부산바다축제 발전기 설치운용 용역 입찰 공고",
+      "org": "사단법인 부산축제조직위원회",
+      "deadline": "",
+      "amount": 36363636,
+      "amount_label": "3,636만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01638306&bidPbancOrd=000",
       "status": "review"
     }
   ]
