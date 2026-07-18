@@ -1,12 +1,27 @@
 {
   "date": "2026-07-18",
-  "generated_at": "2026-07-18T14:16:45.637697+09:00",
+  "generated_at": "2026-07-18T19:18:49.450321+09:00",
   "summary": {
-    "total_reviewed": 0,
+    "total_reviewed": 1,
     "fit": 0,
-    "review": 0,
+    "review": 1,
     "excluded": 0
   },
   "fit": [],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01623230",
+      "title": "[한남대학교 산학협력단] 2026-06-01호 창업중심대학 지원사업 글로벌 진출형 창업 역량 강화 프로그램 운영 용역",
+      "org": "한남대학교 산학협력단",
+      "deadline": "20260729",
+      "amount": 90000000,
+      "amount_label": "9,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01623230&bidPbancOrd=001",
+      "status": "review"
+    }
+  ]
 }
