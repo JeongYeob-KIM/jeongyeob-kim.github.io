@@ -1,12 +1,168 @@
 {
   "date": "2026-07-25",
-  "generated_at": "2026-07-25T08:07:23.783857+09:00",
+  "generated_at": "2026-07-25T14:35:36.198320+09:00",
   "summary": {
-    "total_reviewed": 0,
-    "fit": 0,
-    "review": 0,
-    "excluded": 0
+    "total_reviewed": 14,
+    "fit": 3,
+    "review": 8,
+    "excluded": 3
   },
-  "fit": [],
-  "review": []
+  "fit": [
+    {
+      "no": "R26BK01638282",
+      "title": "서울시립과학관 여름방학 체험교육 「뚝딱뚝딱 과학놀이터」 운영 용역",
+      "org": "서울특별시 서울시립과학관",
+      "deadline": "20260727",
+      "amount": 7363636,
+      "amount_label": "736만원",
+      "urgent": true,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01638282&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01650338",
+      "title": "2026년 김해 JOB Festival 행사 용역",
+      "org": "인제대학교 산학협력단",
+      "deadline": "",
+      "amount": 54545455,
+      "amount_label": "5,454만원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01650338&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01650339",
+      "title": "2026년 문화도시의정부 사업성과 분석 및 출구 전략 연구 용역",
+      "org": "재단법인 의정부문화관광재단",
+      "deadline": "20260805",
+      "amount": 81818182,
+      "amount_label": "8,181만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01650339&bidPbancOrd=000",
+      "status": "fit"
+    }
+  ],
+  "review": [
+    {
+      "no": "R26BK01647703",
+      "title": "2026년 오페라·토월극장 무대기계 브레이크 하중 테스트 용역",
+      "org": "예술의전당",
+      "deadline": "20260729",
+      "amount": 43818182,
+      "amount_label": "4,381만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01647703&bidPbancOrd=002",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01647703",
+      "title": "2026년 오페라·토월극장 무대기계 브레이크 하중 테스트 용역",
+      "org": "예술의전당",
+      "deadline": "20260729",
+      "amount": 43818182,
+      "amount_label": "4,381만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01647703&bidPbancOrd=003",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01650328",
+      "title": "인제대학교 산학협력 중장기 발전계획 4.0 수립을 위한 연구 용역",
+      "org": "인제대학교 산학협력단",
+      "deadline": "",
+      "amount": 50000000,
+      "amount_label": "5,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01650328&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01638489",
+      "title": "2026년 서울로봇인공지능과학관 서울 AI허브 기업 협업 전시 구축(AI스팟) 용역 ",
+      "org": "서울특별시 서울시립과학관",
+      "deadline": "20260727",
+      "amount": 12000000,
+      "amount_label": "1,200만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01638489&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01650335",
+      "title": "글로벌 이노베이션 브릿지(일본) 용역",
+      "org": "인제대학교 산학협력단",
+      "deadline": "",
+      "amount": 60000000,
+      "amount_label": "6,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01650335&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01650328",
+      "title": "인제대학교 산학협력 중장기 발전계획 4.0 수립을 위한 연구 용역",
+      "org": "인제대학교 산학협력단",
+      "deadline": "",
+      "amount": 50000000,
+      "amount_label": "5,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01650328&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01650335",
+      "title": "글로벌 이노베이션 브릿지(일본) 용역",
+      "org": "인제대학교 산학협력단",
+      "deadline": "",
+      "amount": 60000000,
+      "amount_label": "6,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01650335&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01650335",
+      "title": "글로벌 이노베이션 브릿지(일본) 용역",
+      "org": "인제대학교 산학협력단",
+      "deadline": "",
+      "amount": 60000000,
+      "amount_label": "6,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01650335&bidPbancOrd=002",
+      "status": "review"
+    }
+  ]
 }
