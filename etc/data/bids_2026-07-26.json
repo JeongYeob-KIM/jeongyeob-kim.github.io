@@ -1,12 +1,41 @@
 {
   "date": "2026-07-26",
-  "generated_at": "2026-07-26T14:51:32.878602+09:00",
+  "generated_at": "2026-07-26T19:44:37.969943+09:00",
   "summary": {
-    "total_reviewed": 1,
+    "total_reviewed": 6,
     "fit": 0,
-    "review": 0,
-    "excluded": 1
+    "review": 2,
+    "excluded": 4
   },
   "fit": [],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01650512",
+      "title": "경성대학교 2026 K-MEGA Opera in Europe 운영 위탁 용역 입찰 공고",
+      "org": "경성대학교 직속기관 산학협력단",
+      "deadline": "20260803",
+      "amount": 199772727,
+      "amount_label": "1억 9,977만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01650512&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01650398",
+      "title": "2026 KAIST Tech Fair 특별관 조성 및 운영 용역",
+      "org": "한국과학기술원",
+      "deadline": "",
+      "amount": 49090909,
+      "amount_label": "4,909만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01650398&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
