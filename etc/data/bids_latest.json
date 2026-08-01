@@ -1,12 +1,126 @@
 {
   "date": "2026-08-01",
-  "generated_at": "2026-08-01T08:08:17.704710+09:00",
+  "generated_at": "2026-08-01T14:46:40.769405+09:00",
   "summary": {
-    "total_reviewed": 0,
-    "fit": 0,
-    "review": 0,
+    "total_reviewed": 8,
+    "fit": 3,
+    "review": 5,
     "excluded": 0
   },
-  "fit": [],
-  "review": []
+  "fit": [
+    {
+      "no": "R26BK01661461",
+      "title": "2026년 이웃종교스테이 기획 및 행사운영 용역",
+      "org": "한국종교인평화회의",
+      "deadline": "20260812",
+      "amount": 265090909,
+      "amount_label": "2억 6,509만원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01661461&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01661458",
+      "title": "2026년 제19회 김포 세계인 큰잔치 행사 대행 용역",
+      "org": "김포시외국인주민지원센터",
+      "deadline": "20260812",
+      "amount": 104545455,
+      "amount_label": "1억 454만원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01661458&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01661472",
+      "title": "2026학년도 선덕고등학교 1,2학년 소규모테마형 교육여행 위탁용역 업체 선정 전자입찰 공고(긴급)",
+      "org": "서울특별시교육청 선덕고등학교",
+      "deadline": "20260814",
+      "amount": 901996727,
+      "amount_label": "9억 199만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01661472&bidPbancOrd=000",
+      "status": "fit"
+    }
+  ],
+  "review": [
+    {
+      "no": "R26BK01661465",
+      "title": "2026학년도 상봉중학교  2학년 수련활동 위탁용역 입찰공고(2단계입찰규격-가격분리 동시입찰)",
+      "org": "서울특별시동부교육청 상봉중학교",
+      "deadline": "20260812",
+      "amount": 63572727,
+      "amount_label": "6,357만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01661465&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01661481",
+      "title": "2026년 스마트생태공장 구축사업_컨설팅 용역",
+      "org": "(주)삼정산업",
+      "deadline": "20260807",
+      "amount": 20000000,
+      "amount_label": "2,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01661481&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01661465",
+      "title": "2026학년도 상봉중학교  2학년 수련활동 위탁용역 입찰공고(2단계입찰규격-가격분리 동시입찰)",
+      "org": "서울특별시동부교육청 상봉중학교",
+      "deadline": "20260812",
+      "amount": 63572727,
+      "amount_label": "6,357만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01661465&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01661452",
+      "title": "2026 시산소류지 정밀안전진단용역 수의(2인 이상) 견적제출 안내공고",
+      "org": "충청남도 예산군",
+      "deadline": "20260806",
+      "amount": 40590000,
+      "amount_label": "4,059만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01661452&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01661451",
+      "title": "2026 신흥소류지 정밀안전진단용역 수의(2인 이상) 견적제출 안내공고",
+      "org": "충청남도 예산군",
+      "deadline": "20260806",
+      "amount": 40860000,
+      "amount_label": "4,086만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01661451&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
