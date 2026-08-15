@@ -1,12 +1,72 @@
 {
   "date": "2026-08-15",
-  "generated_at": "2026-08-15T12:31:44.891564+09:00",
+  "generated_at": "2026-08-15T18:25:55.857120+09:00",
   "summary": {
-    "total_reviewed": 0,
-    "fit": 0,
-    "review": 0,
+    "total_reviewed": 4,
+    "fit": 2,
+    "review": 2,
     "excluded": 0
   },
-  "fit": [],
-  "review": []
+  "fit": [
+    {
+      "no": "R26BK01683866",
+      "title": "2024년 강소형 스마트도시 조성사업 홍보 및 행사 대행 용역",
+      "org": "주식회사 센코",
+      "deadline": "20260826",
+      "amount": 300000000,
+      "amount_label": "3억원",
+      "urgent": false,
+      "tags": [
+        "소식지·홍보물",
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01683866&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01684240",
+      "title": "[긴급] 성균관·향교·서원 전문해설사 양성 및 유교문화 영상 강의 콘텐츠 제작 용역",
+      "org": "성균관",
+      "deadline": "20260826",
+      "amount": 35454545,
+      "amount_label": "3,545만원",
+      "urgent": false,
+      "tags": [
+        "콘텐츠 제작",
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01684240&bidPbancOrd=000",
+      "status": "fit"
+    }
+  ],
+  "review": [
+    {
+      "no": "R26BK01681540",
+      "title": "장기면 고향올래(두지역살이) 조성사업 테마공간별 특화 프로그램 운영 용역(협상에 의한 계약) 입찰 공고(긴급)",
+      "org": "경상북도 포항시",
+      "deadline": "",
+      "amount": 345454545,
+      "amount_label": "3억 4,545만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01681540&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01684271",
+      "title": "2026년 레클리스 콘서트 대행용역",
+      "org": "한국마사회제주경마장",
+      "deadline": "20260827",
+      "amount": 109090909,
+      "amount_label": "1억 909만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01684271&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
