@@ -1,12 +1,27 @@
 {
   "date": "2026-08-16",
-  "generated_at": "2026-08-16T12:40:02.337123+09:00",
+  "generated_at": "2026-08-16T18:27:11.746508+09:00",
   "summary": {
-    "total_reviewed": 0,
-    "fit": 0,
+    "total_reviewed": 7,
+    "fit": 1,
     "review": 0,
-    "excluded": 0
+    "excluded": 6
   },
-  "fit": [],
+  "fit": [
+    {
+      "no": "R26BK01684332",
+      "title": "청주중앙시장 문화축제 및 별별야시장 운영 용역",
+      "org": "중앙시장 문화관광형시장 육성사업단",
+      "deadline": "",
+      "amount": 72727273,
+      "amount_label": "7,272만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01684332&bidPbancOrd=000",
+      "status": "fit"
+    }
+  ],
   "review": []
 }
