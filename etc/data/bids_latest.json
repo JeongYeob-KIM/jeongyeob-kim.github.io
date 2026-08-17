@@ -1,13 +1,70 @@
 {
   "date": "2026-08-17",
-  "generated_at": "2026-08-17T12:41:36.713342+09:00",
+  "generated_at": "2026-08-17T18:41:29.323272+09:00",
   "summary": {
-    "total_reviewed": 11,
-    "fit": 0,
-    "review": 8,
-    "excluded": 3
+    "total_reviewed": 20,
+    "fit": 4,
+    "review": 10,
+    "excluded": 6
   },
-  "fit": [],
+  "fit": [
+    {
+      "no": "R26BK01679050",
+      "title": "DX-SPARK 2040 직무교육(DX 융합 신산업 상품화 및  탄소중립 실무) 운영",
+      "org": "부산과학기술대학교 산학협력단",
+      "deadline": "20260824",
+      "amount": 30909091,
+      "amount_label": "3,090만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01679050&bidPbancOrd=001",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01684411",
+      "title": "DX-SPARK 2040 직무교육(DX 융합 신산업 상품화 및  탄소중립 실무) 운영",
+      "org": "부산과학기술대학교 산학협력단",
+      "deadline": "20260828",
+      "amount": 30909091,
+      "amount_label": "3,090만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01684411&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01684435",
+      "title": "26년 OTT특화콘텐츠제작지원(드라마) 음악감독 용역",
+      "org": "주식회사 와이랩",
+      "deadline": "20260828",
+      "amount": 120000000,
+      "amount_label": "1억 2,000만원",
+      "urgent": false,
+      "tags": [
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01684435&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01684438",
+      "title": "26년 OTT특화콘텐츠제작지원(드라마) 믹싱 용역",
+      "org": "주식회사 와이랩",
+      "deadline": "20260828",
+      "amount": 55000000,
+      "amount_label": "5,500만원",
+      "urgent": false,
+      "tags": [
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01684438&bidPbancOrd=000",
+      "status": "fit"
+    }
+  ],
   "review": [
     {
       "no": "R26BK01682802",
@@ -119,6 +176,34 @@
         "기타"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01683951&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01684352",
+      "title": "2D 숏폼 애니메이션 [크리퍼스] 배경·레이아웃 제작 용역",
+      "org": "주식회사 모스테입스",
+      "deadline": "20260828",
+      "amount": 50000000,
+      "amount_label": "5,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01684352&bidPbancOrd=003",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01684347",
+      "title": "2D 숏폼 애니메이션 [크리퍼스] 메인프로덕션 제작 용역",
+      "org": "주식회사 모스테입스",
+      "deadline": "20260828",
+      "amount": 62500000,
+      "amount_label": "6,250만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01684347&bidPbancOrd=001",
       "status": "review"
     }
   ]
