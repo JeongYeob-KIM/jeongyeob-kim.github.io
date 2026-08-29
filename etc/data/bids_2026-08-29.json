@@ -1,13 +1,27 @@
 {
   "date": "2026-08-29",
-  "generated_at": "2026-08-29T12:36:06.003677+09:00",
+  "generated_at": "2026-08-29T18:35:06.780582+09:00",
   "summary": {
-    "total_reviewed": 9,
-    "fit": 1,
+    "total_reviewed": 10,
+    "fit": 2,
     "review": 6,
     "excluded": 2
   },
   "fit": [
+    {
+      "no": "R26BK01704175",
+      "title": "(협상계약)제12회 한국수산업경영인 충청남도대회 행사 용역",
+      "org": "한국수산업경영인보령시연합회",
+      "deadline": "",
+      "amount": 145454545,
+      "amount_label": "1억 4,545만원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01704175&bidPbancOrd=000",
+      "status": "fit"
+    },
     {
       "no": "R26BK01704164",
       "title": "2028 세계디자인수도(WDC) 부산 디지털 플랫폼 구축 용역",
