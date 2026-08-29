@@ -1,12 +1,112 @@
 {
   "date": "2026-08-29",
-  "generated_at": "2026-08-29T05:44:17.441644+09:00",
+  "generated_at": "2026-08-29T12:36:06.003677+09:00",
   "summary": {
-    "total_reviewed": 0,
-    "fit": 0,
-    "review": 0,
-    "excluded": 0
+    "total_reviewed": 9,
+    "fit": 1,
+    "review": 6,
+    "excluded": 2
   },
-  "fit": [],
-  "review": []
+  "fit": [
+    {
+      "no": "R26BK01704164",
+      "title": "2028 세계디자인수도(WDC) 부산 디지털 플랫폼 구축 용역",
+      "org": "(재)부산디자인진흥원",
+      "deadline": "20260909",
+      "amount": 90000000,
+      "amount_label": "9,000만원",
+      "urgent": false,
+      "tags": [
+        "인쇄·편집"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01704164&bidPbancOrd=000",
+      "status": "fit"
+    }
+  ],
+  "review": [
+    {
+      "no": "R26BK01704156",
+      "title": "제44회 금산세계인삼축제 드론라이팅쇼 운영 용역 입찰 재공고(협상에 의한 계약, 긴급공고)",
+      "org": "재단법인 금산문화관광축제재단",
+      "deadline": "",
+      "amount": 145454545,
+      "amount_label": "1억 4,545만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01704156&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01703813",
+      "title": "2026학년도 서울대학교 경영전문대학원 MBA 해외현장학습(GRP, Global Residence Program) 위탁 운영(싱가포르)",
+      "org": "서울대학교 경영대학",
+      "deadline": "20260910",
+      "amount": 87727273,
+      "amount_label": "8,772만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01703813&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01704022",
+      "title": "2026학년도 서울대학교 경영전문대학원 MBA 해외현장학습(GRP, Global Residence Program) 위탁 운영(대만)",
+      "org": "서울대학교 경영대학",
+      "deadline": "20260910",
+      "amount": 62454545,
+      "amount_label": "6,245만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01704022&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01704029",
+      "title": "2026학년도 서울대학교 경영전문대학원 MBA 해외현장학습(GRP, Global Residence Program) 위탁 운영(일본)",
+      "org": "서울대학교 경영대학",
+      "deadline": "20260910",
+      "amount": 78454545,
+      "amount_label": "7,845만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01704029&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01704162",
+      "title": "2026년 유소년스포츠기반구축 사업 컬링 권역별대회 및 전국대회 운영 용역",
+      "org": "사단법인 대한컬링연맹",
+      "deadline": "20260909",
+      "amount": 154245455,
+      "amount_label": "1억 5,424만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01704162&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01697638",
+      "title": "2026년『행복 북구, THE(더) 빛나길』빛거리 운영 용역",
+      "org": "대구광역시 북구",
+      "deadline": "",
+      "amount": 81818182,
+      "amount_label": "8,181만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01697638&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
