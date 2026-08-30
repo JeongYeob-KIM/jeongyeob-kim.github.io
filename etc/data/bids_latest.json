@@ -1,12 +1,41 @@
 {
   "date": "2026-08-30",
-  "generated_at": "2026-08-30T09:01:12.893820+09:00",
+  "generated_at": "2026-08-30T17:43:28.746072+09:00",
   "summary": {
-    "total_reviewed": 0,
+    "total_reviewed": 4,
     "fit": 0,
-    "review": 0,
-    "excluded": 0
+    "review": 2,
+    "excluded": 2
   },
   "fit": [],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01704288",
+      "title": "2026 경기도자비엔날레와 함께하는 전통도자 체험 프로그램 운영",
+      "org": "경기도 이천시",
+      "deadline": "20260831",
+      "amount": 27236364,
+      "amount_label": "2,723만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01704288&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01704342",
+      "title": "2026년 전곡 도시재생활성화 사업 선진지 벤치마킹 운영 용역",
+      "org": "경기도 연천군",
+      "deadline": "20260831",
+      "amount": 16220000,
+      "amount_label": "1,622만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01704342&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
