@@ -1,11 +1,11 @@
 {
   "date": "2026-08-30",
-  "generated_at": "2026-08-30T17:43:28.746072+09:00",
+  "generated_at": "2026-08-30T23:17:50.985819+09:00",
   "summary": {
-    "total_reviewed": 4,
+    "total_reviewed": 9,
     "fit": 0,
-    "review": 2,
-    "excluded": 2
+    "review": 3,
+    "excluded": 6
   },
   "fit": [],
   "review": [
@@ -35,6 +35,20 @@
         "기타"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01704342&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01704073",
+      "title": "2026년 부동산 빅데이터 플랫폼 운영 및 유지관리",
+      "org": "한국부동산원",
+      "deadline": "20260911",
+      "amount": 91818182,
+      "amount_label": "9,181만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01704073&bidPbancOrd=000",
       "status": "review"
     }
   ]
