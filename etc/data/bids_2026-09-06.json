@@ -1,27 +1,12 @@
 {
   "date": "2026-09-06",
-  "generated_at": "2026-09-06T16:26:26.065444+09:00",
+  "generated_at": "2026-09-06T21:40:31.345774+09:00",
   "summary": {
-    "total_reviewed": 7,
+    "total_reviewed": 0,
     "fit": 0,
-    "review": 1,
-    "excluded": 6
+    "review": 0,
+    "excluded": 0
   },
   "fit": [],
-  "review": [
-    {
-      "no": "R26BK01713203",
-      "title": "전북특별자치도 재생에너지 확대를 위한 전력계통 분석 및 대응전략 수립 용역",
-      "org": "전북특별자치도",
-      "deadline": "20260918",
-      "amount": 134545454,
-      "amount_label": "1억 3,454만원",
-      "urgent": false,
-      "tags": [
-        "기타"
-      ],
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01713203&bidPbancOrd=000",
-      "status": "review"
-    }
-  ]
+  "review": []
 }
