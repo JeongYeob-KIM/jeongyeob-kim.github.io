@@ -1,12 +1,27 @@
 {
   "date": "2026-09-13",
-  "generated_at": "2026-09-13T16:49:22.460365+09:00",
+  "generated_at": "2026-09-13T22:41:30.641486+09:00",
   "summary": {
-    "total_reviewed": 0,
+    "total_reviewed": 2,
     "fit": 0,
-    "review": 0,
-    "excluded": 0
+    "review": 1,
+    "excluded": 1
   },
   "fit": [],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01726530",
+      "title": "학교법인 충청학원(충청대학교)  중대재해처벌법 안전보건관리체계 구축 및 의무이행점검 용역",
+      "org": "충청대학교",
+      "deadline": "",
+      "amount": 50000000,
+      "amount_label": "5,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01726530&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
