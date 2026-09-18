@@ -1,69 +1,12 @@
 {
   "date": "2026-09-18",
-  "generated_at": "2026-09-18T09:01:19.100922+09:00",
+  "generated_at": "2026-09-18T16:47:10.308475+09:00",
   "summary": {
-    "total_reviewed": 8,
+    "total_reviewed": 0,
     "fit": 0,
-    "review": 4,
-    "excluded": 4
+    "review": 0,
+    "excluded": 0
   },
   "fit": [],
-  "review": [
-    {
-      "no": "R26BK01735174",
-      "title": "달 착륙선 구조 해석 용역",
-      "org": "한국항공우주연구원",
-      "deadline": "20261029",
-      "amount": 540272727,
-      "amount_label": "5억 4,027만원",
-      "urgent": false,
-      "tags": [
-        "기타"
-      ],
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01735174&bidPbancOrd=000",
-      "status": "review"
-    },
-    {
-      "no": "R26BK01723226",
-      "title": "한양대학교 산학협력단 2026년 글로벌 AI 인재양성 해외협력 프로그램 총괄 운영지원 용역",
-      "org": "한양대학교 산학협력단",
-      "deadline": "20260921",
-      "amount": 72727273,
-      "amount_label": "7,272만원",
-      "urgent": true,
-      "tags": [
-        "기타"
-      ],
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01723226&bidPbancOrd=001",
-      "status": "review"
-    },
-    {
-      "no": "R26BK01736074",
-      "title": "모로코 라바트 대중교통 중심 친환경 교통체계 구축사업 관련 한국 초청연수 대행 용역",
-      "org": "부천도시공사",
-      "deadline": "20260929",
-      "amount": 59100000,
-      "amount_label": "5,910만원",
-      "urgent": false,
-      "tags": [
-        "기타"
-      ],
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01736074&bidPbancOrd=000",
-      "status": "review"
-    },
-    {
-      "no": "R26BK01736088",
-      "title": "(26F164-I)26년보급근무분야민간위탁용역(강원 춘천)",
-      "org": "국방부 국군재정관리단",
-      "deadline": "20261013",
-      "amount": 1931485816,
-      "amount_label": "19억 3,148만원",
-      "urgent": false,
-      "tags": [
-        "기타"
-      ],
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01736088&bidPbancOrd=000",
-      "status": "review"
-    }
-  ]
+  "review": []
 }
