@@ -1,12 +1,83 @@
 {
   "date": "2026-09-19",
-  "generated_at": "2026-09-19T09:04:02.409481+09:00",
+  "generated_at": "2026-09-19T16:40:20.625137+09:00",
   "summary": {
-    "total_reviewed": 0,
+    "total_reviewed": 10,
     "fit": 0,
-    "review": 0,
-    "excluded": 0
+    "review": 5,
+    "excluded": 5
   },
   "fit": [],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01737672",
+      "title": "2026 캠퍼스타운 글로벌 창업 챌린지 용역(재공고)",
+      "org": "국민대학교 산학협력단",
+      "deadline": "20260928",
+      "amount": 35000000,
+      "amount_label": "3,500만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737672&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01737697",
+      "title": "도미니카(공), 과테말라, 파라과이 농업 ODA 신규사업 사전 타당성 조사 연구 용역",
+      "org": "농촌진흥청",
+      "deadline": "20260921",
+      "amount": 33636364,
+      "amount_label": "3,363만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737697&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01737726",
+      "title": "2026년 산사태 발생 우려지역 실태조사 및 산사태취약지역 해제조사 용역(2차)",
+      "org": "대구광역시 군위군",
+      "deadline": "20260930",
+      "amount": 58657273,
+      "amount_label": "5,865만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737726&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01737726",
+      "title": "2026년 산사태 발생 우려지역 실태조사 및 산사태취약지역 해제조사 용역(2차)",
+      "org": "대구광역시 군위군",
+      "deadline": "20260930",
+      "amount": 58657273,
+      "amount_label": "5,865만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737726&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01737137",
+      "title": "2026년도 계원예술고등학교 미술동, 공연예술동 내진성능평가 용역",
+      "org": "경기도교육청 계원예술고등학교",
+      "deadline": "20260928",
+      "amount": 55576364,
+      "amount_label": "5,557만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737137&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
