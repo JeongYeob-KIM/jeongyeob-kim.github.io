@@ -1,12 +1,98 @@
 {
   "date": "2026-09-20",
-  "generated_at": "2026-09-20T17:06:18.675839+09:00",
+  "generated_at": "2026-09-20T22:28:38.029615+09:00",
   "summary": {
-    "total_reviewed": 0,
-    "fit": 0,
-    "review": 0,
-    "excluded": 0
+    "total_reviewed": 11,
+    "fit": 1,
+    "review": 5,
+    "excluded": 5
   },
-  "fit": [],
-  "review": []
+  "fit": [
+    {
+      "no": "R26BK01731624",
+      "title": "(재)함양군장학회 2026년도 초등학생 해외문화탐방 위탁용역",
+      "org": "경상남도 함양군",
+      "deadline": "",
+      "amount": 77272727,
+      "amount_label": "7,727만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01731624&bidPbancOrd=002",
+      "status": "fit"
+    }
+  ],
+  "review": [
+    {
+      "no": "R26BK01737775",
+      "title": "2026년 공공 IP 사업화 성장 지원사업 수행용역",
+      "org": "한국생산기술연구원",
+      "deadline": "20261001",
+      "amount": 15454545,
+      "amount_label": "1,545만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737775&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01737783",
+      "title": "2026년도 경산여자중학교  2학년 수학여행 숙식 용역 소액수의  견적 제출 재공고",
+      "org": "경상북도경산교육청 경산여자중학교",
+      "deadline": "20260929",
+      "amount": 58794545,
+      "amount_label": "5,879만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737783&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01737788",
+      "title": "2026학년도 경산여자중학교 1학년 야영수련활동 및 2학년 수학여행 3학년 교과연계 현장체험학습차량 임차용역 소액수의 견적 제출 안내 공고",
+      "org": "경상북도경산교육청 경산여자중학교",
+      "deadline": "20260929",
+      "amount": 40000000,
+      "amount_label": "4,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737788&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01736464",
+      "title": "2027학년도 부산외국어고등학교 2학년 국외현장체험학습(일본) 위탁용역 입찰 공고",
+      "org": "부산광역시교육청 부산외국어고등학교",
+      "deadline": "20261013",
+      "amount": 452909091,
+      "amount_label": "4억 5,290만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01736464&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01737831",
+      "title": "[버그니아: 좀팡이의 습격] TV시리즈 3D 복셀 모델링 및 키애니메이션 제작 용역",
+      "org": "주식회사 픽토스튜디오",
+      "deadline": "20261006",
+      "amount": 208000000,
+      "amount_label": "2억 800만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737831&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
