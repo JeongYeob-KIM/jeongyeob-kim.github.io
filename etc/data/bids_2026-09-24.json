@@ -1,12 +1,70 @@
 {
   "date": "2026-09-24",
-  "generated_at": "2026-09-24T09:20:46.566775+09:00",
+  "generated_at": "2026-09-24T16:58:47.728479+09:00",
   "summary": {
-    "total_reviewed": 3,
-    "fit": 0,
-    "review": 0,
+    "total_reviewed": 7,
+    "fit": 2,
+    "review": 2,
     "excluded": 3
   },
-  "fit": [],
-  "review": []
+  "fit": [
+    {
+      "no": "R26BK01744466",
+      "title": "2026년 울산광역시 보육주간기념행사",
+      "org": "울산광역시어린이집연합회",
+      "deadline": "20260930",
+      "amount": 59545455,
+      "amount_label": "5,954만원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01744466&bidPbancOrd=001",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01744466",
+      "title": "2026년 울산광역시 보육주간기념행사",
+      "org": "울산광역시어린이집연합회",
+      "deadline": "20260930",
+      "amount": 59545455,
+      "amount_label": "5,954만원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01744466&bidPbancOrd=002",
+      "status": "fit"
+    }
+  ],
+  "review": [
+    {
+      "no": "R26BK01736671",
+      "title": "군포시립어린이집 위탁운영체[자] 모집 공고 (변경위탁)",
+      "org": "경기도 군포시",
+      "deadline": "",
+      "amount": 456714000,
+      "amount_label": "4억 5,671만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01736671&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01744590",
+      "title": "테이스트 오브 조선 운영 용역 입찰공고",
+      "org": "(재)한국정신문화재단",
+      "deadline": "20261006",
+      "amount": 59090909,
+      "amount_label": "5,909만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01744590&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
