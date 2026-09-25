@@ -1,12 +1,27 @@
 {
   "date": "2026-09-25",
-  "generated_at": "2026-09-25T17:21:48.436572+09:00",
+  "generated_at": "2026-09-25T23:27:10.329874+09:00",
   "summary": {
-    "total_reviewed": 0,
+    "total_reviewed": 1,
     "fit": 0,
-    "review": 0,
+    "review": 1,
     "excluded": 0
   },
   "fit": [],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01744644",
+      "title": "「광주첨단 스마트그린 AX실증산단 구축 사업」 디지털트윈 기획 및 설계 용역",
+      "org": "주식회사 레플러스",
+      "deadline": "",
+      "amount": 61456000,
+      "amount_label": "6,145만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01744644&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
