@@ -1,12 +1,27 @@
 {
   "date": "2026-09-26",
-  "generated_at": "2026-09-26T17:08:30.786839+09:00",
+  "generated_at": "2026-09-26T22:38:31.875778+09:00",
   "summary": {
-    "total_reviewed": 2,
+    "total_reviewed": 4,
     "fit": 0,
-    "review": 0,
-    "excluded": 2
+    "review": 1,
+    "excluded": 3
   },
   "fit": [],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01744707",
+      "title": "2026년 한국생명공학연구원 대전본원 보건관리 컨설팅 용역",
+      "org": "한국생명공학연구원",
+      "deadline": "20261006",
+      "amount": 38796363,
+      "amount_label": "3,879만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01744707&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
