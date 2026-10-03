@@ -1,11 +1,11 @@
 {
   "date": "2026-10-03",
-  "generated_at": "2026-10-03T17:43:45.725080+09:00",
+  "generated_at": "2026-10-03T23:09:42.547303+09:00",
   "summary": {
-    "total_reviewed": 5,
+    "total_reviewed": 8,
     "fit": 1,
-    "review": 2,
-    "excluded": 2
+    "review": 4,
+    "excluded": 3
   },
   "fit": [
     {
@@ -50,6 +50,34 @@
         "기타"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01756010&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01756071",
+      "title": "고급 분자 분석 및 통합 바이오마커 분석 용역 업체 선정",
+      "org": "인하대학교",
+      "deadline": "",
+      "amount": 24363636,
+      "amount_label": "2,436만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01756071&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01756071",
+      "title": "고급 분자 분석 및 통합 바이오마커 분석 용역 업체 선정",
+      "org": "인하대학교",
+      "deadline": "",
+      "amount": 24363636,
+      "amount_label": "2,436만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01756071&bidPbancOrd=001",
       "status": "review"
     }
   ]
