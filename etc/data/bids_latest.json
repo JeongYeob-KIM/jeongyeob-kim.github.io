@@ -1,12 +1,27 @@
 {
   "date": "2026-10-04",
-  "generated_at": "2026-10-04T18:03:38.996609+09:00",
+  "generated_at": "2026-10-04T23:39:08.305910+09:00",
   "summary": {
-    "total_reviewed": 2,
-    "fit": 0,
+    "total_reviewed": 3,
+    "fit": 1,
     "review": 0,
     "excluded": 2
   },
-  "fit": [],
+  "fit": [
+    {
+      "no": "R26BK01756147",
+      "title": "2026년도 기아타이거즈 홈 최종전 이벤트",
+      "org": "기아타이거즈 주식회사",
+      "deadline": "",
+      "amount": 65000000,
+      "amount_label": "6,500만원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01756147&bidPbancOrd=000",
+      "status": "fit"
+    }
+  ],
   "review": []
 }
