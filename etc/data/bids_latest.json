@@ -1,11 +1,11 @@
 {
   "date": "2026-10-07",
-  "generated_at": "2026-10-07T10:21:09.612000+09:00",
+  "generated_at": "2026-10-07T18:33:47.826506+09:00",
   "summary": {
-    "total_reviewed": 144,
-    "fit": 17,
-    "review": 78,
-    "excluded": 49
+    "total_reviewed": 705,
+    "fit": 61,
+    "review": 305,
+    "excluded": 339
   },
   "fit": [
     {
@@ -24,6 +24,34 @@
       "status": "fit"
     },
     {
+      "no": "R26BK01759685",
+      "title": "2026년 모두의 창업 프로젝트 2기 홍보 운영",
+      "org": "서울특별시 서울시립대학교 산학협력단",
+      "deadline": "20261007",
+      "amount": 15000000,
+      "amount_label": "1,500만원",
+      "urgent": true,
+      "tags": [
+        "소식지·홍보물"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759685&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760336",
+      "title": "2026년 단체구기 리더스포츠클럽 지도자 역량강화 전문교육 운영 용역",
+      "org": "대한체육회",
+      "deadline": "20261007",
+      "amount": 136275358,
+      "amount_label": "1억 3,627만원",
+      "urgent": true,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760336&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
       "no": "R26BK01759436",
       "title": "부소산성 16차 발굴조사 보고서 수록대상유물 사진 촬영",
       "org": "국가유산청 국립문화유산연구원 국립부여문화유산연구소",
@@ -35,6 +63,35 @@
         "콘텐츠 제작"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759436&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01759642",
+      "title": "2026년 컴퓨터기반 학업성취도 평가 콘텐츠 제작형 문항 편집 용역 ",
+      "org": "한국교육과정평가원",
+      "deadline": "20261008",
+      "amount": 36363636,
+      "amount_label": "3,636만원",
+      "urgent": true,
+      "tags": [
+        "콘텐츠 제작",
+        "인쇄·편집"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759642&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01761174",
+      "title": "119마음회복센터 준공식 행사대행 용역",
+      "org": "서울특별시 소방재난본부",
+      "deadline": "20261008",
+      "amount": 14501818,
+      "amount_label": "1,450만원",
+      "urgent": true,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761174&bidPbancOrd=000",
       "status": "fit"
     },
     {
@@ -80,6 +137,203 @@
       "status": "fit"
     },
     {
+      "no": "R26BK01759461",
+      "title": "(긴급) 2026년 특성화지방대학(글로컬대학) 제3차 실크로드 워킹 포럼 용역(재공고)",
+      "org": "대구한의대학교",
+      "deadline": "",
+      "amount": 272727273,
+      "amount_label": "2억 7,272만원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759461&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01759307",
+      "title": "(재)도봉문화재단 중장기발전 계획 수립 연구 용역",
+      "org": "재단법인 도봉문화재단",
+      "deadline": "",
+      "amount": 50000000,
+      "amount_label": "5,000만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759307&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01753393",
+      "title": "(긴급)2026년 소상공인연합회 소상공인교육원(소상공인 디지털교육센터) 홈페이지 리뉴얼 및 고도화 사업",
+      "org": "소상공인연합회",
+      "deadline": "",
+      "amount": 61818182,
+      "amount_label": "6,181만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01753393&bidPbancOrd=001",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01759944",
+      "title": "[협상에의한계약] 2027년 전남광주통합특별시체육대회 공개행사 대행 용역",
+      "org": "전남광주통합특별시 고흥군",
+      "deadline": "",
+      "amount": 1000000000,
+      "amount_label": "10억원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759944&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760201",
+      "title": "2027 평창 눈동이 패스포트 행사 대행 용역",
+      "org": "재단법인평창유산재단",
+      "deadline": "",
+      "amount": 200000000,
+      "amount_label": "2억원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760201&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01753393",
+      "title": "(긴급)2026년 소상공인연합회 소상공인교육원(소상공인 디지털교육센터) 홈페이지 리뉴얼 및 고도화 사업",
+      "org": "소상공인연합회",
+      "deadline": "",
+      "amount": 61818182,
+      "amount_label": "6,181만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01753393&bidPbancOrd=002",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760331",
+      "title": "2026년 민물장어 소비촉진 홍보 대행사 선정",
+      "org": "(사)한국민물장어생산자협회",
+      "deadline": "",
+      "amount": 65454545,
+      "amount_label": "6,545만원",
+      "urgent": false,
+      "tags": [
+        "소식지·홍보물",
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760331&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760756",
+      "title": "2026 문화가 있는 산업단지 [K-매운맛 페스티벌] 스마트헬스케어 IN 전시체험전 설치 및 공간연출 운영용역",
+      "org": "(재)원주문화재단",
+      "deadline": "",
+      "amount": 259090909,
+      "amount_label": "2억 5,909만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760756&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760563",
+      "title": "부송동 골목형상점가 유망골목상권 육성사업 상인교육",
+      "org": "비스타컨설팅그룹주식회사",
+      "deadline": "",
+      "amount": 19000000,
+      "amount_label": "1,900만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760563&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760761",
+      "title": "2026 경기도는 공연중 통합 홍보 운영 용역 (재공고)",
+      "org": "재단법인경기문화재단",
+      "deadline": "",
+      "amount": 74909091,
+      "amount_label": "7,490만원",
+      "urgent": false,
+      "tags": [
+        "소식지·홍보물"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760761&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760859",
+      "title": "위해시 공동 플래그십스토어(5호점) 오픈행사 및 온·오프라인 지원사업 용역 ",
+      "org": "대구한의대학교 산학협력단",
+      "deadline": "",
+      "amount": 286363636,
+      "amount_label": "2억 8,636만원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760859&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760859",
+      "title": "위해시 공동 플래그십스토어(5호점) 오픈행사 및 온·오프라인 지원사업 용역 ",
+      "org": "대구한의대학교 산학협력단",
+      "deadline": "",
+      "amount": 286363636,
+      "amount_label": "2억 8,636만원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760859&bidPbancOrd=001",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01758977",
+      "title": "국립산림재난안전교육훈련센터 조성사업 설계용역",
+      "org": "조달청",
+      "deadline": "",
+      "amount": 1614260453,
+      "amount_label": "16억 1,426만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758977&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760758",
+      "title": "2026년 창업도약(일반) 2026 충북 테크페어 디자인·제작 용역",
+      "org": "서원대학교 산학협력단",
+      "deadline": "20261013",
+      "amount": 9090909,
+      "amount_label": "909만원",
+      "urgent": false,
+      "tags": [
+        "인쇄·편집"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760758&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
       "no": "R26BK01758868",
       "title": "2026년 지표투과레이더(GPR) 지반탐사용역(긴급)",
       "org": "경기도 파주시",
@@ -94,6 +348,34 @@
       "status": "fit"
     },
     {
+      "no": "R26BK01758351",
+      "title": "2026 학력신장 및 진로교육 유공 교원 국내 연수 위탁 용역",
+      "org": "강원특별자치도교육청",
+      "deadline": "20261014",
+      "amount": 81818182,
+      "amount_label": "8,181만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758351&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760979",
+      "title": "2026 교육공무직 국외봉사연수 운영 용역",
+      "org": "충청남도교육청",
+      "deadline": "20261014",
+      "amount": 75956364,
+      "amount_label": "7,595만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760979&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
       "no": "R26BK01759451",
       "title": "청학초등학교 등 2교(부산영상예술고) 내진성능평가용역 소액수의 전자견적 공고",
       "org": "부산광역시교육청 부산광역시서부교육지원청",
@@ -105,6 +387,63 @@
         "콘텐츠 제작"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759451&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760603",
+      "title": "세종문화회관 기관장 수행기사(운전직) 파견 용역",
+      "org": "재단법인세종문화회관",
+      "deadline": "20261015",
+      "amount": 72554330,
+      "amount_label": "7,255만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760603&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01761021",
+      "title": "콘텐츠기업지원센터 조성사업 폐기물처리 용역",
+      "org": "제주특별자치도",
+      "deadline": "20261015",
+      "amount": 197901818,
+      "amount_label": "1억 9,790만원",
+      "urgent": false,
+      "tags": [
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761021&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01761021",
+      "title": "콘텐츠기업지원센터 조성사업 폐기물처리 용역",
+      "org": "제주특별자치도",
+      "deadline": "20261015",
+      "amount": 197901818,
+      "amount_label": "1억 9,790만원",
+      "urgent": false,
+      "tags": [
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761021&bidPbancOrd=001",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01759178",
+      "title": "홍보 영상 제작 및 전시, 홍보 부스 지원 용역",
+      "org": "에스큐엔지니어링(주)",
+      "deadline": "20261016",
+      "amount": 103000000,
+      "amount_label": "1억 300만원",
+      "urgent": false,
+      "tags": [
+        "소식지·홍보물",
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759178&bidPbancOrd=000",
       "status": "fit"
     },
     {
@@ -194,6 +533,165 @@
       "status": "fit"
     },
     {
+      "no": "R26BK01759430",
+      "title": "AI기반 디지털트윈 EV 정비 교육용 콘텐츠 제작 용역(수정)",
+      "org": "국민대학교 산학협력단",
+      "deadline": "20261019",
+      "amount": 218181818,
+      "amount_label": "2억 1,818만원",
+      "urgent": false,
+      "tags": [
+        "콘텐츠 제작",
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759430&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01759658",
+      "title": "「신입행원 (재)연수 교육훈련운영」 위탁용역기업 선정",
+      "org": "중소기업은행",
+      "deadline": "20261019",
+      "amount": 361818182,
+      "amount_label": "3억 6,181만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759658&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01756679",
+      "title": "국립경찰박물관 경찰역사·박물관 홍보 영상 제작",
+      "org": "경찰청",
+      "deadline": "20261019",
+      "amount": 27272727,
+      "amount_label": "2,727만원",
+      "urgent": false,
+      "tags": [
+        "소식지·홍보물",
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01756679&bidPbancOrd=001",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01759749",
+      "title": "2026 ANCHOR UIC X 찾아가는 Seed-UP 및 국회세미나 운영",
+      "org": "부산과학기술대학교 산학협력단",
+      "deadline": "20261019",
+      "amount": 135909091,
+      "amount_label": "1억 3,590만원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759749&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01759787",
+      "title": "국립경찰박물관 경찰역사·박물관 홍보 영상 제작",
+      "org": "경찰청",
+      "deadline": "20261019",
+      "amount": 27272727,
+      "amount_label": "2,727만원",
+      "urgent": false,
+      "tags": [
+        "소식지·홍보물",
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759787&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760057",
+      "title": "대만 공항 디지털 옥외광고 및 온라인 홍보",
+      "org": "농업회사법인 한국포도수출연합 주식회사",
+      "deadline": "20261019",
+      "amount": 36363636,
+      "amount_label": "3,636만원",
+      "urgent": false,
+      "tags": [
+        "소식지·홍보물",
+        "미디어·PR"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760057&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760499",
+      "title": "2027년 고용노동부 국가기간 전략산업 직종훈련 제약품질 온라인콘텐츠 대여",
+      "org": "한국산업기술시험원",
+      "deadline": "20261019",
+      "amount": 48350000,
+      "amount_label": "4,835만원",
+      "urgent": false,
+      "tags": [
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760499&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01757335",
+      "title": "2026년도 2학기 사물인터넷 혁신융합대학 온라인 강의 콘텐츠 제작",
+      "org": "대전대학교산학협력단",
+      "deadline": "20261019",
+      "amount": 109090909,
+      "amount_label": "1억 909만원",
+      "urgent": false,
+      "tags": [
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01757335&bidPbancOrd=002",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760838",
+      "title": "[AI앵커]AWS 글로벌 공인자격증 취득 전문교육 위탁 용역(재공고)",
+      "org": "영남대학교",
+      "deadline": "20261019",
+      "amount": 45454545,
+      "amount_label": "4,545만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760838&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01755884",
+      "title": "2026년 전북 외국어교육 박람회 행사 운영 위탁용역",
+      "org": "전북특별자치도교육청",
+      "deadline": "20261019",
+      "amount": 59256364,
+      "amount_label": "5,925만원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼",
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755884&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01761345",
+      "title": "희망2027나눔캠페인 지역사회 맞춤형 이벤트(푸드트럭) 운영",
+      "org": "사회복지법인 사회복지공동모금회",
+      "deadline": "20261019",
+      "amount": 90909091,
+      "amount_label": "9,090만원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761345&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
       "no": "R26BK01759186",
       "title": "국가 대테러 발전 세미나 운영 용역",
       "org": "국무조정실",
@@ -223,6 +721,104 @@
       "status": "fit"
     },
     {
+      "no": "R26BK01759987",
+      "title": "(혁신) 디지털트윈 XR 융합교육 플랫폼 고도화 및  실습환경 확장 위탁 용역",
+      "org": "동아방송예술대학교",
+      "deadline": "20261020",
+      "amount": 145454545,
+      "amount_label": "1억 4,545만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759987&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760162",
+      "title": "2026년 창업인프라 통합 성과보고회 행사 운영",
+      "org": "창업진흥원",
+      "deadline": "20261020",
+      "amount": 72727273,
+      "amount_label": "7,272만원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760162&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01759556",
+      "title": "한국고용노동교육원 식당 및 매점 위탁운영",
+      "org": "조달청 서울지방조달청",
+      "deadline": "20261020",
+      "amount": 728727273,
+      "amount_label": "7억 2,872만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759556&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760105",
+      "title": "[재공고] 2026년 특별기획(가제)「빛,사진 그리고 AI 」전시체험전 위탁 용역 입찰 공고",
+      "org": "전북특별자치도교육청 전북특별자치도교육청과학교육원",
+      "deadline": "20261020",
+      "amount": 72000000,
+      "amount_label": "7,200만원",
+      "urgent": false,
+      "tags": [
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760105&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01757403",
+      "title": "2026년 AT랩 AI·XR 기술 성과확산 국제행사 운영 지원 용역",
+      "org": "조달청 서울지방조달청",
+      "deadline": "20261023",
+      "amount": 110909091,
+      "amount_label": "1억 1,090만원",
+      "urgent": false,
+      "tags": [
+        "행사·포럼"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01757403&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01760125",
+      "title": "CES 2027 글로벌 혁신역량 강화 프로그램 및 전남대 홍보부스 운영 용역",
+      "org": "조달청 광주지방조달청",
+      "deadline": "20261023",
+      "amount": 158620000,
+      "amount_label": "1억 5,862만원",
+      "urgent": false,
+      "tags": [
+        "소식지·홍보물"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760125&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01755913",
+      "title": "2026년 교육공무직원 해외연수 위탁용역",
+      "org": "전북특별자치도교육청",
+      "deadline": "20261028",
+      "amount": 103262727,
+      "amount_label": "1억 326만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755913&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
       "no": "R26BK01758930",
       "title": "충청북도교육청 5단계 스쿨넷서비스",
       "org": "한국지능정보사회진흥원",
@@ -248,6 +844,34 @@
         "행사·포럼"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758947&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01759404",
+      "title": "2027-2028년 KOTRA 사이버교육 운영 위탁",
+      "org": "대한무역투자진흥공사",
+      "deadline": "20261118",
+      "amount": 324969000,
+      "amount_label": "3억 2,496만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759404&bidPbancOrd=000",
+      "status": "fit"
+    },
+    {
+      "no": "R26BK01759488",
+      "title": "2027-2028년 KOTRA 전화외국어 교육과정 운영 위탁",
+      "org": "대한무역투자진흥공사",
+      "deadline": "20261118",
+      "amount": 287910000,
+      "amount_label": "2억 8,791만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759488&bidPbancOrd=000",
       "status": "fit"
     }
   ],
@@ -911,6 +1535,2484 @@
       "status": "review"
     },
     {
+      "no": "R26BK01759437",
+      "title": "채무상담 대표번호(1375) 콜센터 운영 위탁 용역",
+      "org": "신용회복위원회",
+      "deadline": "",
+      "amount": 10257272727,
+      "amount_label": "102억 5,727만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759437&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759446",
+      "title": "2026년 용당저수지 재난대응 안전한국훈련 예초용역 ",
+      "org": "한국농어촌공사 충북지역본부 충주.제천.단양지사",
+      "deadline": "20261007",
+      "amount": 12727273,
+      "amount_label": "1,272만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759446&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759407",
+      "title": "국립한국문학관 신축수장고 및 소장품 훈증 소독 용역",
+      "org": "국립한국문학관",
+      "deadline": "20261020",
+      "amount": 77272727,
+      "amount_label": "7,727만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759407&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759128",
+      "title": "[앵커] 2026 전북과학대학교 해외 선진지 견학프로그램 운영 위탁 용역",
+      "org": "전북과학대학교 산학협력단",
+      "deadline": "20261022",
+      "amount": 60000000,
+      "amount_label": "6,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759128&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759546",
+      "title": "2026년 송파소방서 소방차량 오일 및 필터류 교체 용역",
+      "org": "서울특별시 송파소방서",
+      "deadline": "20261008",
+      "amount": 14618800,
+      "amount_label": "1,461만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759546&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01758331",
+      "title": "2026년 대입 진학지도 유공 교원 역량강화 연수 위탁 용역",
+      "org": "강원특별자치도교육청",
+      "deadline": "20261014",
+      "amount": 90909091,
+      "amount_label": "9,090만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758331&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759495",
+      "title": "2026년 간척농지 업무 담당자 선진 농업국 연수 용역",
+      "org": "한국농어촌공사",
+      "deadline": "20261023",
+      "amount": 59090909,
+      "amount_label": "5,909만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759495&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759597",
+      "title": "2026 영호남 상생협력 화합대축전 운영 용역(재)",
+      "org": "경북문화재단",
+      "deadline": "20261019",
+      "amount": 793962727,
+      "amount_label": "7억 9,396만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759597&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01758575",
+      "title": "경기북부어린이박물관 전시고도화사업] 상설전시(공룡숲) 개편 설계 및 체험전시물 제작·설치 용역(재공고)",
+      "org": "(재)경기문화재단 경기북부어린이박물관",
+      "deadline": "",
+      "amount": 200000000,
+      "amount_label": "2억원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758575&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01757879",
+      "title": "[앵커] 지역성장 인재양성체계(앵커) 사업 성과관리를 위한 SW구축 용역(2차년도)",
+      "org": "영남대학교",
+      "deadline": "20261020",
+      "amount": 72727273,
+      "amount_label": "7,272만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01757879&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759128",
+      "title": "[앵커] 2026 전북과학대학교 해외 선진지 견학프로그램 운영 위탁 용역",
+      "org": "전북과학대학교 산학협력단",
+      "deadline": "20261022",
+      "amount": 60000000,
+      "amount_label": "6,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759128&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759449",
+      "title": "[일반용역](중앙,협상)국가줄기세포은행 자원의 세포 품질 평가 및 특성 규명을 위한 고해상도 전사체 분석",
+      "org": "조달청 충북지방조달청",
+      "deadline": "20261020",
+      "amount": 104200000,
+      "amount_label": "1억 420만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759449&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01758749",
+      "title": "혁신형SMR PCCS 열교환기 및 하부용기 Tube Plate 온도센서 설치 및 솔드링 작업 용역",
+      "org": "한국원자력연구원",
+      "deadline": "20261014",
+      "amount": 175485831,
+      "amount_label": "1억 7,548만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758749&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759511",
+      "title": "충주시 노후하수관로 정비사업(2단계) 폐기물처리(폐합성수지) 용역",
+      "org": "충청북도 충주시 하수도사업소",
+      "deadline": "20261014",
+      "amount": 24900000,
+      "amount_label": "2,490만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759511&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759687",
+      "title": "2026년 산업체 AI R&BD 프로젝트 운영",
+      "org": "부산과학기술대학교 산학협력단",
+      "deadline": "20261019",
+      "amount": 80000000,
+      "amount_label": "8,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759687&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01757392",
+      "title": "국립경찰박물관 특별 전시 등 전시환경 개선 용역",
+      "org": "경찰청",
+      "deadline": "20261019",
+      "amount": 36363636,
+      "amount_label": "3,636만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01757392&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759770",
+      "title": "국립경찰박물관 특별 전시 등 전시환경 개선 용역",
+      "org": "경찰청",
+      "deadline": "20261019",
+      "amount": 36363636,
+      "amount_label": "3,636만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759770&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759203",
+      "title": "[수의시담]산청 반값여행 홈페이지 운영 및 CS상담 대행 용역",
+      "org": "경상남도 산청군",
+      "deadline": "20261007",
+      "amount": 35636364,
+      "amount_label": "3,563만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759203&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759752",
+      "title": "[앵커] 2026 전북과학대학교 해외 선진지 견학프로그램 운영 위탁 용역",
+      "org": "전북과학대학교 산학협력단",
+      "deadline": "20261022",
+      "amount": 60000000,
+      "amount_label": "6,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759752&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759795",
+      "title": "2026년 산사태 발생 우려지역 실태조사 용역",
+      "org": "충청남도 서천군",
+      "deadline": "20261008",
+      "amount": 33545455,
+      "amount_label": "3,354만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759795&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01757838",
+      "title": "순천왕의중학교 2026학년도 3학년 수련활동 차량임차용역 수의계약 안내 공고",
+      "org": "전라남도교육청 전라남도순천교육청 순천왕의중학교",
+      "deadline": "20261014",
+      "amount": 8739436,
+      "amount_label": "873만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01757838&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759752",
+      "title": "[앵커] 2026 전북과학대학교 해외 선진지 견학프로그램 운영 위탁 용역",
+      "org": "전북과학대학교 산학협력단",
+      "deadline": "20261022",
+      "amount": 60000000,
+      "amount_label": "6,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759752&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759838",
+      "title": "[앵커] 2026 전북과학대학교 해외 선진지 견학프로그램 운영 위탁 용역",
+      "org": "전북과학대학교 산학협력단",
+      "deadline": "20261022",
+      "amount": 60000000,
+      "amount_label": "6,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759838&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759910",
+      "title": "국립암센터 암연구사업 성과분석 및 성과관리체계 고도화 연구",
+      "org": "국립암센터",
+      "deadline": "20261021",
+      "amount": 72727273,
+      "amount_label": "7,272만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759910&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759929",
+      "title": "여청2호 선체 상가수리 용역",
+      "org": "해양환경공단 여수지사",
+      "deadline": "20261007",
+      "amount": 85390000,
+      "amount_label": "8,539만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759929&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759703",
+      "title": "상암IT센터 이전 및 IDC 서비스 사업자 선정 사업",
+      "org": "조달청 부산지방조달청",
+      "deadline": "20261020",
+      "amount": 15866656364,
+      "amount_label": "158억 6,665만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759703&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759935",
+      "title": "대한민국 게임박물관 조성 기본계획(타당성 및 건축기획 분야) 수립 연구 위탁용역",
+      "org": "한국콘텐츠진흥원",
+      "deadline": "20261027",
+      "amount": 90909091,
+      "amount_label": "9,090만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759935&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759504",
+      "title": "2026년 중소기업 R&D지원사업 사업화 성공스토리 발굴",
+      "org": "중소기업기술정보진흥원",
+      "deadline": "20261021",
+      "amount": 57496364,
+      "amount_label": "5,749만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759504&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759216",
+      "title": "NANO TECH 2027 한국관 장치/조성 용역업체 선정",
+      "org": "나노융합산업연구조합",
+      "deadline": "",
+      "amount": 31093049,
+      "amount_label": "3,109만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759216&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759962",
+      "title": "아랍 환자 컨시어지 서비스 용역",
+      "org": "분당서울대학교병원",
+      "deadline": "",
+      "amount": 63897224,
+      "amount_label": "6,389만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759962&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01754809",
+      "title": "김제시 공설추모공원 조성사업 무연분묘 개장 용역",
+      "org": "전북특별자치도 김제시",
+      "deadline": "20261016",
+      "amount": 461500000,
+      "amount_label": "4억 6,150만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01754809&bidPbancOrd=002",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759982",
+      "title": "(재공고)초격차기업 국제전시 지원사업",
+      "org": "한국항공우주연구원",
+      "deadline": "20261020",
+      "amount": 44545455,
+      "amount_label": "4,454만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759982&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01757616",
+      "title": "2026 INU 소셜 AI 임팩트 챌린지(아이디어톤&해커톤) 운영 용역",
+      "org": "인천대학교",
+      "deadline": "20261019",
+      "amount": 32840000,
+      "amount_label": "3,284만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01757616&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759985",
+      "title": "2026년 수탁관리 배수장 퇴적물 제거 용역",
+      "org": "한국농어촌공사 경남지역본부 진주.산청지사",
+      "deadline": "20261007",
+      "amount": 19614545,
+      "amount_label": "1,961만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759985&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01755020",
+      "title": "2026학년도 말산업 전문인력양성기관 취업역량강화를 위한 교원 및 학생 국외 체험연수 위탁용역 ",
+      "org": "제주특별자치도교육청 서귀포산업과학고등학교",
+      "deadline": "20261012",
+      "amount": 77295455,
+      "amount_label": "7,729만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755020&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01754809",
+      "title": "김제시 공설추모공원 조성사업 무연분묘 개장 용역",
+      "org": "전북특별자치도 김제시",
+      "deadline": "20261016",
+      "amount": 461500000,
+      "amount_label": "4억 6,150만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01754809&bidPbancOrd=003",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760028",
+      "title": "2026 INU 소셜 AI 임팩트 챌린지(아이디어톤&해커톤) 운영 용역",
+      "org": "인천대학교",
+      "deadline": "20261019",
+      "amount": 32840000,
+      "amount_label": "3,284만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760028&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760032",
+      "title": "광역연계형 규제자유특구 연계 운영체계 수립 연구 ",
+      "org": "한국산업기술진흥원",
+      "deadline": "",
+      "amount": 231981818,
+      "amount_label": "2억 3,198만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760032&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760068",
+      "title": "진천 삼수초등학교 통학로 지중화 도로정비사업 폐기물처리용역에 따른 소액수의 견적제출 안내 공고",
+      "org": "충청북도 진천군",
+      "deadline": "20261014",
+      "amount": 37827273,
+      "amount_label": "3,782만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760068&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760029",
+      "title": "정책연구용역(금융권 AI 에이전트 도입을 위한 규율체계 마련)",
+      "org": "금융위원회",
+      "deadline": "20261020",
+      "amount": 27272727,
+      "amount_label": "2,727만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760029&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759710",
+      "title": "제22회 ALIN 총회 및 국제학술대회 운영지원 용역",
+      "org": "한국법제연구원",
+      "deadline": "20261019",
+      "amount": 113181818,
+      "amount_label": "1억 1,318만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759710&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760010",
+      "title": "여주교도소 사업장생활계폐기물(일반쓰레기 등) 처리용역 입찰공고",
+      "org": "법무부 서울지방교정청 여주교도소",
+      "deadline": "20261015",
+      "amount": 183272727,
+      "amount_label": "1억 8,327만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760010&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01757079",
+      "title": "삼육보건대학교 글로벌전공연수 프로그램 용역",
+      "org": "삼육간호보건대학 산학협력단",
+      "deadline": "20261015",
+      "amount": 58418182,
+      "amount_label": "5,841만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01757079&bidPbancOrd=002",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759581",
+      "title": "횡성사랑상품권(횡성사랑카드) 운영대행 용역 공고 [협상에 의한 계약]",
+      "org": "강원특별자치도 횡성군",
+      "deadline": "",
+      "amount": 490909091,
+      "amount_label": "4억 9,090만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759581&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760013",
+      "title": "2026년 신구저수지 수질개선사업 준공지구 예초 용역",
+      "org": "한국농어촌공사 충남지역본부 보령지사",
+      "deadline": "20261007",
+      "amount": 9735455,
+      "amount_label": "973만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760013&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759943",
+      "title": "명심근린공원 매장유산 추가 정밀발굴조사 용역",
+      "org": "충청북도 청주시 공원산림본부",
+      "deadline": "20261008",
+      "amount": 315454545,
+      "amount_label": "3억 1,545만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759943&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760126",
+      "title": "울산웨일즈 프로야구단 10~11월  이동급식[케이터링] 운영 용역(재공고)",
+      "org": "울산광역시체육회",
+      "deadline": "20261014",
+      "amount": 42900000,
+      "amount_label": "4,290만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760126&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760135",
+      "title": "청송군 농촌폐기물종합처리장 농축수 처리 용역(단가계약)",
+      "org": "경상북도 청송군",
+      "deadline": "20261014",
+      "amount": 37045455,
+      "amount_label": "3,704만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760135&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760108",
+      "title": "2026년 빈집정비사업 폐기물처리용역",
+      "org": "강원특별자치도 홍천군",
+      "deadline": "20261014",
+      "amount": 115750000,
+      "amount_label": "1억 1,575만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760108&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759457",
+      "title": "김포공항 태양광 발전설비 구축사업 교통영향평가 사후변경 용역",
+      "org": "한국공항공사 김포공항",
+      "deadline": "20261012",
+      "amount": 20000000,
+      "amount_label": "2,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759457&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01755257",
+      "title": "2026년 10~12월 팔공수련과정 학생수송차량 임차용역 전자입찰 공고(긴급)",
+      "org": "대구광역시교육청 대구교육팔공산수련원",
+      "deadline": "20261013",
+      "amount": 93530927,
+      "amount_label": "9,353만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755257&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760039",
+      "title": "창원 공영주차빌딩(4개소) 건물관리용역",
+      "org": "한국자산관리공사",
+      "deadline": "20261015",
+      "amount": 963688182,
+      "amount_label": "9억 6,368만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760039&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759103",
+      "title": "2026 강원 지역문제 해결을 위한 RIS-ING 동아리 해외견학 프로그램 운영 용역",
+      "org": "강원대학교 산학협력단",
+      "deadline": "20261019",
+      "amount": 72727273,
+      "amount_label": "7,272만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759103&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01757079",
+      "title": "삼육보건대학교 글로벌전공연수 프로그램 용역",
+      "org": "삼육간호보건대학 산학협력단",
+      "deadline": "20261015",
+      "amount": 58418182,
+      "amount_label": "5,841만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01757079&bidPbancOrd=003",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759428",
+      "title": "2026년 발전부문 관리업체 지정,목표설정,이행,평가 지원",
+      "org": "조달청 부산지방조달청",
+      "deadline": "20261022",
+      "amount": 118181818,
+      "amount_label": "1억 1,818만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759428&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759767",
+      "title": "[일반용역](중앙,협상)미진단 희귀질환 멀티오믹스 데이터 생산",
+      "org": "조달청 충북지방조달청",
+      "deadline": "20261020",
+      "amount": 127272727,
+      "amount_label": "1억 2,727만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759767&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760309",
+      "title": "항로표지 수집정보 기반 품질관리 및 모니터링 체계 구축 전략 연구 용역",
+      "org": "한국해양과학기술원 부설 선박해양플랜트연구소",
+      "deadline": "20261019",
+      "amount": 25454545,
+      "amount_label": "2,545만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760309&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760356",
+      "title": "안성처리구역 오수관로 신설사업(2단계) 폐기물처리용역",
+      "org": "경기도 안성시 주거환경국 하수도과",
+      "deadline": "20261015",
+      "amount": 170970909,
+      "amount_label": "1억 7,097만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760356&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760396",
+      "title": "[앵커사업] [CES 2027] 기업연계 글로컬마케터 인재양성 프로그램 용역",
+      "org": "연세대학교 미래캠퍼스",
+      "deadline": "20261019",
+      "amount": 78577000,
+      "amount_label": "7,857만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760396&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759717",
+      "title": "2026년 로맨틱 한강 크리스마스 마켓 조성 및 운영 용역",
+      "org": "서울특별시",
+      "deadline": "20261020",
+      "amount": 230732727,
+      "amount_label": "2억 3,073만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759717&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760412",
+      "title": "내면 고원국민체육센터 건립사업 폐기물처리용역",
+      "org": "강원특별자치도 홍천군",
+      "deadline": "20261014",
+      "amount": 40794545,
+      "amount_label": "4,079만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760412&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759591",
+      "title": "2026년 국가에너지실증연구단지 성과 유지관리 용역",
+      "org": "한국에너지기술평가원",
+      "deadline": "20261020",
+      "amount": 528181818,
+      "amount_label": "5억 2,818만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759591&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759514",
+      "title": "글로벌 시장진출 지원사업 운영",
+      "org": "재단법인 부산정보산업진흥원",
+      "deadline": "20261008",
+      "amount": 83809091,
+      "amount_label": "8,380만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759514&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760344",
+      "title": "수산면 힐링테마파크 조성 타당성조사 및 기본계획 수립 용역",
+      "org": "충청북도 제천시",
+      "deadline": "",
+      "amount": 90909091,
+      "amount_label": "9,090만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760344&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01740393",
+      "title": "(26F160-A)26년 보급근무분야민간위탁용역(대전 유성)",
+      "org": "국방부 국군재정관리단",
+      "deadline": "20261020",
+      "amount": 1713343891,
+      "amount_label": "17억 1,334만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01740393&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760491",
+      "title": "시산양배수장 외 1개소 수배전반 절연세척 용역",
+      "org": "한국농어촌공사 경남지역본부 김해.양산.부산지사",
+      "deadline": "20261007",
+      "amount": 9000000,
+      "amount_label": "900만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760491&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760133",
+      "title": "2026년 왕송습지 정비작업 용역",
+      "org": "한국농어촌공사 경기지역본부 화성.수원지사",
+      "deadline": "20261007",
+      "amount": 49909091,
+      "amount_label": "4,990만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760133&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01755906",
+      "title": "2027년 안산화정영어마을 이동급식 위탁운영",
+      "org": "안산대학교안산화정영어마을",
+      "deadline": "",
+      "amount": 101376000,
+      "amount_label": "1억 137만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755906&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760497",
+      "title": "2026년도 기업물류관리 활용 실태조사",
+      "org": "국토교통부",
+      "deadline": "20261020",
+      "amount": 15454545,
+      "amount_label": "1,545만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760497&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760251",
+      "title": "2026년 10~12월 팔공수련과정 학생수송차량 임차용역 전자입찰 공고(긴급)",
+      "org": "대구광역시교육청 대구교육팔공산수련원",
+      "deadline": "20261013",
+      "amount": 93530927,
+      "amount_label": "9,353만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760251&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759187",
+      "title": "27년 워게임 사이버위험관리체계 유지관리 및 운영",
+      "org": "조달청 서울지방조달청",
+      "deadline": "20261023",
+      "amount": 278536364,
+      "amount_label": "2억 7,853만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759187&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01758431",
+      "title": "2027년 신임자과정 MT운영",
+      "org": "서울특별시",
+      "deadline": "20261105",
+      "amount": 443920909,
+      "amount_label": "4억 4,392만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758431&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760535",
+      "title": "동헌마루 조성사업 석면 폐기물 처리용역",
+      "org": "전북특별자치도 김제시",
+      "deadline": "20261014",
+      "amount": 28710909,
+      "amount_label": "2,871만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760535&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760415",
+      "title": "2027~2028년 근로자지원프로그램(EAP) 신규 사업자 선정",
+      "org": "인천국제공항공사",
+      "deadline": "20261117",
+      "amount": 343400000,
+      "amount_label": "3억 4,340만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760415&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760242",
+      "title": "2027학년도 충렬고 2학년 현장체험학습 위탁 용역",
+      "org": "부산광역시교육청 충렬고등학교",
+      "deadline": "20261028",
+      "amount": 137773636,
+      "amount_label": "1억 3,777만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760242&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760640",
+      "title": "폐형광등 운반·처리용역",
+      "org": "경상북도 칠곡군",
+      "deadline": "20261014",
+      "amount": 29790000,
+      "amount_label": "2,979만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760640&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760759",
+      "title": "새만금 상생형 로봇 클러스터 조성 사업 적격성 분석 용역",
+      "org": "새만금개발청",
+      "deadline": "20261019",
+      "amount": 43636364,
+      "amount_label": "4,363만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760759&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760747",
+      "title": "2026년 중요기록물 전수조사 용역",
+      "org": "(재)우체국시설관리단",
+      "deadline": "20261019",
+      "amount": 18181818,
+      "amount_label": "1,818만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760747&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760742",
+      "title": "2026학년도 삼현여자중학교 1,3학년 현장체험학습(추계야외학습)차량임차 용역 재공고",
+      "org": "경상남도진주교육청 삼현여자중학교",
+      "deadline": "20261014",
+      "amount": 13043636,
+      "amount_label": "1,304만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760742&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01758466",
+      "title": "2027년 바이오헬스 초격차기술 확보 분야 도전적 문제발굴 및 프로젝트 기획 지원",
+      "org": "한국보건산업진흥원",
+      "deadline": "20261020",
+      "amount": 72727273,
+      "amount_label": "7,272만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758466&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759979",
+      "title": "2026~2027년 직원 장례서비스 지원 용역",
+      "org": "경상북도 울진군",
+      "deadline": "20261014",
+      "amount": 90909090,
+      "amount_label": "9,090만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759979&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760795",
+      "title": "[혁신사업] POST-GOM 챌린지업 취업캠프 운영 용역",
+      "org": "인덕대학",
+      "deadline": "20261021",
+      "amount": 118181818,
+      "amount_label": "1억 1,818만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760795&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01539882",
+      "title": "사무환경기기임대서비스외 1종",
+      "org": "조달청",
+      "deadline": "20370130",
+      "amount": 18181818181,
+      "amount_label": "181억 8,181만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01539882&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760807",
+      "title": "실리콘밸리 첨단기업 대상 투자수요 발굴 및 투자유치 사업 지원 용역(협상)",
+      "org": "경기도 수원시",
+      "deadline": "20261020",
+      "amount": 109090909,
+      "amount_label": "1억 909만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760807&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01758592",
+      "title": "운전면허 전자서식(Paperless) 서비스 확대 사업 감리 및 개인정보 영향평가",
+      "org": "조달청 강원지방조달청",
+      "deadline": "20261021",
+      "amount": 100909091,
+      "amount_label": "1억 90만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758592&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760055",
+      "title": "2027년 건강진단 지원 및 사후관리 운영사 선정",
+      "org": "서울시설공단",
+      "deadline": "20261117",
+      "amount": 2112118273,
+      "amount_label": "21억 1,211만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760055&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760271",
+      "title": "경남창원지역자활센터 자활근로 사업용차량 임차(리스) 용역",
+      "org": "경남창원지역자활센터",
+      "deadline": "20261015",
+      "amount": 41100000,
+      "amount_label": "4,110만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760271&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01752840",
+      "title": "2027 「글로벌 스케일업-미국 CES 혁신트랙」CES 통합관 조성 및 현장 운영 용역",
+      "org": "조달청",
+      "deadline": "20261028",
+      "amount": 281818182,
+      "amount_label": "2억 8,181만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01752840&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760905",
+      "title": "(재공고)2026년 국토안전관리원 단체상해보험 가입",
+      "org": "국토안전관리원",
+      "deadline": "20261019",
+      "amount": 45274365,
+      "amount_label": "4,527만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760905&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760929",
+      "title": "2026 기업리크루팅 및 현직자 직무상담회 운영 용역",
+      "org": "울산대학교 산학협력단",
+      "deadline": "20261019",
+      "amount": 27254545,
+      "amount_label": "2,725만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760929&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760874",
+      "title": "2026년 충남창업마루나비 IR피치덱 제작 지원사업",
+      "org": "충남창조경제혁신센터",
+      "deadline": "20261012",
+      "amount": 25454545,
+      "amount_label": "2,545만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760874&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760927",
+      "title": "2026 재외동포정책 만족도 조사 용역",
+      "org": "재외동포청",
+      "deadline": "20261019",
+      "amount": 34090909,
+      "amount_label": "3,409만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760927&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760535",
+      "title": "동헌마루 조성사업 석면 폐기물 처리용역",
+      "org": "전북특별자치도 김제시",
+      "deadline": "20261014",
+      "amount": 28710909,
+      "amount_label": "2,871만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760535&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01758924",
+      "title": "2026 재외동포정책 만족도 조사 용역",
+      "org": "재외동포청",
+      "deadline": "20261019",
+      "amount": 34090909,
+      "amount_label": "3,409만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758924&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760957",
+      "title": "2026년 충남창업마루나비 인플루언서 마케팅 지원사업",
+      "org": "충남창조경제혁신센터",
+      "deadline": "20261012",
+      "amount": 39090909,
+      "amount_label": "3,909만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760957&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01750578",
+      "title": "2027년 사방사업 타당성평가 위탁용역(1차)",
+      "org": "산림청 서부지방산림청",
+      "deadline": "20261012",
+      "amount": 98647273,
+      "amount_label": "9,864만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01750578&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760963",
+      "title": "2026년 비서 파견근로 용역",
+      "org": "재단법인충북테크노파크",
+      "deadline": "20261014",
+      "amount": 42292480,
+      "amount_label": "4,229만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760963&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761011",
+      "title": "2026년도 한탄강, 신천 생태계 교란식물 조사 용역",
+      "org": "경기도 연천군",
+      "deadline": "20261008",
+      "amount": 17654545,
+      "amount_label": "1,765만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761011&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01757680",
+      "title": "2027학년도 성안고등학교 2학년 현장체험학습(수학여행) 위탁 용역 업체 선정 입찰 공고(규격 가격 동시 입찰)",
+      "org": "경기도교육청 성안고등학교",
+      "deadline": "20261029",
+      "amount": 248096010,
+      "amount_label": "2억 4,809만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01757680&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759949",
+      "title": "2026년 폐매트리스 위탁처리용역(2차)(단가)",
+      "org": "경기도 양주시",
+      "deadline": "20261014",
+      "amount": 45150000,
+      "amount_label": "4,515만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759949&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01757255",
+      "title": "2026년 둔전제 습지 예초 및 잡목제거용역",
+      "org": "한국농어촌공사 전남지역본부 진도지사",
+      "deadline": "20261007",
+      "amount": 10023636,
+      "amount_label": "1,002만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01757255&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761026",
+      "title": "[일반용역](유찰수의/전자시담)비만 고위험군 아형 분류 및 중재효과 예측을 위한 단백체 자료 생산",
+      "org": "질병관리청 국립보건연구원",
+      "deadline": "20261007",
+      "amount": 45454545,
+      "amount_label": "4,545만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761026&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760881",
+      "title": "(재공고) 참조 아키텍처 기술 검증을 위한 AI/자율 소프트웨어 연동 지원",
+      "org": "국방과학연구소",
+      "deadline": "20261028",
+      "amount": 708727273,
+      "amount_label": "7억 872만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760881&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760644",
+      "title": "2026년 하반기 정규직(연구직·기술직)(수습) 채용용역",
+      "org": "한국과학기술정보연구원",
+      "deadline": "20261013",
+      "amount": 19998182,
+      "amount_label": "1,999만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760644&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760504",
+      "title": "강산지구 기계화 경작로 폐기물처리 용역",
+      "org": "한국농어촌공사 강원지역본부 철원.화천지사",
+      "deadline": "20261014",
+      "amount": 58113636,
+      "amount_label": "5,811만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760504&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760502",
+      "title": "노후 빙축저장조 지정폐기물 처리 용역 단가계약",
+      "org": "분당서울대학교병원",
+      "deadline": "20261016",
+      "amount": 649440000,
+      "amount_label": "6억 4,944만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760502&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761045",
+      "title": "다부내(봉곡2리) 마을마들기사업 주민역량강화 용역",
+      "org": "충청북도 음성군",
+      "deadline": "20261014",
+      "amount": 30572727,
+      "amount_label": "3,057만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761045&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01755919",
+      "title": "[긴급]구리시 생활폐기물 수집·운반 관리대행 용역(1구역)",
+      "org": "경기도 구리시",
+      "deadline": "20261013",
+      "amount": 12044322000,
+      "amount_label": "120억 4,432만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755919&bidPbancOrd=002",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760419",
+      "title": "스마트원예단지 기반조성사업 폐기물처리용역",
+      "org": "한국농어촌공사 충남지역본부 논산지사",
+      "deadline": "20261015",
+      "amount": 125072727,
+      "amount_label": "1억 2,507만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760419&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760116",
+      "title": "2027학년도 미사강변고등학교 1학년 숙박형 현장체험활동(수련회) 위탁 용역 재공고(긴급)",
+      "org": "경기도교육청 미사강변고등학교",
+      "deadline": "20261019",
+      "amount": 103868182,
+      "amount_label": "1억 386만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760116&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760910",
+      "title": "(긴급)풍생중학교 공간재구조화사업 폐기물 처리용역",
+      "org": "경기도성남교육청 풍생중학교",
+      "deadline": "20261014",
+      "amount": 264699090,
+      "amount_label": "2억 6,469만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760910&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01755932",
+      "title": "[긴급]구리시 생활폐기물 수집·운반 관리대행 용역(2구역)",
+      "org": "경기도 구리시",
+      "deadline": "20261013",
+      "amount": 11047671000,
+      "amount_label": "110억 4,767만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755932&bidPbancOrd=002",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761058",
+      "title": "2026년 금강야적장 폐매트리스 처리용역",
+      "org": "전북특별자치도 익산시",
+      "deadline": "20261014",
+      "amount": 84500000,
+      "amount_label": "8,450만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761058&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01755942",
+      "title": "[긴급]구리시 생활폐기물 수집·운반 관리대행 용역(3구역)",
+      "org": "경기도 구리시",
+      "deadline": "20261013",
+      "amount": 10183140000,
+      "amount_label": "101억 8,314만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755942&bidPbancOrd=002",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760741",
+      "title": "신기지구 재해위험저수지 정비사업 폐기물처리용역",
+      "org": "경상남도 의령군",
+      "deadline": "20261015",
+      "amount": 23036364,
+      "amount_label": "2,303만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760741&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760899",
+      "title": "2026년 가공 유제품 생산을 위한 국내산 저지종 성감별 수정란 확보·공급 및 이식관리 용역",
+      "org": "농협경제지주(주)젖소개량사업소",
+      "deadline": "20261117",
+      "amount": 225454545,
+      "amount_label": "2억 2,545만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760899&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760129",
+      "title": "2027년 LX플랫폼 인프라 유지관리",
+      "org": "한국국토정보공사",
+      "deadline": "20261022",
+      "amount": 213708182,
+      "amount_label": "2억 1,370만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760129&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761120",
+      "title": "2026년 TANGO 컨퍼런스 운영 용역",
+      "org": "한국정보통신기술협회",
+      "deadline": "20261022",
+      "amount": 35909091,
+      "amount_label": "3,590만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761120&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759892",
+      "title": "항만안전 관리관제 고도화실증 인증 및 사업화조사",
+      "org": "재단법인부산테크노파크",
+      "deadline": "20261016",
+      "amount": 50000000,
+      "amount_label": "5,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759892&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760917",
+      "title": "(소액수의)(대학혁신)선린대학교 호텔조리제빵바리스타과 글로벌 역량강화 프로그램 위탁 용역(일본 도쿄)",
+      "org": "선린대학 산학협력단",
+      "deadline": "20261014",
+      "amount": 31363636,
+      "amount_label": "3,136만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760917&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761163",
+      "title": "2026년도 지역정주형 사회복지 취업박람회 프로그램 운영 용역",
+      "org": "대구대학교 산학협력단",
+      "deadline": "",
+      "amount": 30000000,
+      "amount_label": "3,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761163&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761131",
+      "title": "2026년 국태민안 기원 및 일제강점기 수몰사고 희생자 위령재 여행용역 대행 재공고",
+      "org": "(재단법인)대한불교관음종",
+      "deadline": "20261012",
+      "amount": 60606000,
+      "amount_label": "6,060만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761131&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01758532",
+      "title": "백연리 농어촌마을하수도 정비사업(폐기물처리 용역)",
+      "org": "경기도 파주시",
+      "deadline": "20261014",
+      "amount": 285648182,
+      "amount_label": "2억 8,564만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758532&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761181",
+      "title": "4족 보행 로봇 구축 용역",
+      "org": "한국화학융합시험연구원",
+      "deadline": "20261020",
+      "amount": 154545455,
+      "amount_label": "1억 5,454만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761181&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760314",
+      "title": "CES 2027 인천스타트업파크 공동관 조성 및 운영",
+      "org": "인천테크노파크",
+      "deadline": "20261020",
+      "amount": 203636364,
+      "amount_label": "2억 363만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760314&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759197",
+      "title": "2026학년도 부산글로벌빌리지 글로벌 부산 영리더 양성 프로젝트 통학버스 임차용역 입찰 공고",
+      "org": "(주)부산글로벌빌리지",
+      "deadline": "20261015",
+      "amount": 587700000,
+      "amount_label": "5억 8,770만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759197&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761064",
+      "title": "2025년 수원시 지능형교통체계(ITS) 구축사업 사후평가용역",
+      "org": "한국지능형교통체계협회",
+      "deadline": "",
+      "amount": 27272727,
+      "amount_label": "2,727만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761064&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759371",
+      "title": "2026학년도 부산글로벌빌리지 BPS 통학버스 임차용역 입찰 공고",
+      "org": "(주)부산글로벌빌리지",
+      "deadline": "20261015",
+      "amount": 392454545,
+      "amount_label": "3억 9,245만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759371&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01745394",
+      "title": "2027년~2028년 수원시 생활폐기물 수집·운반 대행용역(1구역)(총괄 및 1차)(협상)",
+      "org": "경기도 수원시",
+      "deadline": "20261020",
+      "amount": 14396970420,
+      "amount_label": "143억 9,697만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01745394&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761223",
+      "title": "Facing/Grinding 디지털트윈 구축 및 데이터 연계 용역",
+      "org": "한국생산기술연구원",
+      "deadline": "20261019",
+      "amount": 90909091,
+      "amount_label": "9,090만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761223&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760930",
+      "title": "2027년~2028년 수원시 생활폐기물 수집·운반 대행용역(2구역)(총괄 및 1차)(협상)",
+      "org": "경기도 수원시",
+      "deadline": "20261020",
+      "amount": 13761241440,
+      "amount_label": "137억 6,124만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760930&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759347",
+      "title": "2026학년도 부산글로벌빌리지 IEC 통학버스 임차용역 입찰 공고",
+      "org": "(주)부산글로벌빌리지",
+      "deadline": "20261015",
+      "amount": 159709091,
+      "amount_label": "1억 5,970만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759347&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761164",
+      "title": "천일염 생산·품질 표준화 및 통합관리 체계 구축 기획연구",
+      "org": "해양수산과학기술진흥원",
+      "deadline": "20261020",
+      "amount": 72727273,
+      "amount_label": "7,272만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761164&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760954",
+      "title": "2027년~2028년 수원시 생활폐기물 수집·운반 대행용역(3구역)(총괄 및 1차)(협상)",
+      "org": "경기도 수원시",
+      "deadline": "20261020",
+      "amount": 13684650360,
+      "amount_label": "136억 8,465만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760954&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759785",
+      "title": "스마트빌리지(꿀벌동면연구) 운영 고도화사업(협상에 의한 계약)(재공고)",
+      "org": "경상남도 산청군",
+      "deadline": "",
+      "amount": 136363636,
+      "amount_label": "1억 3,636만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759785&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760977",
+      "title": "2027년~2028년 수원시 생활폐기물 수집·운반 대행용역(4구역)(총괄 및 1차)(협상)",
+      "org": "경기도 수원시",
+      "deadline": "20261020",
+      "amount": 13617491600,
+      "amount_label": "136억 1,749만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760977&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761198",
+      "title": "대외평가 체계 분석을 통한 기관 경영혁신 및 정책환류 방안 수립 용역",
+      "org": "(재)연구개발특구진흥재단",
+      "deadline": "20261023",
+      "amount": 63636364,
+      "amount_label": "6,363만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761198&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761005",
+      "title": "2027년~2028년 수원시 생활폐기물 수집·운반 대행용역(5구역)(총괄 및 1차)(협상)",
+      "org": "경기도 수원시",
+      "deadline": "20261020",
+      "amount": 13160255080,
+      "amount_label": "131억 6,025만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761005&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761177",
+      "title": "개인운동기록(PSR) 데이터·플랫폼 표준화를 위한 국내외 동향조사 및 표준화 전략 수립 용역 (재공고)",
+      "org": "한국건설생활환경시험연구원",
+      "deadline": "20261014",
+      "amount": 22727273,
+      "amount_label": "2,272만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761177&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761037",
+      "title": "2027년~2028년 수원시 생활폐기물 수집·운반 대행용역(6구역)(총괄 및 1차)(협상)",
+      "org": "경기도 수원시",
+      "deadline": "20261020",
+      "amount": 13362587160,
+      "amount_label": "133억 6,258만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761037&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761191",
+      "title": "문산읍 노후주거지정비 지원사업 도시재생활성화계획 수립 용역",
+      "org": "경상남도 진주시",
+      "deadline": "20261019",
+      "amount": 181818182,
+      "amount_label": "1억 8,181만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761191&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761049",
+      "title": "2027년~2028년 수원시 생활폐기물 수집·운반 대행용역(7구역)(총괄 및 1차)(협상)",
+      "org": "경기도 수원시",
+      "deadline": "20261020",
+      "amount": 13330990020,
+      "amount_label": "133억 3,099만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761049&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761060",
+      "title": "2027년~2028년 수원시 생활폐기물 수집·운반 대행용역(8구역)(총괄 및 1차)(협상)",
+      "org": "경기도 수원시",
+      "deadline": "20261020",
+      "amount": 13767633600,
+      "amount_label": "137억 6,763만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761060&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761073",
+      "title": "2027년~2028년 수원시 생활폐기물 수집·운반 대행용역(9구역)(총괄 및 1차)(협상)",
+      "org": "경기도 수원시",
+      "deadline": "20261020",
+      "amount": 14271928120,
+      "amount_label": "142억 7,192만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761073&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760138",
+      "title": "2026. 명사와 함께 걷는 배움길 「명사특강」 운영 위탁 용역",
+      "org": "경상남도교육청 경상남도교육연수원",
+      "deadline": "20261021",
+      "amount": 89800000,
+      "amount_label": "8,980만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760138&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761084",
+      "title": "2027년~2028년 수원시 생활폐기물 수집·운반 대행용역(10구역)(총괄 및 1차)(협상)",
+      "org": "경기도 수원시",
+      "deadline": "20261020",
+      "amount": 12673017500,
+      "amount_label": "126억 7,301만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761084&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761101",
+      "title": "2027년~2028년 수원시 생활폐기물 수집·운반 대행용역(11구역)(총괄 및 1차)(협상)",
+      "org": "경기도 수원시",
+      "deadline": "20261020",
+      "amount": 12636501580,
+      "amount_label": "126억 3,650만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761101&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761250",
+      "title": "산단 AX 인프라 연계 실증 기획용역",
+      "org": "한국산업단지공단",
+      "deadline": "20261020",
+      "amount": 54545455,
+      "amount_label": "5,454만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761250&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761111",
+      "title": "2027년~2028년 수원시 생활폐기물 수집·운반 대행용역(12구역)(총괄 및 1차)(협상)",
+      "org": "경기도 수원시",
+      "deadline": "20261020",
+      "amount": 12860076220,
+      "amount_label": "128억 6,007만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761111&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761129",
+      "title": "2027년~2028년 수원시 생활폐기물 수집·운반 대행용역(13구역)(총괄 및 1차)(협상)",
+      "org": "경기도 수원시",
+      "deadline": "20261020",
+      "amount": 12354800380,
+      "amount_label": "123억 5,480만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761129&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760507",
+      "title": "온산 창업플랫폼 운영 사무위탁 용역(협상에 의한 계약) 긴급",
+      "org": "울산광역시 울주군",
+      "deadline": "",
+      "amount": 420000000,
+      "amount_label": "4억 2,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760507&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01758811",
+      "title": "2026/2027년 종로구 제설작업 용역 시행(긴급)",
+      "org": "서울특별시 종로구",
+      "deadline": "20261014",
+      "amount": 494727273,
+      "amount_label": "4억 9,472만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758811&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761000",
+      "title": "청주북부·증평권역 도로제설 및 결빙제거 용역",
+      "org": "국토교통부 대전지방국토관리청 보은국토관리사무소",
+      "deadline": "20261013",
+      "amount": 555900000,
+      "amount_label": "5억 5,590만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761000&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761269",
+      "title": "EV자동차 특화과정 이론/실기 AI기반 특화편 전자저작물 제작 용역",
+      "org": "중부대학교산학협력단",
+      "deadline": "20261019",
+      "amount": 116681818,
+      "amount_label": "1억 1,668만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761269&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761212",
+      "title": "2026년 경기도 도로교통량 수시조사 용역",
+      "org": "경기도",
+      "deadline": "20261013",
+      "amount": 122727273,
+      "amount_label": "1억 2,272만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761212&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761169",
+      "title": "청주남부권역 도로제설 및 결빙제거 용역",
+      "org": "국토교통부 대전지방국토관리청 보은국토관리사무소",
+      "deadline": "20261013",
+      "amount": 549200000,
+      "amount_label": "5억 4,920만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761169&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761192",
+      "title": "옥천권역 도로제설 및 결빙제거 용역",
+      "org": "국토교통부 대전지방국토관리청 보은국토관리사무소",
+      "deadline": "20261013",
+      "amount": 479800000,
+      "amount_label": "4억 7,980만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761192&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761203",
+      "title": "영동·괴산권역 도로제설 및 결빙제거 용역",
+      "org": "국토교통부 대전지방국토관리청 보은국토관리사무소",
+      "deadline": "20261013",
+      "amount": 738800000,
+      "amount_label": "7억 3,880만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761203&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761210",
+      "title": "금산권역 도로제설 및 결빙제거 용역",
+      "org": "국토교통부 대전지방국토관리청 보은국토관리사무소",
+      "deadline": "20261013",
+      "amount": 445940000,
+      "amount_label": "4억 4,594만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761210&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760910",
+      "title": "(긴급)풍생중학교 공간재구조화사업 폐기물 처리용역",
+      "org": "경기도성남교육청 풍생중학교",
+      "deadline": "20261014",
+      "amount": 264699090,
+      "amount_label": "2억 6,469만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760910&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761151",
+      "title": "2026학년도 동계 Glocal PBL 초청연수 시행 용역",
+      "org": "대구한의대학교",
+      "deadline": "",
+      "amount": 127272727,
+      "amount_label": "1억 2,727만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761151&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761285",
+      "title": "군산공공폐수처리장 분리막 세정 지정폐기물 처리용역",
+      "org": "전북특별자치도 군산시 기후환경국",
+      "deadline": "20261014",
+      "amount": 23772000,
+      "amount_label": "2,377만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761285&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761293",
+      "title": "신축공장 태양광 의무화 제도개선 연구용역",
+      "org": "한국산업단지공단",
+      "deadline": "20261117",
+      "amount": 236363636,
+      "amount_label": "2억 3,636만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761293&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761301",
+      "title": "국가종합비행성능시험장 성능기반항행(PBN) 계기비행절차 수립용역",
+      "org": "항공안전기술원",
+      "deadline": "20261020",
+      "amount": 36363636,
+      "amount_label": "3,636만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761301&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761296",
+      "title": "재생에너지산업 해외진출지원 사업 성과분석",
+      "org": "한국에너지공단",
+      "deadline": "20261008",
+      "amount": 36363636,
+      "amount_label": "3,636만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761296&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761252",
+      "title": "(재공고)케미스트릿 강남역 케미큐브(가설건축물) 조성 용역",
+      "org": "서초여성일자리 주식회사",
+      "deadline": "20261008",
+      "amount": 181818182,
+      "amount_label": "1억 8,181만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761252&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761308",
+      "title": "『Physical AI 기반 국방반도체 통합 실증 허브 구축』연구용역",
+      "org": "경상북도 구미시",
+      "deadline": "",
+      "amount": 100000000,
+      "amount_label": "1억원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761308&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761336",
+      "title": "2026 테니스 스포츠클럽디비전 국제대회 파견 및 해외연수 여행알선 용역",
+      "org": "(사)대한테니스협회",
+      "deadline": "20261019",
+      "amount": 72727273,
+      "amount_label": "7,272만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761336&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759026",
+      "title": "파라과이 소농의 지속가능한 기후변화 적응력 강화 사업 PMC 용역",
+      "org": "한국국제협력단",
+      "deadline": "20261117",
+      "amount": 6587962688,
+      "amount_label": "65억 8,796만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759026&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761348",
+      "title": "광양시 특허미생물 「백광이」유기농업자재 등록을 위한 독성검사 용역",
+      "org": "전남광주통합특별시 광양시",
+      "deadline": "20261014",
+      "amount": 22700000,
+      "amount_label": "2,270만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761348&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760794",
+      "title": "2027년도 이달의 6ㆍ25전쟁 영웅 포스터 제작 용역",
+      "org": "국가보훈부",
+      "deadline": "20261020",
+      "amount": 72727272,
+      "amount_label": "7,272만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760794&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761364",
+      "title": "지하수 보전·관리 재원 확보 방안 마련 연구",
+      "org": "기후에너지환경부",
+      "deadline": "20261022",
+      "amount": 231818182,
+      "amount_label": "2억 3,181만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761364&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761330",
+      "title": "금천구 소규모 매입주택(상주) 위수탁관리용역 입찰 의뢰",
+      "org": "서울주택도시개발공사",
+      "deadline": "20261013",
+      "amount": 14732371,
+      "amount_label": "1,473만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761330&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761337",
+      "title": "군위군 교통 촉진 지역 DRT 운송사업 운행 용역",
+      "org": "대구광역시 군위군",
+      "deadline": "",
+      "amount": 727272727,
+      "amount_label": "7억 2,727만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761337&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761370",
+      "title": "창원레포츠파크 경륜선수식당 위탁운영 용역 - 협상에의한계약-장기계속계약(3년)",
+      "org": "창원레포츠파크",
+      "deadline": "20261027",
+      "amount": 277454545,
+      "amount_label": "2억 7,745만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761370&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01758737",
+      "title": "부동산거래신고 통합 알림톡 서비스 ",
+      "org": "한국부동산원",
+      "deadline": "20261019",
+      "amount": 44545455,
+      "amount_label": "4,454만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758737&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761360",
+      "title": "평도지구 농어촌 마을하수도 증설사업 폐기물처리용역",
+      "org": "전남광주통합특별시 구례군 상하수도사업소",
+      "deadline": "20261015",
+      "amount": 443872727,
+      "amount_label": "4억 4,387만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761360&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
       "no": "R26BK01758972",
       "title": "가야여자중학교 등 2교(경남여중) 내진성능평가용역",
       "org": "부산광역시교육청 부산광역시남부교육지원청",
@@ -1342,6 +4444,706 @@
         "기타"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759475&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759247",
+      "title": "양평국제평화공원 조성 부지 내 유적 정밀발굴조사 용역",
+      "org": "경기도 양평군",
+      "deadline": "20261012",
+      "amount": 200000000,
+      "amount_label": "2억원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759247&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759604",
+      "title": "AI 서비스 실증 지원 클라우드 플랫폼 고도화",
+      "org": "한국전자정보통신산업진흥회",
+      "deadline": "",
+      "amount": 90909091,
+      "amount_label": "9,090만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759604&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759604",
+      "title": "AI 서비스 실증 지원 클라우드 플랫폼 고도화",
+      "org": "한국전자정보통신산업진흥회",
+      "deadline": "",
+      "amount": 90909091,
+      "amount_label": "9,090만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759604&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759723",
+      "title": "축동초교 자연재해위험개선지구 정비사업 지반조사 용역",
+      "org": "경상남도 사천시",
+      "deadline": "20261014",
+      "amount": 41454545,
+      "amount_label": "4,145만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759723&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759766",
+      "title": "축동초교 자연재해위험개선지구 정비사업 측량조사 용역",
+      "org": "경상남도 사천시",
+      "deadline": "20261014",
+      "amount": 38327272,
+      "amount_label": "3,832만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759766&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759754",
+      "title": "2026년 큰나무가꾸기사업 감리용역",
+      "org": "보은군산림조합",
+      "deadline": "20261014",
+      "amount": 5187428,
+      "amount_label": "518만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759754&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01758429",
+      "title": "전북탄소복합체 가상공학센터 PILOT동(탄소AX실증센터)구축 건축감리 용역",
+      "org": "DYETEC연구원",
+      "deadline": "20261014",
+      "amount": 27272727,
+      "amount_label": "2,727만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758429&bidPbancOrd=002",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759893",
+      "title": "(주)유니드비티플러스(군산공장) 태양광 감리 용역",
+      "org": "(주)유니드비티플러스(군산공장)",
+      "deadline": "20261117",
+      "amount": 84000000,
+      "amount_label": "8,400만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759893&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759887",
+      "title": "(주)유니드비티플러스(군산공장) 태양광 설계 용역",
+      "org": "(주)유니드비티플러스(군산공장)",
+      "deadline": "20261117",
+      "amount": 78580000,
+      "amount_label": "7,858만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759887&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759928",
+      "title": "여의도공원 재조성 재해영향성 검토 및 재해영향평가 용역",
+      "org": "서울특별시",
+      "deadline": "20261015",
+      "amount": 227281818,
+      "amount_label": "2억 2,728만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759928&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759112",
+      "title": "26-A-00부대 설계용역(A130)",
+      "org": "국방부 국군재정관리단",
+      "deadline": "20261019",
+      "amount": 358273046,
+      "amount_label": "3억 5,827만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759112&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760045",
+      "title": "음지교 정밀안전진단 용역",
+      "org": "경상남도 창원시 진해구",
+      "deadline": "20261014",
+      "amount": 77090909,
+      "amount_label": "7,709만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760045&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760030",
+      "title": "난지물재생센터 공공하수도 기술진단 용역",
+      "org": "서울특별시",
+      "deadline": "20261028",
+      "amount": 581422727,
+      "amount_label": "5억 8,142만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760030&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760047",
+      "title": "2026년 산불피해지 복구조림사업(추기)감리용역(병옥,답곡지구)",
+      "org": "경북 영양군산림조합",
+      "deadline": "20261014",
+      "amount": 32760000,
+      "amount_label": "3,276만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760047&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01756016",
+      "title": "삼익금광아파트 재건축 컨설팅 용역",
+      "org": "경기도 성남시",
+      "deadline": "20261015",
+      "amount": 90900000,
+      "amount_label": "9,090만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01756016&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759723",
+      "title": "축동초교 자연재해위험개선지구 정비사업 지반조사 용역",
+      "org": "경상남도 사천시",
+      "deadline": "20261014",
+      "amount": 41454545,
+      "amount_label": "4,145만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759723&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760164",
+      "title": "2026년 산불피해지 복구조림사업(추기)감리용역(화매지구)",
+      "org": "경북 영양군산림조합",
+      "deadline": "20261014",
+      "amount": 32760000,
+      "amount_label": "3,276만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760164&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760153",
+      "title": "2026년 진안군 하반기 북부권 교량 정밀안전진단 및 내진성능평가 용역",
+      "org": "전북특별자치도 진안군",
+      "deadline": "20261015",
+      "amount": 62909091,
+      "amount_label": "6,290만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760153&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759766",
+      "title": "축동초교 자연재해위험개선지구 정비사업 측량조사 용역",
+      "org": "경상남도 사천시",
+      "deadline": "20261014",
+      "amount": 38327272,
+      "amount_label": "3,832만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759766&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01758468",
+      "title": "호암근린공원도시관리계획(변경)결정및유원지도시관리계획(신설)결정용역",
+      "org": "충청북도 충주시",
+      "deadline": "20261014",
+      "amount": 181818182,
+      "amount_label": "1억 8,181만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758468&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01750099",
+      "title": "2026년 산불예방 숲가꾸기(4차) 감리용역",
+      "org": "김해시산림조합",
+      "deadline": "20261008",
+      "amount": 27498182,
+      "amount_label": "2,749만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01750099&bidPbancOrd=002",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760197",
+      "title": "2026년 진안군 하반기 남부권 교량(터널) 정밀안전진단 및 내진성능평가 용역",
+      "org": "전북특별자치도 진안군",
+      "deadline": "20261015",
+      "amount": 66000000,
+      "amount_label": "6,600만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760197&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760163",
+      "title": "박달재(옛길) 명소화 및 관광도로 조성사업 타당성조사 및 기본계획수립 용역",
+      "org": "충청북도 제천시",
+      "deadline": "",
+      "amount": 109090909,
+      "amount_label": "1억 909만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760163&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760346",
+      "title": "2026년 일반지역 산불피해목 제거사업(입암지구)감리용역",
+      "org": "경북 영양군산림조합",
+      "deadline": "20261014",
+      "amount": 25994546,
+      "amount_label": "2,599만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760346&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759509",
+      "title": "평촌교 정밀안전진단 용역(가격입찰 후 P.Q)",
+      "org": "충청북도 청주시 상당구",
+      "deadline": "20261016",
+      "amount": 177600000,
+      "amount_label": "1억 7,760만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759509&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759730",
+      "title": "승부길교 정밀안전진단용역",
+      "org": "경상북도 봉화군",
+      "deadline": "20261014",
+      "amount": 23000000,
+      "amount_label": "2,300만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759730&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760892",
+      "title": "2026년 경기지사 하천 도강배관 하상고 측정 용역계약",
+      "org": "(주)한국가스기술공사 경기지사",
+      "deadline": "20261015",
+      "amount": 41648000,
+      "amount_label": "4,164만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760892&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01758252",
+      "title": "공공용지(산지포함) 기본구상 및 지구단위계획 수립(변경) 용역",
+      "org": "서울특별시",
+      "deadline": "20261103",
+      "amount": 363636364,
+      "amount_label": "3억 6,363만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758252&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760925",
+      "title": "홍천군 하천수 사용허가 수혜면적도 및 인허가 도서 작성 용역",
+      "org": "강원특별자치도 홍천군",
+      "deadline": "20261014",
+      "amount": 43500000,
+      "amount_label": "4,350만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760925&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760877",
+      "title": "어선건조 지원센터 구축사업_전기 기본설계 용역",
+      "org": "한국해양교통안전공단",
+      "deadline": "20261013",
+      "amount": 29700000,
+      "amount_label": "2,970만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760877&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01754733",
+      "title": "영산강변 자전거도로 정비사업 폐기물처리 용역",
+      "org": "전남광주통합특별시 서구",
+      "deadline": "20261012",
+      "amount": 50418182,
+      "amount_label": "5,041만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01754733&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760960",
+      "title": "2026년 용인시 관내 도로계획 타당성평가 용역",
+      "org": "경기도 용인시",
+      "deadline": "20261014",
+      "amount": 88954545,
+      "amount_label": "8,895만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760960&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761046",
+      "title": "2026년 하반기 고대산야구장옹벽 정기안전점검용역",
+      "org": "경기도 연천군",
+      "deadline": "20261008",
+      "amount": 6338000,
+      "amount_label": "633만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761046&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760971",
+      "title": "공공용지(산지포함) 기본구상 및 지구단위계획 수립(변경) 용역",
+      "org": "서울특별시",
+      "deadline": "20261103",
+      "amount": 363636364,
+      "amount_label": "3억 6,363만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760971&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760781",
+      "title": "구담 빗물펌프장 외 3개소 정밀안전점검 용역(2026년)",
+      "org": "경상북도 안동시",
+      "deadline": "20261014",
+      "amount": 59340000,
+      "amount_label": "5,934만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760781&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760985",
+      "title": "영산강변 자전거도로 정비사업 폐기물처리 용역",
+      "org": "전남광주통합특별시 서구",
+      "deadline": "20261014",
+      "amount": 50418182,
+      "amount_label": "5,041만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760985&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761109",
+      "title": "효촌초 공간재구조화사업 사전기획용역",
+      "org": "경기도교육청 경기도동두천양주교육지원청",
+      "deadline": "20261014",
+      "amount": 32610909,
+      "amount_label": "3,261만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761109&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760818",
+      "title": "포항 생활체육인 전용 체육파크 조성(전기) 감리용역 (긴급)",
+      "org": "경상북도 포항시",
+      "deadline": "20261013",
+      "amount": 204410909,
+      "amount_label": "2억 441만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760818&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761152",
+      "title": "진주시 농어촌도로 기본 및 정비계획 수립 재해영향성검토 용역",
+      "org": "경상남도 진주시",
+      "deadline": "20261014",
+      "amount": 49545455,
+      "amount_label": "4,954만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761152&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761238",
+      "title": "2026년 마을상수도(서귀포시 읍면지역) 기술진단 용역 (사업소)",
+      "org": "제주특별자치도",
+      "deadline": "20261015",
+      "amount": 134363636,
+      "amount_label": "1억 3,436만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761238&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759769",
+      "title": "2026년 화성특례시 공공하수도(향남2 수질복원센터 외3개소) 기술진단용역(사후PQ)",
+      "org": "경기도 화성시 맑은물사업소",
+      "deadline": "20261015",
+      "amount": 179193273,
+      "amount_label": "1억 7,919만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759769&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760694",
+      "title": "2026년 하반기 배수장 및 배수문 안전점검(정기) 용역",
+      "org": "울산광역시 울주군",
+      "deadline": "20261014",
+      "amount": 33000000,
+      "amount_label": "3,300만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760694&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760773",
+      "title": "언양 임시시외버스터미널 공간재구조화계획 전략환경영향평가 용역",
+      "org": "울산광역시 울주군",
+      "deadline": "20261014",
+      "amount": 50000000,
+      "amount_label": "5,000만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760773&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759755",
+      "title": "동진강권역 지방하천 하천기본계획 전략환경영향평가용역",
+      "org": "전북특별자치도",
+      "deadline": "20261015",
+      "amount": 105154545,
+      "amount_label": "1억 515만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759755&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01759977",
+      "title": "용담댐권역 지방하천 하천기본계획 전략환경영향평가용역",
+      "org": "전북특별자치도",
+      "deadline": "20261015",
+      "amount": 120981818,
+      "amount_label": "1억 2,098만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01759977&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760972",
+      "title": "북대구IC절토사면 정밀안전점검 용역",
+      "org": "대구공공시설관리공단",
+      "deadline": "20261014",
+      "amount": 22310000,
+      "amount_label": "2,231만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760972&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761254",
+      "title": "삼산농산물도매시장 정밀안전진단 용역",
+      "org": "인천광역시",
+      "deadline": "20261015",
+      "amount": 170890000,
+      "amount_label": "1억 7,089만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761254&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01761329",
+      "title": "고군산지구 마을하수도 정비사업(2단계) 소규모 지하안전평가용역",
+      "org": "전북특별자치도 군산시 기후환경국",
+      "deadline": "20261014",
+      "amount": 67510000,
+      "amount_label": "6,751만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01761329&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760705",
+      "title": "나주시 소하천정비종합계획 재수립 및 지형도면 고시 용역[1권역(총괄 및 1차분)(PQ 후 가격입찰)]",
+      "org": "전남광주통합특별시 나주시",
+      "deadline": "20261015",
+      "amount": 3530454545,
+      "amount_label": "35억 3,045만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760705&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01760870",
+      "title": "경찰청 세검정로 별관동 재건축 사업 설계용역(제안공모) ",
+      "org": "조달청",
+      "deadline": "",
+      "amount": 968454545,
+      "amount_label": "9억 6,845만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760870&bidPbancOrd=000",
       "status": "review"
     }
   ]
