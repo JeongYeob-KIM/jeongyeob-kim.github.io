@@ -1,11 +1,11 @@
 {
   "date": "2026-10-09",
-  "generated_at": "2026-10-09T10:54:31.266107+09:00",
+  "generated_at": "2026-10-09T18:49:32.408161+09:00",
   "summary": {
-    "total_reviewed": 3,
+    "total_reviewed": 9,
     "fit": 0,
-    "review": 3,
-    "excluded": 0
+    "review": 5,
+    "excluded": 4
   },
   "fit": [],
   "review": [
@@ -35,6 +35,34 @@
         "기타"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01763865&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01763948",
+      "title": "공공기술 창업 및 사업화 성과 관리 방안 도출을 위한 연구 용역",
+      "org": "한국생명공학연구원",
+      "deadline": "20261020",
+      "amount": 70990909,
+      "amount_label": "7,099만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01763948&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01763956",
+      "title": "2026년 한국생명공학연구원 대전본원 보건관리 컨설팅 용역(재공고)",
+      "org": "한국생명공학연구원",
+      "deadline": "20261019",
+      "amount": 38796364,
+      "amount_label": "3,879만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01763956&bidPbancOrd=000",
       "status": "review"
     },
     {
