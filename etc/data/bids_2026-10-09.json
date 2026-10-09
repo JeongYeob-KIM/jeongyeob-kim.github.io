@@ -1,12 +1,55 @@
 {
   "date": "2026-10-09",
-  "generated_at": "2026-10-09T01:09:59.665009+09:00",
+  "generated_at": "2026-10-09T10:54:31.266107+09:00",
   "summary": {
-    "total_reviewed": 0,
+    "total_reviewed": 3,
     "fit": 0,
-    "review": 0,
+    "review": 3,
     "excluded": 0
   },
   "fit": [],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01762385",
+      "title": "광명시 민원콜센터 운영 민간위탁",
+      "org": "경기도 광명시",
+      "deadline": "",
+      "amount": 1888734545,
+      "amount_label": "18억 8,873만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01762385&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01763865",
+      "title": "2026년도 첨단엔프라 스마트 생태공장 구축사업 시험분석 및 성과검증 용역",
+      "org": "(주)첨단엔프라",
+      "deadline": "20261020",
+      "amount": 20300000,
+      "amount_label": "2,030만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01763865&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01763372",
+      "title": "국가 핵심광물 전용 비축기지 구축사업 전기 감리용역",
+      "org": "조달청",
+      "deadline": "20261029",
+      "amount": 1023725455,
+      "amount_label": "10억 2,372만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01763372&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
