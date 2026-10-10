@@ -1,10 +1,10 @@
 {
   "date": "2026-10-10",
-  "generated_at": "2026-10-10T10:36:23.464101+09:00",
+  "generated_at": "2026-10-10T18:14:01.018553+09:00",
   "summary": {
-    "total_reviewed": 2,
-    "fit": 1,
-    "review": 0,
+    "total_reviewed": 4,
+    "fit": 2,
+    "review": 1,
     "excluded": 1
   },
   "fit": [
@@ -21,7 +21,37 @@
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01763966&bidPbancOrd=000",
       "status": "fit"
+    },
+    {
+      "no": "R26BK01764006",
+      "title": "연일전통시장 홈페이지구축 및 홍보동영상 제작",
+      "org": "포항연일전통시장 문화관광형시장 육성사업단",
+      "deadline": "20261020",
+      "amount": 25800000,
+      "amount_label": "2,580만원",
+      "urgent": false,
+      "tags": [
+        "소식지·홍보물",
+        "콘텐츠 제작"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01764006&bidPbancOrd=000",
+      "status": "fit"
     }
   ],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01764053",
+      "title": " 유전 자연재해위험개선지구 정비사업 소규모 환경영향평가 용역",
+      "org": "충청북도 영동군",
+      "deadline": "20261016",
+      "amount": 70686364,
+      "amount_label": "7,068만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01764053&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
