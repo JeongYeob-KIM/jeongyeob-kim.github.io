@@ -1,12 +1,27 @@
 {
   "date": "2026-10-10",
-  "generated_at": "2026-10-10T00:51:36.456430+09:00",
+  "generated_at": "2026-10-10T10:36:23.464101+09:00",
   "summary": {
-    "total_reviewed": 0,
-    "fit": 0,
+    "total_reviewed": 2,
+    "fit": 1,
     "review": 0,
-    "excluded": 0
+    "excluded": 1
   },
-  "fit": [],
+  "fit": [
+    {
+      "no": "R26BK01763966",
+      "title": "충주시 노후하수관로 정비사업(2단계) 문화재 참관조사 용역",
+      "org": "충청북도 충주시 하수도사업소",
+      "deadline": "20261015",
+      "amount": 78000000,
+      "amount_label": "7,800만원",
+      "urgent": false,
+      "tags": [
+        "교육·문화"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01763966&bidPbancOrd=000",
+      "status": "fit"
+    }
+  ],
   "review": []
 }
