@@ -1,12 +1,27 @@
 {
   "date": "2026-10-17",
-  "generated_at": "2026-10-17T09:14:32.554313+09:00",
+  "generated_at": "2026-10-17T16:20:29.811677+09:00",
   "summary": {
-    "total_reviewed": 1,
+    "total_reviewed": 3,
     "fit": 0,
-    "review": 0,
-    "excluded": 1
+    "review": 1,
+    "excluded": 2
   },
   "fit": [],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01776750",
+      "title": "26/27년 이동식 염수살포장치 설치 용역",
+      "org": "서울특별시 동작구",
+      "deadline": "20261023",
+      "amount": 129545455,
+      "amount_label": "1억 2,954만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01776750&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
