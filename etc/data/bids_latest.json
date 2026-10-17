@@ -1,11 +1,11 @@
 {
   "date": "2026-10-17",
-  "generated_at": "2026-10-17T16:20:29.811677+09:00",
+  "generated_at": "2026-10-17T21:43:44.466691+09:00",
   "summary": {
-    "total_reviewed": 3,
+    "total_reviewed": 5,
     "fit": 0,
-    "review": 1,
-    "excluded": 2
+    "review": 2,
+    "excluded": 3
   },
   "fit": [],
   "review": [
@@ -21,6 +21,20 @@
         "기타"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01776750&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01768984",
+      "title": "2026년 영주시청 직원 화합 대축제[영화제] 용역",
+      "org": "경상북도 영주시",
+      "deadline": "20261019",
+      "amount": 40000000,
+      "amount_label": "4,000만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01768984&bidPbancOrd=001",
       "status": "review"
     }
   ]
