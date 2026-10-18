@@ -1,10 +1,10 @@
 {
   "date": "2026-10-18",
-  "generated_at": "2026-10-18T16:34:41.235271+09:00",
+  "generated_at": "2026-10-18T22:00:56.538180+09:00",
   "summary": {
-    "total_reviewed": 3,
+    "total_reviewed": 5,
     "fit": 1,
-    "review": 1,
+    "review": 3,
     "excluded": 1
   },
   "fit": [
@@ -36,6 +36,34 @@
         "기타"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01776253&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01775790",
+      "title": "[혁신] 행정직원 대상「내 일(work)의 AI 해커톤」위탁 운영 용역",
+      "org": "한양여자대학교",
+      "deadline": "20261019",
+      "amount": 13636364,
+      "amount_label": "1,363만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01775790&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01776963",
+      "title": "쌍봉종합사회복지관 정밀안전진단 용역",
+      "org": "전남광주통합특별시 여수시",
+      "deadline": "20261022",
+      "amount": 67627273,
+      "amount_label": "6,762만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01776963&bidPbancOrd=000",
       "status": "review"
     }
   ]
