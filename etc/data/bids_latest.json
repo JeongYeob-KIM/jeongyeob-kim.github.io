@@ -1,12 +1,69 @@
 {
   "date": "2026-10-24",
-  "generated_at": "2026-10-24T16:46:07.505982+09:00",
+  "generated_at": "2026-10-24T22:08:12.981281+09:00",
   "summary": {
-    "total_reviewed": 0,
+    "total_reviewed": 9,
     "fit": 0,
-    "review": 0,
-    "excluded": 0
+    "review": 4,
+    "excluded": 5
   },
   "fit": [],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01789620",
+      "title": "한국마사회 강북지사 카페 운영 수탁자 선정 대행공고",
+      "org": "한국마사회",
+      "deadline": "",
+      "amount": 77140000,
+      "amount_label": "7,714만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01789620&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01774120",
+      "title": "AI 응용제품 신속 상용화(만성질환관리)_AI Scribe 솔루션 도입 및 실증 운영 지원 용역",
+      "org": "주식회사 메라키플레이스",
+      "deadline": "20261023",
+      "amount": 70000000,
+      "amount_label": "7,000만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01774120&bidPbancOrd=001",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01789549",
+      "title": "청양군 수도정비계획 재수립 및 상수도관망 기술진단, 물 수요관리 시행계획 수립용역",
+      "org": "충청남도 청양군",
+      "deadline": "",
+      "amount": 1546200000,
+      "amount_label": "15억 4,620만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01789549&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01789549",
+      "title": "청양군 수도정비계획 재수립 및 상수도관망 기술진단, 물 수요관리 시행계획 수립용역(PQ 제출 안내 공고)",
+      "org": "충청남도 청양군",
+      "deadline": "",
+      "amount": 1546200000,
+      "amount_label": "15억 4,620만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01789549&bidPbancOrd=001",
+      "status": "review"
+    }
+  ]
 }
