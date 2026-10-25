@@ -1,12 +1,27 @@
 {
   "date": "2026-10-25",
-  "generated_at": "2026-10-25T09:08:57.714949+09:00",
+  "generated_at": "2026-10-25T16:56:23.345636+09:00",
   "summary": {
-    "total_reviewed": 1,
+    "total_reviewed": 3,
     "fit": 0,
-    "review": 0,
-    "excluded": 1
+    "review": 1,
+    "excluded": 2
   },
   "fit": [],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01789634",
+      "title": "2026 인천광역시 제61회 전국기능경기대회 충청북도 유공자 해외연수 용역",
+      "org": "한국산업인력공단 충북지사",
+      "deadline": "20261105",
+      "amount": 90909091,
+      "amount_label": "9,090만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01789634&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
