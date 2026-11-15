@@ -1,152 +1,26 @@
 {
-  "date": "2026-11-15",
-  "generated_at": "2026-11-15T19:11:11.691634+09:00",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T01:06:21.633524+09:00",
   "summary": {
-    "total_reviewed": 12,
+    "total_reviewed": 2,
     "fit": 0,
-    "review": 10,
-    "excluded": 2
+    "review": 1,
+    "excluded": 1
   },
   "fit": [],
   "review": [
     {
-      "no": "R26BK01830842",
-      "title": "2026년 한국영화 첨단제작 집중지원 사업(2회차) AFX 용역",
-      "org": "(주)아이엠티브이",
-      "deadline": "20261126",
-      "amount": 225000000,
-      "amount_label": "2억 2,500만원",
-      "urgent": false,
-      "tags": [
-        "기타"
-      ],
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01830842&bidPbancOrd=000",
-      "status": "review"
-    },
-    {
-      "no": "R26BK01830855",
-      "title": "2026년 한국영화 첨단제작 집중지원 사업(2회차) Concept Visual Art 용역",
-      "org": "(주)아이엠티브이",
-      "deadline": "20261126",
-      "amount": 228184000,
-      "amount_label": "2억 2,818만원",
-      "urgent": false,
-      "tags": [
-        "기타"
-      ],
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01830855&bidPbancOrd=000",
-      "status": "review"
-    },
-    {
-      "no": "R26BK01830859",
-      "title": "2026년 한국영화 첨단제작 집중지원 사업(2회차) 녹음 용역",
-      "org": "(주)아이엠티브이",
-      "deadline": "20261126",
-      "amount": 100000000,
-      "amount_label": "1억원",
-      "urgent": false,
-      "tags": [
-        "기타"
-      ],
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01830859&bidPbancOrd=000",
-      "status": "review"
-    },
-    {
-      "no": "R26BK01830896",
-      "title": "대포지구 농어촌마을하수도 증설사업 수밀시험 및 CCTV조사 용역(총괄분)",
-      "org": "경상남도 산청군",
-      "deadline": "20261123",
-      "amount": 703410000,
-      "amount_label": "7억 341만원",
-      "urgent": false,
-      "tags": [
-        "기타"
-      ],
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01830896&bidPbancOrd=000",
-      "status": "review"
-    },
-    {
-      "no": "R26BK01830963",
-      "title": "생활폐기물 수집·운반 대행용역(제1구역)",
-      "org": "서울특별시 은평구",
+      "no": "R26BK01831004",
+      "title": "강진 로컬테마상권 로컬창업 지원사업",
+      "org": "주식회사 로컬365",
       "deadline": "",
-      "amount": 13894947273,
-      "amount_label": "138억 9,494만원",
+      "amount": 281818182,
+      "amount_label": "2억 8,181만원",
       "urgent": false,
       "tags": [
         "기타"
       ],
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01830963&bidPbancOrd=000",
-      "status": "review"
-    },
-    {
-      "no": "R26BK01830965",
-      "title": "생활폐기물 수집·운반 대행용역(제2구역)",
-      "org": "서울특별시 은평구",
-      "deadline": "",
-      "amount": 23143973636,
-      "amount_label": "231억 4,397만원",
-      "urgent": false,
-      "tags": [
-        "기타"
-      ],
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01830965&bidPbancOrd=000",
-      "status": "review"
-    },
-    {
-      "no": "R26BK01830971",
-      "title": "생활폐기물 수집·운반 대행용역(제3구역)",
-      "org": "서울특별시 은평구",
-      "deadline": "",
-      "amount": 16700918182,
-      "amount_label": "167억 91만원",
-      "urgent": false,
-      "tags": [
-        "기타"
-      ],
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01830971&bidPbancOrd=000",
-      "status": "review"
-    },
-    {
-      "no": "R26BK01803061",
-      "title": "경북예술고등학교 미술1관동(B1동) 내진보강 제3자 검토 용역",
-      "org": "대구광역시교육청 경북예술고등학교",
-      "deadline": "20261120",
-      "amount": 8780909,
-      "amount_label": "878만원",
-      "urgent": false,
-      "tags": [
-        "기타"
-      ],
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01803061&bidPbancOrd=000",
-      "status": "review"
-    },
-    {
-      "no": "R26BK01830864",
-      "title": "제주 디지털 통합 신원인증 체계 구축 감리 용역(가격협상)",
-      "org": "제주특별자치도",
-      "deadline": "20261116",
-      "amount": 95454545,
-      "amount_label": "9,545만원",
-      "urgent": true,
-      "tags": [
-        "기타"
-      ],
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01830864&bidPbancOrd=000",
-      "status": "review"
-    },
-    {
-      "no": "R26BK01830878",
-      "title": "대포지구 농어촌마을하수도 증설사업 GIS DB 구축 용역(총괄분)",
-      "org": "경상남도 산청군",
-      "deadline": "20261123",
-      "amount": 396181818,
-      "amount_label": "3억 9,618만원",
-      "urgent": false,
-      "tags": [
-        "기타"
-      ],
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01830878&bidPbancOrd=000",
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01831004&bidPbancOrd=000",
       "status": "review"
     }
   ]
