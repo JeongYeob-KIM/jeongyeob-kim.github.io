@@ -1,12 +1,41 @@
 {
   "date": "2026-11-21",
-  "generated_at": "2026-11-21T02:35:18.908039+09:00",
+  "generated_at": "2026-11-21T12:03:08.931700+09:00",
   "summary": {
-    "total_reviewed": 0,
+    "total_reviewed": 3,
     "fit": 0,
-    "review": 0,
-    "excluded": 0
+    "review": 2,
+    "excluded": 1
   },
   "fit": [],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01846695",
+      "title": "2027년 서울시립 미술아카이브  전시안내 지킴이 용역",
+      "org": "서울특별시",
+      "deadline": "20261127",
+      "amount": 398823636,
+      "amount_label": "3억 9,882만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01846695&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01845806",
+      "title": "2027년 분뇨 그밖의폐기물(협잡물) 위탁처리 용역",
+      "org": "파주도시공사",
+      "deadline": "20261127",
+      "amount": 24850000,
+      "amount_label": "2,485만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01845806&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
