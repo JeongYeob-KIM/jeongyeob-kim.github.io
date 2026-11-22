@@ -1,12 +1,69 @@
 {
   "date": "2026-11-22",
-  "generated_at": "2026-11-22T10:59:59.077189+09:00",
+  "generated_at": "2026-11-22T19:31:25.978474+09:00",
   "summary": {
-    "total_reviewed": 3,
+    "total_reviewed": 11,
     "fit": 0,
-    "review": 0,
-    "excluded": 3
+    "review": 4,
+    "excluded": 7
   },
   "fit": [],
-  "review": []
+  "review": [
+    {
+      "no": "R26BK01846804",
+      "title": "2027년도 경정훈련원 의무실 위탁운영 용역",
+      "org": "서울올림픽기념국민체육진흥공단 경륜경정총괄본부",
+      "deadline": "20261201",
+      "amount": 147750000,
+      "amount_label": "1억 4,775만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01846804&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01843726",
+      "title": "보령시 인구감소 대응 데이터실증 플랫폼 구축(용역)",
+      "org": "조달청",
+      "deadline": "20261222",
+      "amount": 1055909091,
+      "amount_label": "10억 5,590만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01843726&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01847024",
+      "title": "2027년 양천구립도서관 상호대차(책가방) 도서운반 용역 계약",
+      "org": "재단법인양천문화재단",
+      "deadline": "20261214",
+      "amount": 197272727,
+      "amount_label": "1억 9,727만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01847024&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01846455",
+      "title": "대산협-UNLV 글로벌 문제해결 챌린지(2027 CES) 참가 운영 용역",
+      "org": "국립한밭대학교 산학협력단",
+      "deadline": "20261203",
+      "amount": 886363636,
+      "amount_label": "8억 8,636만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01846455&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
 }
