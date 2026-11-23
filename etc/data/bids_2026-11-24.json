@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T05:54:56.036293+09:00",
+  "summary": {
+    "total_reviewed": 2,
+    "fit": 0,
+    "review": 2,
+    "excluded": 0
+  },
+  "fit": [],
+  "review": [
+    {
+      "no": "R26BK01850559",
+      "title": "2027년 화성시아르딤복지관 셔틀버스 임차용역 입찰 공고",
+      "org": "화성시 아르딤복지관",
+      "deadline": "20261202",
+      "amount": 250472727,
+      "amount_label": "2억 5,047만원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01850559&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01850562",
+      "title": "토양염도측정사업(제26-71호, 제26-81호) 토양시료 분석 용역",
+      "org": "한국농어촌공사 전남지역본부",
+      "deadline": "20261127",
+      "amount": 21309091,
+      "amount_label": "2,130만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01850562&bidPbancOrd=000",
+      "status": "review"
+    }
+  ]
+}
