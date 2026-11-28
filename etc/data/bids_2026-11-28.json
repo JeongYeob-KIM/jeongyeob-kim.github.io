@@ -1,11 +1,11 @@
 {
   "date": "2026-11-28",
-  "generated_at": "2026-11-28T03:42:47.744763+09:00",
+  "generated_at": "2026-11-28T12:47:50.622211+09:00",
   "summary": {
-    "total_reviewed": 3,
+    "total_reviewed": 9,
     "fit": 0,
-    "review": 2,
-    "excluded": 1
+    "review": 4,
+    "excluded": 5
   },
   "fit": [],
   "review": [
@@ -24,6 +24,20 @@
       "status": "review"
     },
     {
+      "no": "R26BK01863399",
+      "title": "2027년 충남 걷쥬 앱 유지관리 및 고도화",
+      "org": "충청남도체육회",
+      "deadline": "20261209",
+      "amount": 300000000,
+      "amount_label": "3억원",
+      "urgent": false,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01863399&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
       "no": "R26BK01863372",
       "title": "강동면 안인진리 축구경기장 조성사업 소규모환경영향평가 용역",
       "org": "강원특별자치도 강릉시",
@@ -35,6 +49,20 @@
         "기타"
       ],
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01863372&bidPbancOrd=000",
+      "status": "review"
+    },
+    {
+      "no": "R26BK01863424",
+      "title": "강릉시 거점특화 원도심 RECORE 프로젝트 계획수립 용역",
+      "org": "강원특별자치도 강릉시",
+      "deadline": "20261130",
+      "amount": 50000000,
+      "amount_label": "5,000만원",
+      "urgent": true,
+      "tags": [
+        "기타"
+      ],
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01863424&bidPbancOrd=000",
       "status": "review"
     }
   ]
